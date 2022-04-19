@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "majesticmoss:block/smooth_sapphire_block"
+  }
+}

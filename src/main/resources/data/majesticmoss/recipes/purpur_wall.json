@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:purpur_block"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:purpur_wall",
+    "count": 6
+  }
+}

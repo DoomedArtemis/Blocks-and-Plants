@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "majesticmoss:ender_moss_block",
+    "majesticmoss:ender_moss_stairs",
+    "majesticmoss:ender_moss_slab",
+    "majesticmoss:ender_moss_wall",
+    "majesticmoss:ender_moss_carpet",
+    "majesticmoss:stackable_ender_moss_carpet",
+    "majesticmoss:moss_stairs",
+    "majesticmoss:moss_slab",
+    "majesticmoss:moss_wall",
+    "majesticmoss:stackable_ender_moss_carpet",
+    "majesticmoss:stackable_oak_leaf_carpet",
+    "majesticmoss:stackable_birch_leaf_carpet",
+    "majesticmoss:stackable_spruce_leaf_carpet",
+    "majesticmoss:stackable_dark_oak_leaf_carpet",
+    "majesticmoss:stackable_acacia_leaf_carpet",
+    "majesticmoss:stackable_jungle_leaf_carpet",
+    "majesticmoss:stackable_azalea_leaf_carpet",
+    "majesticmoss:stackable_flowering_azalea_leaf_carpet"
+
+  ]
+}

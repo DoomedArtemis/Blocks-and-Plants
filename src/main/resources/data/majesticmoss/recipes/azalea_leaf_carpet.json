@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    " xx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:azalea_leaves"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:azalea_leaf_carpet",
+    "count": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "majesticmoss:mossy_quartz_bricks"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:mossy_quartz_brick_slab",
+    "count": 6
+  }
+}

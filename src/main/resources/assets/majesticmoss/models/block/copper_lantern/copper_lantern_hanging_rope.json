@@ -1,0 +1,6 @@
+{
+  "parent": "majesticmoss:block/template/template_hanging_lantern_rope",
+  "textures": {
+    "lantern": "majesticmoss:block/copper_lantern_rope"
+  }
+}

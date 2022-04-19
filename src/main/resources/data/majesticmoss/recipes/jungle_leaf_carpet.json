@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    " xx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:jungle_leaves"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:jungle_leaf_carpet",
+    "count": 3
+  }
+}

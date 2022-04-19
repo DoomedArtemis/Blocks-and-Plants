@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "majesticmoss:block/copper_lantern/lantern_rope"
+    },
+    "hanging=true": {
+      "model": "majesticmoss:block/copper_lantern/lantern_hanging_rope"
+    }
+  }
+}

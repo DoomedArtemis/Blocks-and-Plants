@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "majesticmoss:topaz_block"
+  },
+  "result": "majesticmoss:smooth_topaz_block",
+  "count": 1
+}

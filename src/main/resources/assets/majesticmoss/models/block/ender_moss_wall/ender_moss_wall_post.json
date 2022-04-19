@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "majesticmoss:block/ender_moss_block"
+  }
+}

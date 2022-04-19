@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "majesticmoss:block/mossy_quartz_block_side"
+  }
+}

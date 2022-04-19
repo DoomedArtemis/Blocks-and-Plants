@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "majesticmoss:block/slightly_mossy_quartz_pillar_top",
+    "side": "majesticmoss:block/slightly_mossy_quartz_pillar"
+  }
+}

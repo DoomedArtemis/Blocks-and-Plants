@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "majesticmoss:mossy_end_stone"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:mossy_end_stone_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "majesticmoss:block/template/template_post",
+  "textures": {
+    "wall": "majesticmoss:block/weathered_copper_post",
+    "up": "majesticmoss:block/weathered_copper_post_top",
+    "down": "majesticmoss:block/weathered_copper_post_top"
+  }
+}

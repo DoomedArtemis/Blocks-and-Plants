@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "majesticmoss:bamboo_block"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:bamboo_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "majesticmoss:block/ender_sprouts"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:end_stone",
+    "majesticmoss:mossy_end_stone",
+    "minecraft:end_stone_bricks",
+    "majesticmoss:mossy_end_stone_bricks",
+    "minecraft:purpur_block",
+    "majesticmoss:mossy_purpur_block",
+    "minecraft:purpur_pillar",
+    "majesticmoss:mossy_purpur_pillar"
+  ]
+}

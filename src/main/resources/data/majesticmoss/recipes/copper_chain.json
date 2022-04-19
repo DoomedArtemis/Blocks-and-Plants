@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "y",
+    "x",
+    "y"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:copper_ingot"
+    },
+    "y": {
+      "item": "majesticmoss:copper_nugget"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:copper_chain"
+  }
+}

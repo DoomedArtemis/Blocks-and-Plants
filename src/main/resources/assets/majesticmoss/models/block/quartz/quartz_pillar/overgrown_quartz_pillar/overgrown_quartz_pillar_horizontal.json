@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "north": "minecraft:block/quartz_pillar",
+    "east": "majesticmoss:block/overgrown_quartz_pillar_horizontal_flipped",
+    "south": "minecraft:block/moss_block",
+    "west": "majesticmoss:block/overgrown_quartz_pillar_horizontal",
+    "up": "majesticmoss:block/overgrown_quartz_pillar_top_flipped",
+    "down": "majesticmoss:block/overgrown_quartz_pillar_top",
+    "particle": "majesticmoss:block/overgrown_quartz_pillar"
+  }
+}

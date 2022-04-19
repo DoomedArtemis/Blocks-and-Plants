@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "majesticmoss:block/mossy_end_stone",
+    "top": "majesticmoss:block/mossy_end_stone",
+    "side": "majesticmoss:block/mossy_end_stone"
+  }
+}

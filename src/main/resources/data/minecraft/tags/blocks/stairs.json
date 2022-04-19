@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "majesticmoss:mossy_end_stone_stairs",
+    "majesticmoss:overgrown_end_stone_stairs",
+    "majesticmoss:mossy_end_stone_brick_stairs",
+    "majesticmoss:overgrown_end_stone_brick_stairs",
+    "majesticmoss:ender_moss_stairs",
+    "majesticmoss:moss_stairs",
+    "majesticmoss:mossy_purpur_stairs",
+    "majesticmoss:mossy_quartz_brick_stairs",
+    "majesticmoss:overgrown_quartz_brick_stairs",
+    "majesticmoss:flowering_mossy_quartz_brick_stairs",
+    "majesticmoss:mossy_quartz_stairs",
+    "majesticmoss:overgrown_quartz_stairs",
+    "majesticmoss:flowering_mossy_quartz_stairs",
+    "majesticmoss:copper_stairs",
+    "majesticmoss:exposed_copper_stairs",
+    "majesticmoss:weathered_copper_stairs",
+    "majesticmoss:oxidized_copper_stairs"
+  ]
+}

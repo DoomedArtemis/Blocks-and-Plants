@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "majesticmoss:block/quartz/quartz_block/mossy_quartz_block/mossy_quartz_slab"
+    },
+    "type=double": {
+      "model": "majesticmoss:block/quartz/quartz_block/mossy_quartz_block/mossy_quartz_block"
+    },
+    "type=top": {
+      "model": "majesticmoss:block/quartz/quartz_block/mossy_quartz_block/mossy_quartz_slab_top"
+    }
+  }
+}

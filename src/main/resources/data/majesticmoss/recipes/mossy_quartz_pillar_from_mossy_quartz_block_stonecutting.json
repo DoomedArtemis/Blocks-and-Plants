@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "majesticmoss:mossy_quartz_block"
+  },
+  "result": "majesticmoss:mossy_quartz_pillar",
+  "count": 1
+}

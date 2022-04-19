@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "majesticmoss:overgrown_end_stone"
+  },
+  "result": "majesticmoss:overgrown_end_stone_slab",
+  "count": 2
+}

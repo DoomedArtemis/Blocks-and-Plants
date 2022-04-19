@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "minecraft:flowering_azalea_leaves"
+    }
+  ],
+  "result": {
+    "item": "majesticmoss:small_flowering_azalea_leaf_carpet",
+    "count": 3
+  }
+}

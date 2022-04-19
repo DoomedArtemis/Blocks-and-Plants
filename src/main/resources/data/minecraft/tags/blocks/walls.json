@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "majesticmoss:mossy_end_stone_wall",
+    "majesticmoss:mossy_end_stone_brick_wall",
+    "majesticmoss:ender_moss_wall",
+    "majesticmoss:moss_wall",
+    "majesticmoss:mossy_purpur_wall",
+    "majesticmoss:purpur_wall",
+    "majesticmoss:mossy_quartz_brick_wall",
+    "majesticmoss:flowering_mossy_quartz_brick_wall",
+    "majesticmoss:mossy_quartz_wall",
+    "majesticmoss:flowering_mossy_quartz_wall",
+    "majesticmoss:bamboo_wall"
+  ]
+}

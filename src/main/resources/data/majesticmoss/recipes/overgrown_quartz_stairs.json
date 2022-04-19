@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "majesticmoss:overgrown_quartz_block"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:overgrown_quartz_stairs",
+    "count": 4
+  }
+}

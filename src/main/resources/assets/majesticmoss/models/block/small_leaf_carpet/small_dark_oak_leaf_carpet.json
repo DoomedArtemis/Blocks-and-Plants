@@ -1,0 +1,6 @@
+{
+  "parent": "majesticmoss:block/leaf_carpet",
+  "textures": {
+    "texture": "majesticmoss:block/small_dark_oak_leaf_carpet"
+  }
+}

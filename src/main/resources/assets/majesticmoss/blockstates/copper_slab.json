@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "majesticmoss:block/copper_slab/copper_slab/copper_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/copper_block"
+    },
+    "type=top": {
+      "model": "majesticmoss:block/copper_slab/copper_slab/copper_slab_top"
+    }
+  }
+}

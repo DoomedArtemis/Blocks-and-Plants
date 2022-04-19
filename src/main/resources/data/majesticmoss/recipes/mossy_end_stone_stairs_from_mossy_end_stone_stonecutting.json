@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "majesticmoss:mossy_end_stone"
+  },
+  "result": "majesticmoss:mossy_end_stone_stairs",
+  "count": 1
+}

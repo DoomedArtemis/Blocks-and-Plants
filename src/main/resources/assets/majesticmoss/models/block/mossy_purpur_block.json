@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "majesticmoss:block/mossy_purpur_block"
+  }
+}

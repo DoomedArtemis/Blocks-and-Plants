@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "majesticmoss:bamboo_block"
+  },
+  "result": "majesticmoss:bamboo_wall",
+  "count": 1
+}

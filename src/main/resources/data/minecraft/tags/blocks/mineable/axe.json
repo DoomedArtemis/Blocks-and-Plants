@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "majesticmoss:overgrown_oak_log",
+    "majesticmoss:overgrown_spruce_log",
+    "majesticmoss:overgrown_birch_log",
+    "majesticmoss:overgrown_dark_oak_log",
+    "majesticmoss:overgrown_acacia_log",
+    "majesticmoss:overgrown_jungle_log",
+    "majesticmoss:ender_bush",
+    "majesticmoss:flowering_ender_bush",
+    "majesticmoss:bamboo_block",
+    "majesticmoss:bamboo_wall",
+    "majesticmoss:bamboo_slab",
+    "majesticmoss:bamboo_stairs"
+  ]
+}

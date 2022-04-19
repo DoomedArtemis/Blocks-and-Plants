@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "majesticmoss:sapphire_block"
+  },
+  "result": "majesticmoss:smooth_sapphire_block",
+  "count": 1
+}

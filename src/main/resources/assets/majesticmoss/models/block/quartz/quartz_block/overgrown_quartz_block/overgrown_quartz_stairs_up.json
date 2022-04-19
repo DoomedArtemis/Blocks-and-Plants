@@ -1,0 +1,12 @@
+{
+  "parent": "majesticmoss:block/template/template_configurable_stairs",
+  "textures": {
+    "bottom": "minecraft:block/moss_block",
+    "top": "minecraft:block/quartz_block_side",
+    "north": "majesticmoss:block/overgrown_quartz_block_side",
+    "east": "majesticmoss:block/overgrown_quartz_block_side",
+    "south": "majesticmoss:block/overgrown_quartz_block_side",
+    "west": "majesticmoss:block/overgrown_quartz_block_side",
+    "particle": "majesticmoss:block/overgrown_quartz_block_side"
+  }
+}

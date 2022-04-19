@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "majesticmoss:copper_soul_lantern"
+    },
+    {
+      "item": "majesticmoss:rope"
+    }
+  ],
+  "result": {
+    "item": "majesticmoss:copper_soul_lantern_rope",
+    "count": 1
+  }
+}

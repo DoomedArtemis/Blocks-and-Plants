@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "majesticmoss:peridot_block"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:smooth_peridot_block",
+    "count": 4
+  }
+}

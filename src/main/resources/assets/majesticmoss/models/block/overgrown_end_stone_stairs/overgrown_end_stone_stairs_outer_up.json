@@ -1,0 +1,12 @@
+{
+  "parent": "majesticmoss:block/template/template_configurable_outer_stairs",
+  "textures": {
+    "bottom": "majesticmoss:block/ender_moss_block",
+    "top": "minecraft:block/end_stone",
+    "north": "majesticmoss:block/overgrown_end_stone",
+    "east": "majesticmoss:block/overgrown_end_stone",
+    "south": "majesticmoss:block/overgrown_end_stone",
+    "west": "majesticmoss:block/overgrown_end_stone",
+    "particle": "majesticmoss:block/overgrown_end_stone"
+  }
+}

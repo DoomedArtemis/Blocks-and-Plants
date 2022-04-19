@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "majesticmoss:block/quartz/quartz_bricks/overgrown_quartz_bricks/overgrown_quartz_brick_slab"
+    },
+    "type=double": {
+      "model": "majesticmoss:block/quartz/quartz_bricks/overgrown_quartz_bricks/overgrown_quartz_bricks"
+    },
+    "type=top": {
+      "model": "majesticmoss:block/quartz/quartz_bricks/overgrown_quartz_bricks/overgrown_quartz_brick_slab_top"
+    }
+  }
+}

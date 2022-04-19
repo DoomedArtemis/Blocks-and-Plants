@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "majesticmoss:ender_moss_block"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:ender_moss_wall",
+    "count": 6
+  }
+}

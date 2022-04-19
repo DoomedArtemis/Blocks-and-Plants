@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:flowering_azalea_leaves"
+    }
+  ],
+  "result": {
+    "item": "majesticmoss:flowering_mossy_quartz_block"
+  }
+}

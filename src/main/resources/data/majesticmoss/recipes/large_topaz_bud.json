@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    " x ",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:large_amethyst_bud"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:large_topaz_bud",
+    "count": 5
+  }
+}

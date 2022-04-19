@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:medium_amethyst_bud"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:medium_ruby_bud",
+    "count": 3
+  }
+}

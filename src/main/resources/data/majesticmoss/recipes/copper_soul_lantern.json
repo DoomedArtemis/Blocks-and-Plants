@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XyX",
+    "XXX"
+  ],
+  "key": {
+    "y": {
+      "item": "minecraft:soul_torch"
+    },
+    "X": {
+      "item": "majesticmoss:copper_nugget"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:copper_soul_lantern"
+  }
+}

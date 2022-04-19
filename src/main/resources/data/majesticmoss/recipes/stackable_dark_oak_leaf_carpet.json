@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:dark_oak_leaves"
+    }
+  },
+  "result": {
+    "item": "majesticmoss:stackable_dark_oak_leaf_carpet",
+    "count": 16
+  }
+}
