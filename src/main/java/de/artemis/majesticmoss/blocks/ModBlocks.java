@@ -1,7 +1,7 @@
 package de.artemis.majesticmoss.blocks;
 
 import de.artemis.majesticmoss.MajesticMoss;
-import de.artemis.majesticmoss.items.ModItem;
+import de.artemis.majesticmoss.items.TooltipBlockItem;
 import de.artemis.majesticmoss.util.Registration;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.BlockItem;
@@ -298,66 +298,66 @@ public class ModBlocks {
     // Copper Post
 
     public static final RegistryObject<PostBlock> COPPER_POST = register("copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new ModItem(ModBlocks.COPPER_POST.get(), ModItem.Tooltip.COPPER));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new TooltipBlockItem(ModBlocks.COPPER_POST.get(), TooltipBlockItem.Tooltip.COPPER));
 
     public static final RegistryObject<PostBlock> EXPOSED_COPPER_POST = register("exposed_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new ModItem(ModBlocks.EXPOSED_COPPER_POST.get(), ModItem.Tooltip.COPPER));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new TooltipBlockItem(ModBlocks.EXPOSED_COPPER_POST.get(), TooltipBlockItem.Tooltip.COPPER));
 
     public static final RegistryObject<PostBlock> WEATHERED_COPPER_POST = register("weathered_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new ModItem(ModBlocks.WEATHERED_COPPER_POST.get(), ModItem.Tooltip.COPPER));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new TooltipBlockItem(ModBlocks.WEATHERED_COPPER_POST.get(), TooltipBlockItem.Tooltip.COPPER));
 
     public static final RegistryObject<PostBlock> OXIDIZED_COPPER_POST = register("oxidized_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new ModItem(ModBlocks.OXIDIZED_COPPER_POST.get(), ModItem.Tooltip.COPPER));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new TooltipBlockItem(ModBlocks.OXIDIZED_COPPER_POST.get(), TooltipBlockItem.Tooltip.COPPER));
 
     // Cut Copper Post
 
     public static final RegistryObject<PostBlock> CUT_COPPER_POST = register("cut_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new ModItem(ModBlocks.CUT_COPPER_POST.get(), ModItem.Tooltip.COPPER));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new TooltipBlockItem(ModBlocks.CUT_COPPER_POST.get(), TooltipBlockItem.Tooltip.COPPER));
 
     public static final RegistryObject<PostBlock> EXPOSED_CUT_COPPER_POST = register("exposed_cut_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new ModItem(ModBlocks.EXPOSED_CUT_COPPER_POST.get(), ModItem.Tooltip.COPPER));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new TooltipBlockItem(ModBlocks.EXPOSED_CUT_COPPER_POST.get(), TooltipBlockItem.Tooltip.COPPER));
 
     public static final RegistryObject<PostBlock> WEATHERED_CUT_COPPER_POST = register("weathered_cut_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new ModItem(ModBlocks.WEATHERED_CUT_COPPER_POST.get(), ModItem.Tooltip.COPPER));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new TooltipBlockItem(ModBlocks.WEATHERED_CUT_COPPER_POST.get(), TooltipBlockItem.Tooltip.COPPER));
 
     public static final RegistryObject<PostBlock> OXIDIZED_CUT_COPPER_POST = register("oxidized_cut_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new ModItem(ModBlocks.OXIDIZED_CUT_COPPER_POST.get(), ModItem.Tooltip.COPPER));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new TooltipBlockItem(ModBlocks.OXIDIZED_CUT_COPPER_POST.get(), TooltipBlockItem.Tooltip.COPPER));
 
     // Copper Stairs
 
     public static final RegistryObject<WeatheringCopperStairBlock> COPPER_STAIRS = register("copper_stairs",
             () -> new WeatheringCopperStairBlock(WeatheringCopperStairBlock.WeatherState.UNAFFECTED, COPPER_BLOCK.defaultBlockState(),
-                    (BlockBehaviour.Properties.copy(COPPER_BLOCK))), () -> new ModItem(ModBlocks.COPPER_STAIRS.get(), ModItem.Tooltip.COPPER));
+                    (BlockBehaviour.Properties.copy(COPPER_BLOCK))), () -> new TooltipBlockItem(ModBlocks.COPPER_STAIRS.get(), TooltipBlockItem.Tooltip.COPPER));
 
     public static final RegistryObject<WeatheringCopperStairBlock> EXPOSED_COPPER_STAIRS = register("exposed_copper_stairs",
             () -> new WeatheringCopperStairBlock(WeatheringCopperStairBlock.WeatherState.EXPOSED, EXPOSED_COPPER.defaultBlockState(),
-                    (BlockBehaviour.Properties.copy(EXPOSED_COPPER))), () -> new ModItem(ModBlocks.EXPOSED_COPPER_STAIRS.get(), ModItem.Tooltip.COPPER));
+                    (BlockBehaviour.Properties.copy(EXPOSED_COPPER))), () -> new TooltipBlockItem(ModBlocks.EXPOSED_COPPER_STAIRS.get(), TooltipBlockItem.Tooltip.COPPER));
 
     public static final RegistryObject<WeatheringCopperStairBlock> WEATHERED_COPPER_STAIRS = register("weathered_copper_stairs",
             () -> new WeatheringCopperStairBlock(WeatheringCopperStairBlock.WeatherState.WEATHERED, WEATHERED_COPPER.defaultBlockState(),
-                    (BlockBehaviour.Properties.copy(WEATHERED_COPPER))), () -> new ModItem(ModBlocks.WEATHERED_COPPER_STAIRS.get(), ModItem.Tooltip.COPPER));
+                    (BlockBehaviour.Properties.copy(WEATHERED_COPPER))), () -> new TooltipBlockItem(ModBlocks.WEATHERED_COPPER_STAIRS.get(), TooltipBlockItem.Tooltip.COPPER));
 
     public static final RegistryObject<WeatheringCopperStairBlock> OXIDIZED_COPPER_STAIRS = register("oxidized_copper_stairs",
             () -> new WeatheringCopperStairBlock(WeatheringCopperStairBlock.WeatherState.OXIDIZED, OXIDIZED_COPPER.defaultBlockState(),
-                    (BlockBehaviour.Properties.copy(OXIDIZED_COPPER))), () -> new ModItem(ModBlocks.OXIDIZED_COPPER_STAIRS.get(), ModItem.Tooltip.COPPER));
+                    (BlockBehaviour.Properties.copy(OXIDIZED_COPPER))), () -> new TooltipBlockItem(ModBlocks.OXIDIZED_COPPER_STAIRS.get(), TooltipBlockItem.Tooltip.COPPER));
 
     // Copper Slab
 
     public static final RegistryObject<WeatheringCopperSlabBlock> COPPER_SLAB = register("copper_slab",
             () -> new WeatheringCopperSlabBlock(WeatheringCopper.WeatherState.UNAFFECTED,
-                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new ModItem(ModBlocks.COPPER_SLAB.get(), ModItem.Tooltip.COPPER));
+                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new TooltipBlockItem(ModBlocks.COPPER_SLAB.get(), TooltipBlockItem.Tooltip.COPPER));
 
     public static final RegistryObject<WeatheringCopperSlabBlock> EXPOSED_COPPER_SLAB = register("exposed_copper_slab",
             () -> new WeatheringCopperSlabBlock(WeatheringCopper.WeatherState.EXPOSED,
-                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new ModItem(ModBlocks.EXPOSED_COPPER_SLAB.get(), ModItem.Tooltip.COPPER));
+                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new TooltipBlockItem(ModBlocks.EXPOSED_COPPER_SLAB.get(), TooltipBlockItem.Tooltip.COPPER));
 
     public static final RegistryObject<WeatheringCopperSlabBlock> WEATHERED_COPPER_SLAB = register("weathered_copper_slab",
             () -> new WeatheringCopperSlabBlock(WeatheringCopper.WeatherState.WEATHERED,
-                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new ModItem(ModBlocks.WEATHERED_COPPER_SLAB.get(), ModItem.Tooltip.COPPER));
+                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new TooltipBlockItem(ModBlocks.WEATHERED_COPPER_SLAB.get(), TooltipBlockItem.Tooltip.COPPER));
 
     public static final RegistryObject<WeatheringCopperSlabBlock> OXIDIZED_COPPER_SLAB = register("oxidized_copper_slab",
             () -> new WeatheringCopperSlabBlock(WeatheringCopper.WeatherState.OXIDIZED,
-                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new ModItem(ModBlocks.OXIDIZED_COPPER_SLAB.get(), ModItem.Tooltip.COPPER));
+                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new TooltipBlockItem(ModBlocks.OXIDIZED_COPPER_SLAB.get(), TooltipBlockItem.Tooltip.COPPER));
 
     // Amethyst
 
@@ -367,22 +367,22 @@ public class ModBlocks {
     // Peridot
 
     public static final RegistryObject<AmethystBlock> PERIDOT_BLOCK = register("peridot_block",
-            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new ModItem(ModBlocks.PERIDOT_BLOCK.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new TooltipBlockItem(ModBlocks.PERIDOT_BLOCK.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<BuddingPeridotBlock> BUDDING_PERIDOT = register("budding_peridot",
             BuddingPeridotBlock::new);
 
     public static final RegistryObject<AmethystClusterBlock> PERIDOT_CLUSTER = register("peridot_cluster",
-            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new ModItem(ModBlocks.PERIDOT_CLUSTER.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new TooltipBlockItem(ModBlocks.PERIDOT_CLUSTER.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<AmethystClusterBlock> LARGE_PERIDOT_BUD = register("large_peridot_bud",
-            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new ModItem(ModBlocks.LARGE_PERIDOT_BUD.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new TooltipBlockItem(ModBlocks.LARGE_PERIDOT_BUD.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<AmethystClusterBlock> MEDIUM_PERIDOT_BUD = register("medium_peridot_bud",
-            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new ModItem(ModBlocks.MEDIUM_PERIDOT_BUD.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new TooltipBlockItem(ModBlocks.MEDIUM_PERIDOT_BUD.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<AmethystClusterBlock> SMALL_PERIDOT_BUD = register("small_peridot_bud",
-            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new ModItem(ModBlocks.SMALL_PERIDOT_BUD.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new TooltipBlockItem(ModBlocks.SMALL_PERIDOT_BUD.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<Block> SMOOTH_PERIDOT_BLOCK = register("smooth_peridot_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
@@ -390,22 +390,22 @@ public class ModBlocks {
     // Ruby
 
     public static final RegistryObject<AmethystBlock> RUBY_BLOCK = register("ruby_block",
-            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new ModItem(ModBlocks.RUBY_BLOCK.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new TooltipBlockItem(ModBlocks.RUBY_BLOCK.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<BuddingRubyBlock> BUDDING_RUBY = register("budding_ruby",
             BuddingRubyBlock::new);
 
     public static final RegistryObject<AmethystClusterBlock> RUBY_CLUSTER = register("ruby_cluster",
-            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new ModItem(ModBlocks.RUBY_CLUSTER.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new TooltipBlockItem(ModBlocks.RUBY_CLUSTER.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<AmethystClusterBlock> LARGE_RUBY_BUD = register("large_ruby_bud",
-            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new ModItem(ModBlocks.LARGE_RUBY_BUD.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new TooltipBlockItem(ModBlocks.LARGE_RUBY_BUD.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<AmethystClusterBlock> MEDIUM_RUBY_BUD = register("medium_ruby_bud",
-            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new ModItem(ModBlocks.MEDIUM_RUBY_BUD.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new TooltipBlockItem(ModBlocks.MEDIUM_RUBY_BUD.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<AmethystClusterBlock> SMALL_RUBY_BUD = register("small_ruby_bud",
-            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new ModItem(ModBlocks.SMALL_RUBY_BUD.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new TooltipBlockItem(ModBlocks.SMALL_RUBY_BUD.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<Block> SMOOTH_RUBY_BLOCK = register("smooth_ruby_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
@@ -413,22 +413,22 @@ public class ModBlocks {
     //Sapphire
 
     public static final RegistryObject<AmethystBlock> SAPPHIRE_BLOCK = register("sapphire_block",
-            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new ModItem(ModBlocks.SAPPHIRE_BLOCK.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new TooltipBlockItem(ModBlocks.SAPPHIRE_BLOCK.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<BuddingSapphireBlock> BUDDING_SAPPHIRE = register("budding_sapphire",
             BuddingSapphireBlock::new);
 
     public static final RegistryObject<AmethystClusterBlock> SAPPHIRE_CLUSTER = register("sapphire_cluster",
-            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new ModItem(ModBlocks.SAPPHIRE_CLUSTER.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new TooltipBlockItem(ModBlocks.SAPPHIRE_CLUSTER.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<AmethystClusterBlock> LARGE_SAPPHIRE_BUD = register("large_sapphire_bud",
-            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new ModItem(ModBlocks.LARGE_SAPPHIRE_BUD.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new TooltipBlockItem(ModBlocks.LARGE_SAPPHIRE_BUD.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<AmethystClusterBlock> MEDIUM_SAPPHIRE_BUD = register("medium_sapphire_bud",
-            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new ModItem(ModBlocks.MEDIUM_SAPPHIRE_BUD.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new TooltipBlockItem(ModBlocks.MEDIUM_SAPPHIRE_BUD.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<AmethystClusterBlock> SMALL_SAPPHIRE_BUD = register("small_sapphire_bud",
-            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new ModItem(ModBlocks.SMALL_SAPPHIRE_BUD.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new TooltipBlockItem(ModBlocks.SMALL_SAPPHIRE_BUD.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<Block> SMOOTH_SAPPHIRE_BLOCK = register("smooth_sapphire_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
@@ -436,22 +436,22 @@ public class ModBlocks {
     //Topaz
 
     public static final RegistryObject<AmethystBlock> TOPAZ_BLOCK = register("topaz_block",
-            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new ModItem(ModBlocks.TOPAZ_BLOCK.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new TooltipBlockItem(ModBlocks.TOPAZ_BLOCK.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<BuddingTopazBlock> BUDDING_TOPAZ = register("budding_topaz",
             BuddingTopazBlock::new);
 
     public static final RegistryObject<AmethystClusterBlock> TOPAZ_CLUSTER = register("topaz_cluster",
-            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new ModItem(ModBlocks.TOPAZ_CLUSTER.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new TooltipBlockItem(ModBlocks.TOPAZ_CLUSTER.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<AmethystClusterBlock> LARGE_TOPAZ_BUD = register("large_topaz_bud",
-            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new ModItem(ModBlocks.LARGE_TOPAZ_BUD.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new TooltipBlockItem(ModBlocks.LARGE_TOPAZ_BUD.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<AmethystClusterBlock> MEDIUM_TOPAZ_BUD = register("medium_topaz_bud",
-            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new ModItem(ModBlocks.MEDIUM_TOPAZ_BUD.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new TooltipBlockItem(ModBlocks.MEDIUM_TOPAZ_BUD.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<AmethystClusterBlock> SMALL_TOPAZ_BUD = register("small_topaz_bud",
-            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new ModItem(ModBlocks.SMALL_TOPAZ_BUD.get(), ModItem.Tooltip.AMETHYST));
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new TooltipBlockItem(ModBlocks.SMALL_TOPAZ_BUD.get(), TooltipBlockItem.Tooltip.AMETHYST));
 
     public static final RegistryObject<Block> SMOOTH_TOPAZ_BLOCK = register("smooth_topaz_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
