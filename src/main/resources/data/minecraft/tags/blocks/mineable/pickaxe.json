@@ -113,6 +113,8 @@
     "majesticmoss:cut_copper_post",
     "majesticmoss:exposed_cut_copper_post",
     "majesticmoss:weathered_cut_copper_post",
-    "majesticmoss:oxidized_cut_copper_post"
+    "majesticmoss:oxidized_cut_copper_post",
+
+    "majesticmoss:stone_wall"
   ]
 }

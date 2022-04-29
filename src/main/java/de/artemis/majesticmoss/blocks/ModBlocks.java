@@ -36,7 +36,6 @@ public class ModBlocks {
         return toReturn;
     }
 
-
     private static <T extends Block> RegistryObject<T> registerNoItem(String name, Supplier<T> block) {
 
         RegistryObject<T> toReturn = Registration.BLOCKS.register(name, block);
@@ -49,6 +48,11 @@ public class ModBlocks {
 
     public static void register() {
     }
+
+    // Stone
+
+    public static final RegistryObject<WallBlock> STONE_WALL = register("stone_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.STONE)));
 
     // Overgrown End Stone
 

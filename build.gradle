@@ -17,7 +17,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'io.github.noeppi_noeppi.tools.modgradle.mapping'
 
 group = 'de.artemis'
-version = '0.1'
+version = "${mod_version}"
 
 java {
     archivesBaseName = 'majesticmoss'
@@ -25,19 +25,7 @@ java {
 }
 
 minecraft {
-    // The mappings can be changed at any time and must be in the following format.
-    // Channel:   Version:
-    // snapshot   YYYYMMDD   Snapshot are built nightly.
-    // stable     #          Stables are built at the discretion of the MCP team.
-    // official   MCVersion  Official field/method names from Mojang mapping files
-    //
-    // You must be aware of the Mojang license when using the 'official' mappings.
-    // See more information here: https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
-    //
-    // Use non-default mappings at your own risk. They may not always work.
-    // Simply re-run your setup task after changing the mappings to update your workspace.
-    mappings channel: 'official', version: '1.18.2'
-
+    mappings channel: "${mappings_channel}", version: "${mappings_version}"
     accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
 
     // Default run configurations.
@@ -151,11 +139,11 @@ jar {
     manifest {
         attributes([
                 "Specification-Title"     : "majesticmoss",
-                //"Specification-Vendor": "majesticmoss authors",
-                "Specification-Version"   : "1", // We are version 1 of ourselves
+                "Specification-Vendor": "Artemis",
+                "Specification-Version"   : "${mod_version}",
                 "Implementation-Title"    : project.name,
-                "Implementation-Version"  : project.jar.archiveVersion,
-                //"Implementation-Vendor": "majesticmoss authors",
+                "Implementation-Version"  : "${mod_version}",
+                "Implementation-Vendor": "Artemis",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

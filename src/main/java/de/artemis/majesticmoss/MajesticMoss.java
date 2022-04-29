@@ -89,7 +89,8 @@ public class MajesticMoss {
                     ModBlocks.EXPOSED_COPPER_STAIRS.get().asItem(), ModBlocks.EXPOSED_COPPER_SLAB.get().asItem(), ModBlocks.EXPOSED_COPPER_POST.get().asItem(),
                     ModBlocks.EXPOSED_CUT_COPPER_POST.get().asItem(), ModBlocks.WEATHERED_COPPER_STAIRS.get().asItem(), ModBlocks.WEATHERED_COPPER_SLAB.get().asItem(),
                     ModBlocks.WEATHERED_COPPER_POST.get().asItem(), ModBlocks.WEATHERED_CUT_COPPER_POST.get().asItem(), ModBlocks.OXIDIZED_COPPER_STAIRS.get().asItem(),
-                    ModBlocks.OXIDIZED_COPPER_SLAB.get().asItem(), ModBlocks.OXIDIZED_COPPER_POST.get().asItem(), ModBlocks.OXIDIZED_CUT_COPPER_POST.get().asItem());
+                    ModBlocks.OXIDIZED_COPPER_SLAB.get().asItem(), ModBlocks.OXIDIZED_COPPER_POST.get().asItem(), ModBlocks.OXIDIZED_CUT_COPPER_POST.get().asItem(),
+                    ModBlocks.STONE_WALL.get().asItem());
             for (Item x : blockList) {
 
                 items.add(run, new ItemStack(x));
