@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "minecraft:lantern"
+    },
+    {
+      "item": "blocksplantsandgadgets:rope"
+    }
+  ],
+  "result": {
+    "item": "blocksplantsandgadgets:lantern_rope",
+    "count": 1
+  }
+}

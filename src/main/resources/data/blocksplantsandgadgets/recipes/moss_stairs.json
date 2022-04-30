@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x  ",
+    "xx ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:moss_block"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:moss_stairs",
+    "count": 4
+  }
+}

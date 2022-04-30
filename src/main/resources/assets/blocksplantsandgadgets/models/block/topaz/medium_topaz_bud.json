@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "blocksplantsandgadgets:block/medium_topaz_bud"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    " xx"
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:ender_moss_block"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:ender_moss_carpet",
+    "count": 3
+  }
+}

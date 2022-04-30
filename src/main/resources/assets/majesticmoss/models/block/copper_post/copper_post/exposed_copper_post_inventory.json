@@ -1,8 +1,0 @@
-{
-  "parent": "majesticmoss:block/template/template_post_inventory",
-  "textures": {
-    "wall": "majesticmoss:block/exposed_copper_post",
-    "up": "majesticmoss:block/exposed_copper_post_top",
-    "down": "majesticmoss:block/exposed_copper_post_top"
-  }
-}

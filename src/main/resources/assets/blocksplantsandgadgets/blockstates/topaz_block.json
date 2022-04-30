@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "blocksplantsandgadgets:block/topaz/topaz_block"
+    }
+  }
+}

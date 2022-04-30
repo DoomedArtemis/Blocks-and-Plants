@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:ruby_block"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:smooth_ruby_block",
+    "count": 4
+  }
+}

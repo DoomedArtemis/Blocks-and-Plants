@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:flowering_azalea_leaves"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:stackable_flowering_azalea_leaf_carpet",
+    "count": 16
+  }
+}

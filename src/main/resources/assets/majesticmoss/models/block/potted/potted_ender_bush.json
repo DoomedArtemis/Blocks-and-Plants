@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/template_potted_azalea_bush",
-  "textures": {
-    "top": "majesticmoss:block/potted_ender_bush_top",
-    "side": "majesticmoss:block/potted_ender_bush_side",
-    "azalea_plant": "majesticmoss:block/potted_ender_bush_plant"
-  }
-}

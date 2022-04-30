@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    " xx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:oak_leaves"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:oak_leaf_carpet",
+    "count": 3
+  }
+}

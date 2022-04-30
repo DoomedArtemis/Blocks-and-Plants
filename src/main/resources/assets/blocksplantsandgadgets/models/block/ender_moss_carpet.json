@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "blocksplantsandgadgets:block/ender_moss_block"
+  }
+}

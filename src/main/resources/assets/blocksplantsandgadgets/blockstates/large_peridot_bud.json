@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "blocksplantsandgadgets:block/peridot/large_peridot_bud",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "blocksplantsandgadgets:block/peridot/large_peridot_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "blocksplantsandgadgets:block/peridot/large_peridot_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "blocksplantsandgadgets:block/peridot/large_peridot_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "blocksplantsandgadgets:block/peridot/large_peridot_bud"
+    },
+    "facing=west": {
+      "model": "blocksplantsandgadgets:block/peridot/large_peridot_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

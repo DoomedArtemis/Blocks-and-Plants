@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "majesticmoss:copper_stairs",
-    "majesticmoss:exposed_copper_stairs",
-    "majesticmoss:weathered_copper_stairs",
-    "majesticmoss:oxidized_copper_stairs"
+    "blocksplantsandgadgets:copper_stairs",
+    "blocksplantsandgadgets:exposed_copper_stairs",
+    "blocksplantsandgadgets:weathered_copper_stairs",
+    "blocksplantsandgadgets:oxidized_copper_stairs"
   ]
 }

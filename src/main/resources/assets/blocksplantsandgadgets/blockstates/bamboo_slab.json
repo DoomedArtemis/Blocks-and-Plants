@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/bamboo/bamboo_slab/bamboo_slab"
+    },
+    "type=double": {
+      "model": "blocksplantsandgadgets:block/bamboo/bamboo_block/bamboo_block"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/bamboo/bamboo_slab/bamboo_slab_top"
+    }
+  }
+}

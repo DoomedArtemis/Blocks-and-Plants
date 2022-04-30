@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocksplantsandgadgets:mossy_purpur_block"
+  },
+  "result": "blocksplantsandgadgets:mossy_purpur_stairs",
+  "count": 1
+}

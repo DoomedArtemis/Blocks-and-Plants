@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "north": "blocksplantsandgadgets:block/overgrown_spruce_log",
+    "east": "blocksplantsandgadgets:block/overgrown_spruce_log",
+    "south": "blocksplantsandgadgets:block/overgrown_spruce_log",
+    "west": "blocksplantsandgadgets:block/overgrown_spruce_log",
+    "up": "minecraft:block/moss_block",
+    "down": "minecraft:block/spruce_log_top",
+    "particle": "blocksplantsandgadgets:block/overgrown_spruce_log"
+  }
+}

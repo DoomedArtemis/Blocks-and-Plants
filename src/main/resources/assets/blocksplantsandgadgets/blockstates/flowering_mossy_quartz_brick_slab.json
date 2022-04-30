@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/quartz/quartz_bricks/flowering_mossy_quartz_bricks/flowering_mossy_quartz_brick_slab"
+    },
+    "type=double": {
+      "model": "blocksplantsandgadgets:block/quartz/quartz_bricks/flowering_mossy_quartz_bricks/flowering_mossy_quartz_bricks"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/quartz/quartz_bricks/flowering_mossy_quartz_bricks/flowering_mossy_quartz_brick_slab_top"
+    }
+  }
+}

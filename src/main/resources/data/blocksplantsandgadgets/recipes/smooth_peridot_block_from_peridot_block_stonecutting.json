@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocksplantsandgadgets:peridot_block"
+  },
+  "result": "blocksplantsandgadgets:smooth_peridot_block",
+  "count": 1
+}

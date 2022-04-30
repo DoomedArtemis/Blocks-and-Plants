@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:amethyst_cluster"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:ruby_cluster",
+    "count": 3
+  }
+}

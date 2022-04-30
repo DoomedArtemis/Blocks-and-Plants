@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "majesticmoss:overgrown_quartz_bricks"
-  },
-  "result": "majesticmoss:overgrown_quartz_brick_slab",
-  "count": 2
-}

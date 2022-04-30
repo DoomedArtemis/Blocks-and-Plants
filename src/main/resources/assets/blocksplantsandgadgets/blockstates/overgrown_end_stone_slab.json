@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/overgrown_end_stone_slab/overgrown_end_stone_slab"
+    },
+    "type=double": {
+      "model": "blocksplantsandgadgets:block/overgrown_end_stone"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/overgrown_end_stone_slab/overgrown_end_stone_slab_top"
+    }
+  }
+}

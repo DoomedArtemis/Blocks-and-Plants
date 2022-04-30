@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    " xx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:spruce_leaves"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:spruce_leaf_carpet",
+    "count": 3
+  }
+}

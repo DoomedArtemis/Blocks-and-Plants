@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "majesticmoss:item/tall_ender_sprouts"
-  }
-}

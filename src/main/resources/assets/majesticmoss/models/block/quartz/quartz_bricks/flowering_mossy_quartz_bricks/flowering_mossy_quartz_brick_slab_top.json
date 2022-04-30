@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "majesticmoss:block/flowering_mossy_quartz_bricks",
-    "top": "majesticmoss:block/flowering_mossy_quartz_bricks",
-    "side": "majesticmoss:block/flowering_mossy_quartz_bricks"
-  }
-}

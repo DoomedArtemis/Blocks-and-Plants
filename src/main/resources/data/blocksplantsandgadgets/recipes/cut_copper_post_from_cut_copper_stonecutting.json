@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:cut_copper"
+  },
+  "result": "blocksplantsandgadgets:cut_copper_post",
+  "count": 4
+}

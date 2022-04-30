@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XyX",
+    "XXX"
+  ],
+  "key": {
+    "y": {
+      "item": "minecraft:soul_torch"
+    },
+    "X": {
+      "item": "blocksplantsandgadgets:copper_nugget"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:copper_soul_lantern"
+  }
+}

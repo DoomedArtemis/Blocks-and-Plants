@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "blocksplantsandgadgets:block/ender_moss_block"
+  }
+}

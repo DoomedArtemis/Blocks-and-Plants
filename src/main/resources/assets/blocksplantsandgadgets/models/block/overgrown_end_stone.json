@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "north": "blocksplantsandgadgets:block/overgrown_end_stone",
+    "east": "blocksplantsandgadgets:block/overgrown_end_stone",
+    "south": "blocksplantsandgadgets:block/overgrown_end_stone",
+    "west": "blocksplantsandgadgets:block/overgrown_end_stone",
+    "up": "blocksplantsandgadgets:block/ender_moss_block",
+    "down": "minecraft:block/end_stone",
+    "particle": "blocksplantsandgadgets:block/overgrown_end_stone"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:overgrown_quartz_block"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:overgrown_quartz_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/ender_moss_slab/ender_moss_slab"
+    },
+    "type=double": {
+      "model": "blocksplantsandgadgets:block/ender_moss_block"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/ender_moss_slab/ender_moss_slab_top"
+    }
+  }
+}

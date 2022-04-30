@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    " xx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:birch_leaves"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:birch_leaf_carpet",
+    "count": 3
+  }
+}

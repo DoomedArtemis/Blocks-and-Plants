@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_lantern",
+  "textures": {
+    "lantern": "blocksplantsandgadgets:block/copper_soul_lantern_rope"
+  }
+}

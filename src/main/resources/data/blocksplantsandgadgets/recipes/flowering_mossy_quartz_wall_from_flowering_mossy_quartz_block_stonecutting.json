@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocksplantsandgadgets:flowering_mossy_quartz_block"
+  },
+  "result": "blocksplantsandgadgets:flowering_mossy_quartz_wall",
+  "count": 1
+}

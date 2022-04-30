@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "majesticmoss:block/bamboo_block_top",
-    "top": "majesticmoss:block/bamboo_block_top",
-    "side": "majesticmoss:block/bamboo_block_side"
-  }
-}

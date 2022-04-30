@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:mossy_quartz_block"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:mossy_quartz_slab",
+    "count": 6
+  }
+}

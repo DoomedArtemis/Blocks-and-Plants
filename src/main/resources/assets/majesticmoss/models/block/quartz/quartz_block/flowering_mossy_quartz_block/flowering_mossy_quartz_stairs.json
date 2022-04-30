@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "majesticmoss:block/flowering_mossy_quartz_block_top",
-    "top": "majesticmoss:block/flowering_mossy_quartz_block_top",
-    "side": "majesticmoss:block/flowering_mossy_quartz_block_side"
-  }
-}

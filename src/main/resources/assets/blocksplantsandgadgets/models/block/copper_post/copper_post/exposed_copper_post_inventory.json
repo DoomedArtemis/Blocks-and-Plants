@@ -1,0 +1,8 @@
+{
+  "parent": "blocksplantsandgadgets:block/template/template_post_inventory",
+  "textures": {
+    "wall": "blocksplantsandgadgets:block/exposed_copper_post",
+    "up": "blocksplantsandgadgets:block/exposed_copper_post_top",
+    "down": "blocksplantsandgadgets:block/exposed_copper_post_top"
+  }
+}

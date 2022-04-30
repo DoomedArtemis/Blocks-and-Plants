@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "majesticmoss:block/medium_topaz_bud"
-  }
-}

@@ -1,17 +1,23 @@
 {
   "replace": false,
   "values": [
-    "majesticmoss:mossy_end_stone_wall",
-    "majesticmoss:mossy_end_stone_brick_wall",
-    "majesticmoss:ender_moss_wall",
-    "majesticmoss:moss_wall",
-    "majesticmoss:mossy_purpur_wall",
-    "majesticmoss:purpur_wall",
-    "majesticmoss:mossy_quartz_brick_wall",
-    "majesticmoss:flowering_mossy_quartz_brick_wall",
-    "majesticmoss:mossy_quartz_wall",
-    "majesticmoss:flowering_mossy_quartz_wall",
-    "majesticmoss:bamboo_wall",
-    "majesticmoss:stone_wall"
+    "blocksplantsandgadgets:mossy_end_stone_wall",
+    "blocksplantsandgadgets:mossy_end_stone_brick_wall",
+    "blocksplantsandgadgets:ender_moss_wall",
+    "blocksplantsandgadgets:moss_wall",
+    "blocksplantsandgadgets:mossy_purpur_wall",
+    "blocksplantsandgadgets:purpur_wall",
+    "blocksplantsandgadgets:mossy_quartz_brick_wall",
+    "blocksplantsandgadgets:flowering_mossy_quartz_brick_wall",
+    "blocksplantsandgadgets:mossy_quartz_wall",
+    "blocksplantsandgadgets:flowering_mossy_quartz_wall",
+    "blocksplantsandgadgets:bamboo_wall",
+    "blocksplantsandgadgets:stone_wall",
+    "blocksplantsandgadgets:oak_wall",
+    "blocksplantsandgadgets:spruce_wall",
+    "blocksplantsandgadgets:birch_wall",
+    "blocksplantsandgadgets:dark_oak_wall",
+    "blocksplantsandgadgets:acacia_wall",
+    "blocksplantsandgadgets:jungle_wall"
   ]
 }

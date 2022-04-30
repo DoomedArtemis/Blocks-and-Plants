@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocksplantsandgadgets:ruby_block"
+  },
+  "result": "blocksplantsandgadgets:smooth_ruby_block",
+  "count": 1
+}

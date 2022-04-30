@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "blocksplantsandgadgets:block/flowering_mossy_quartz_block_side"
+  }
+}

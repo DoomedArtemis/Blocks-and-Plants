@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocksplantsandgadgets:mossy_end_stone"
+  },
+  "result": "blocksplantsandgadgets:mossy_end_stone_stairs",
+  "count": 1
+}

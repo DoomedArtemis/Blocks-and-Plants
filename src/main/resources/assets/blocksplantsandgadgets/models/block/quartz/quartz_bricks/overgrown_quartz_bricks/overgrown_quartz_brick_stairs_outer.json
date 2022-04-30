@@ -1,0 +1,12 @@
+{
+  "parent": "blocksplantsandgadgets:block/template/template_configurable_outer_stairs",
+  "textures": {
+    "bottom": "minecraft:block/quartz_bricks",
+    "top": "minecraft:block/moss_block",
+    "north": "blocksplantsandgadgets:block/overgrown_quartz_brick_stairs_front",
+    "east": "blocksplantsandgadgets:block/overgrown_quartz_brick_stairs_left",
+    "south": "blocksplantsandgadgets:block/overgrown_quartz_brick_stairs_right",
+    "west": "blocksplantsandgadgets:block/overgrown_quartz_brick_stairs_front",
+    "particle": "blocksplantsandgadgets:block/overgrown_quartz_bricks"
+  }
+}

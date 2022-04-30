@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "majesticmoss:mossy_purpur_block"
-  },
-  "result": "majesticmoss:mossy_purpur_slab",
-  "count": 2
-}

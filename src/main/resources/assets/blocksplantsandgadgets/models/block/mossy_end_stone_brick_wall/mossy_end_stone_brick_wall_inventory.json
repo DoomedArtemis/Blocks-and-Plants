@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "blocksplantsandgadgets:block/mossy_end_stone_bricks"
+  }
+}

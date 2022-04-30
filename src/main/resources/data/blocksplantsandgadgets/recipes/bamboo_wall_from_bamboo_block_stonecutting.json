@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocksplantsandgadgets:bamboo_block"
+  },
+  "result": "blocksplantsandgadgets:bamboo_wall",
+  "count": 1
+}

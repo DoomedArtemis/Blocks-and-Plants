@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "north": "blocksplantsandgadgets:block/overgrown_quartz_bricks",
+    "east": "blocksplantsandgadgets:block/overgrown_quartz_bricks",
+    "south": "blocksplantsandgadgets:block/overgrown_quartz_bricks",
+    "west": "blocksplantsandgadgets:block/overgrown_quartz_bricks",
+    "up": "minecraft:block/moss_block",
+    "down": "minecraft:block/quartz_bricks",
+    "particle": "blocksplantsandgadgets:block/overgrown_quartz_bricks"
+  }
+}

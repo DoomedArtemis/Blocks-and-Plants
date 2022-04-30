@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "blocksplantsandgadgets:copper_lantern"
+    },
+    {
+      "item": "blocksplantsandgadgets:rope"
+    }
+  ],
+  "result": {
+    "item": "blocksplantsandgadgets:copper_lantern_rope",
+    "count": 1
+  }
+}

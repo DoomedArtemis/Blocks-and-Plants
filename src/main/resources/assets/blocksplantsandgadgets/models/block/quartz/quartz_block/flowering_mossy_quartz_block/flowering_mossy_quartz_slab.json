@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "blocksplantsandgadgets:block/flowering_mossy_quartz_block_top",
+    "top": "blocksplantsandgadgets:block/flowering_mossy_quartz_block_top",
+    "side": "blocksplantsandgadgets:block/flowering_mossy_quartz_block_side"
+  }
+}

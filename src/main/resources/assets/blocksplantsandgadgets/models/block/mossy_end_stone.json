@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "blocksplantsandgadgets:block/mossy_end_stone"
+  }
+}

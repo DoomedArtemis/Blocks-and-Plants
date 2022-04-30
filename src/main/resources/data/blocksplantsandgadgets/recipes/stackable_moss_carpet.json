@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:moss_block"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:stackable_moss_carpet",
+    "count": 16
+  }
+}

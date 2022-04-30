@@ -1,18 +1,18 @@
 {
   "replace": false,
   "values": [
-    "majesticmoss:overgrown_end_stone_slab",
-    "majesticmoss:overgrown_end_stone_brick_slab",
-    "majesticmoss:mossy_end_stone_slab",
-    "majesticmoss:mossy_end_stone_brick_slab",
-    "majesticmoss:ender_moss_slab",
-    "majesticmoss:moss_slab",
-    "majesticmoss:mossy_purpur_slab",
-    "majesticmoss:mossy_quartz_brick_slab",
-    "majesticmoss:flowering_mossy_quartz_brick_slab",
-    "majesticmoss:overgrown_quartz_brick_slab",
-    "majesticmoss:mossy_quartz_slab",
-    "majesticmoss:flowering_mossy_quartz_slab",
-    "majesticmoss:overgrown_quartz_slab"
+    "blocksplantsandgadgets:overgrown_end_stone_slab",
+    "blocksplantsandgadgets:overgrown_end_stone_brick_slab",
+    "blocksplantsandgadgets:mossy_end_stone_slab",
+    "blocksplantsandgadgets:mossy_end_stone_brick_slab",
+    "blocksplantsandgadgets:ender_moss_slab",
+    "blocksplantsandgadgets:moss_slab",
+    "blocksplantsandgadgets:mossy_purpur_slab",
+    "blocksplantsandgadgets:mossy_quartz_brick_slab",
+    "blocksplantsandgadgets:flowering_mossy_quartz_brick_slab",
+    "blocksplantsandgadgets:overgrown_quartz_brick_slab",
+    "blocksplantsandgadgets:mossy_quartz_slab",
+    "blocksplantsandgadgets:flowering_mossy_quartz_slab",
+    "blocksplantsandgadgets:overgrown_quartz_slab"
   ]
 }

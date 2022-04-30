@@ -1,0 +1,12 @@
+{
+  "parent": "blocksplantsandgadgets:block/template/template_configurable_wall_post",
+  "textures": {
+    "particle": "blocksplantsandgadgets:block/bamboo_block_side",
+    "up": "blocksplantsandgadgets:block/bamboo_block_top",
+    "down": "blocksplantsandgadgets:block/bamboo_block_top",
+    "north": "blocksplantsandgadgets:block/bamboo_block_side",
+    "east": "blocksplantsandgadgets:block/bamboo_block_side",
+    "south": "blocksplantsandgadgets:block/bamboo_block_side",
+    "west": "blocksplantsandgadgets:block/bamboo_block_side"
+  }
+}

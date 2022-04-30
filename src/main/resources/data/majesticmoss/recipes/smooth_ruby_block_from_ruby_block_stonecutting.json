@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "majesticmoss:ruby_block"
-  },
-  "result": "majesticmoss:smooth_ruby_block",
-  "count": 1
-}

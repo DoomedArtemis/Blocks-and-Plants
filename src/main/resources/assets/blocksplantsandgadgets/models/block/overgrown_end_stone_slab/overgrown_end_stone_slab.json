@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "minecraft:block/end_stone",
+    "top": "blocksplantsandgadgets:block/ender_moss_block",
+    "side": "blocksplantsandgadgets:block/overgrown_end_stone_slab_bottom"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_leaves"
+    }
+  ],
+  "result": {
+    "item": "blocksplantsandgadgets:small_acacia_leaf_carpet",
+    "count": 3
+  }
+}

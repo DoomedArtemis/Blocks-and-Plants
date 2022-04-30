@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:large_amethyst_bud"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:large_ruby_bud",
+    "count": 3
+  }
+}

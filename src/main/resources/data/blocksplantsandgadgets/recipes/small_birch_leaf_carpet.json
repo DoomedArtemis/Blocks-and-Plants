@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_leaves"
+    }
+  ],
+  "result": {
+    "item": "blocksplantsandgadgets:small_birch_leaf_carpet",
+    "count": 3
+  }
+}

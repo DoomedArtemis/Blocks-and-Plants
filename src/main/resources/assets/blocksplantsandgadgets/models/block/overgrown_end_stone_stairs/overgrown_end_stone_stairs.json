@@ -1,0 +1,12 @@
+{
+  "parent": "blocksplantsandgadgets:block/template/template_configurable_stairs",
+  "textures": {
+    "bottom": "minecraft:block/end_stone",
+    "top": "blocksplantsandgadgets:block/ender_moss_block",
+    "north": "blocksplantsandgadgets:block/overgrown_end_stone_stairs_left",
+    "east": "blocksplantsandgadgets:block/overgrown_end_stone",
+    "south": "blocksplantsandgadgets:block/overgrown_end_stone_stairs_right",
+    "west": "blocksplantsandgadgets:block/overgrown_end_stone_stairs_front",
+    "particle": "blocksplantsandgadgets:block/overgrown_end_stone"
+  }
+}

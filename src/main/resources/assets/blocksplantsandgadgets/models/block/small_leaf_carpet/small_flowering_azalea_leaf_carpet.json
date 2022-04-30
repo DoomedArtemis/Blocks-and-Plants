@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "blocksplantsandgadgets:block/small_flowering_azalea_leaf_carpet"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "blocksplantsandgadgets:block/flowering_mossy_quartz_bricks",
+    "top": "blocksplantsandgadgets:block/flowering_mossy_quartz_bricks",
+    "side": "blocksplantsandgadgets:block/flowering_mossy_quartz_bricks"
+  }
+}

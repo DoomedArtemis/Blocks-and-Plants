@@ -1,17 +1,23 @@
 {
   "replace": false,
   "values": [
-    "majesticmoss:overgrown_oak_log",
-    "majesticmoss:overgrown_spruce_log",
-    "majesticmoss:overgrown_birch_log",
-    "majesticmoss:overgrown_dark_oak_log",
-    "majesticmoss:overgrown_acacia_log",
-    "majesticmoss:overgrown_jungle_log",
-    "majesticmoss:ender_bush",
-    "majesticmoss:flowering_ender_bush",
-    "majesticmoss:bamboo_block",
-    "majesticmoss:bamboo_wall",
-    "majesticmoss:bamboo_slab",
-    "majesticmoss:bamboo_stairs"
+    "blocksplantsandgadgets:overgrown_oak_log",
+    "blocksplantsandgadgets:overgrown_spruce_log",
+    "blocksplantsandgadgets:overgrown_birch_log",
+    "blocksplantsandgadgets:overgrown_dark_oak_log",
+    "blocksplantsandgadgets:overgrown_acacia_log",
+    "blocksplantsandgadgets:overgrown_jungle_log",
+    "blocksplantsandgadgets:ender_bush",
+    "blocksplantsandgadgets:flowering_ender_bush",
+    "blocksplantsandgadgets:bamboo_block",
+    "blocksplantsandgadgets:bamboo_wall",
+    "blocksplantsandgadgets:bamboo_slab",
+    "blocksplantsandgadgets:bamboo_stairs",
+    "blocksplantsandgadgets:oak_wall",
+    "blocksplantsandgadgets:spruce_wall",
+    "blocksplantsandgadgets:birch_wall",
+    "blocksplantsandgadgets:dark_oak_wall",
+    "blocksplantsandgadgets:acacia_wall",
+    "blocksplantsandgadgets:jungle_wall"
   ]
 }

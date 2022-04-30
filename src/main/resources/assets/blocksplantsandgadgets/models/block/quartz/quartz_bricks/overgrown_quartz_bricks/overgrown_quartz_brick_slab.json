@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "minecraft:block/quartz_bricks",
+    "top": "minecraft:block/moss_block",
+    "side": "blocksplantsandgadgets:block/overgrown_quartz_brick_slab_bottom"
+  }
+}

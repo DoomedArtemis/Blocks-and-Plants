@@ -1,0 +1,8 @@
+{
+  "parent": "blocksplantsandgadgets:block/template/template_post",
+  "textures": {
+    "wall": "blocksplantsandgadgets:block/weathered_cut_copper_post",
+    "up": "blocksplantsandgadgets:block/weathered_cut_copper_post_top",
+    "down": "blocksplantsandgadgets:block/weathered_cut_copper_post_top"
+  }
+}

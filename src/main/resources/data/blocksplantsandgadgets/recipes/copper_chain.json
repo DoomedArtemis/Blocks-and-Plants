@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "y",
+    "x",
+    "y"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:copper_ingot"
+    },
+    "y": {
+      "item": "blocksplantsandgadgets:copper_nugget"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:copper_chain"
+  }
+}

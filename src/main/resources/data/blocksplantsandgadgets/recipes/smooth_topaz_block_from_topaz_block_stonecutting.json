@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocksplantsandgadgets:topaz_block"
+  },
+  "result": "blocksplantsandgadgets:smooth_topaz_block",
+  "count": 1
+}

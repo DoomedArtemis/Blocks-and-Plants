@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "blocksplantsandgadgets:block/ender_moss_block",
+    "top": "blocksplantsandgadgets:block/ender_moss_block",
+    "side": "blocksplantsandgadgets:block/ender_moss_block"
+  }
+}

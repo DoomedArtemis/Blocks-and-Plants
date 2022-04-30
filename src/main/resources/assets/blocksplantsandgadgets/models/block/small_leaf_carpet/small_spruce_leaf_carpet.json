@@ -1,0 +1,6 @@
+{
+  "parent": "blocksplantsandgadgets:block/leaf_carpet",
+  "textures": {
+    "texture": "blocksplantsandgadgets:block/small_spruce_leaf_carpet"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "blocksplantsandgadgets:block/flowering_mossy_quartz_block_top",
+    "side": "blocksplantsandgadgets:block/flowering_mossy_quartz_block_side"
+  }
+}

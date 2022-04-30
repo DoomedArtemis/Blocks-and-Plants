@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:mossy_purpur_slab"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:mossy_purpur_pillar"
+  }
+}

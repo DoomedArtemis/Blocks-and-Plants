@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/copper_slab/copper_slab/copper_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/copper_block"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/copper_slab/copper_slab/copper_slab_top"
+    }
+  }
+}

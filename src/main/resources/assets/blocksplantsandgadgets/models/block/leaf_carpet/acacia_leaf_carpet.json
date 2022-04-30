@@ -1,0 +1,6 @@
+{
+  "parent": "blocksplantsandgadgets:block/leaf_carpet",
+  "textures": {
+    "texture": "minecraft:block/acacia_leaves"
+  }
+}

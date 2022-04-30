@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "blocksplantsandgadgets:block/quartz/quartz_pillar/flowering_mossy_quartz_pillar/flowering_mossy_quartz_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "blocksplantsandgadgets:block/quartz/quartz_pillar/flowering_mossy_quartz_pillar/flowering_mossy_quartz_pillar"
+    },
+    "axis=z": {
+      "model": "blocksplantsandgadgets:block/quartz/quartz_pillar/flowering_mossy_quartz_pillar/flowering_mossy_quartz_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

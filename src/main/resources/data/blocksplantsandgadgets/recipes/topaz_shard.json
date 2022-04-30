@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    " x ",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:topaz_shard",
+    "count": 5
+  }
+}

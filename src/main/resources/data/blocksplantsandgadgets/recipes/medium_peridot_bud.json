@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "x x",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:medium_amethyst_bud"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:medium_peridot_bud",
+    "count": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "blocksplantsandgadgets:block/mossy_purpur_pillar_top",
+    "side": "blocksplantsandgadgets:block/mossy_purpur_pillar"
+  }
+}

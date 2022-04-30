@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:topaz_block"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:smooth_topaz_block",
+    "count": 4
+  }
+}

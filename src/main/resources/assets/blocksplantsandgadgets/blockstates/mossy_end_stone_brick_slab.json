@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/mossy_end_stone_brick_slab/mossy_end_stone_brick_slab"
+    },
+    "type=double": {
+      "model": "blocksplantsandgadgets:block/mossy_end_stone_bricks"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/mossy_end_stone_brick_slab/mossy_end_stone_brick_slab_top"
+    }
+  }
+}

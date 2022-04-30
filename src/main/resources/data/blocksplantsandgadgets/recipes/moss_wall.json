@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:moss_block"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:moss_wall",
+    "count": 6
+  }
+}

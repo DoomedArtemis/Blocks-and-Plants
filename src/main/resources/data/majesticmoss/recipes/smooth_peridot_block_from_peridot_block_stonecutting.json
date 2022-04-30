@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "majesticmoss:peridot_block"
-  },
-  "result": "majesticmoss:smooth_peridot_block",
-  "count": 1
-}

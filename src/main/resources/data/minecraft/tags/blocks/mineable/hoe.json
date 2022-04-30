@@ -1,24 +1,24 @@
 {
   "replace": false,
   "values": [
-    "majesticmoss:ender_moss_block",
-    "majesticmoss:ender_moss_stairs",
-    "majesticmoss:ender_moss_slab",
-    "majesticmoss:ender_moss_wall",
-    "majesticmoss:ender_moss_carpet",
-    "majesticmoss:stackable_ender_moss_carpet",
-    "majesticmoss:moss_stairs",
-    "majesticmoss:moss_slab",
-    "majesticmoss:moss_wall",
-    "majesticmoss:stackable_ender_moss_carpet",
-    "majesticmoss:stackable_oak_leaf_carpet",
-    "majesticmoss:stackable_birch_leaf_carpet",
-    "majesticmoss:stackable_spruce_leaf_carpet",
-    "majesticmoss:stackable_dark_oak_leaf_carpet",
-    "majesticmoss:stackable_acacia_leaf_carpet",
-    "majesticmoss:stackable_jungle_leaf_carpet",
-    "majesticmoss:stackable_azalea_leaf_carpet",
-    "majesticmoss:stackable_flowering_azalea_leaf_carpet"
+    "blocksplantsandgadgets:ender_moss_block",
+    "blocksplantsandgadgets:ender_moss_stairs",
+    "blocksplantsandgadgets:ender_moss_slab",
+    "blocksplantsandgadgets:ender_moss_wall",
+    "blocksplantsandgadgets:ender_moss_carpet",
+    "blocksplantsandgadgets:stackable_ender_moss_carpet",
+    "blocksplantsandgadgets:moss_stairs",
+    "blocksplantsandgadgets:moss_slab",
+    "blocksplantsandgadgets:moss_wall",
+    "blocksplantsandgadgets:stackable_ender_moss_carpet",
+    "blocksplantsandgadgets:stackable_oak_leaf_carpet",
+    "blocksplantsandgadgets:stackable_birch_leaf_carpet",
+    "blocksplantsandgadgets:stackable_spruce_leaf_carpet",
+    "blocksplantsandgadgets:stackable_dark_oak_leaf_carpet",
+    "blocksplantsandgadgets:stackable_acacia_leaf_carpet",
+    "blocksplantsandgadgets:stackable_jungle_leaf_carpet",
+    "blocksplantsandgadgets:stackable_azalea_leaf_carpet",
+    "blocksplantsandgadgets:stackable_flowering_azalea_leaf_carpet"
 
   ]
 }

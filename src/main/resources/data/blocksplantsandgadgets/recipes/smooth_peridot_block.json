@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:peridot_block"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:smooth_peridot_block",
+    "count": 4
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "majesticmoss:flowering_mossy_quartz_block"
-  },
-  "result": "majesticmoss:flowering_mossy_quartz_slab",
-  "count": 2
-}

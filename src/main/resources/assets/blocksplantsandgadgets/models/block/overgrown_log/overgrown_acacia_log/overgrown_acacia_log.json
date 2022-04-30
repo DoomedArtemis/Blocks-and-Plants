@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "north": "blocksplantsandgadgets:block/overgrown_acacia_log",
+    "east": "blocksplantsandgadgets:block/overgrown_acacia_log",
+    "south": "blocksplantsandgadgets:block/overgrown_acacia_log",
+    "west": "blocksplantsandgadgets:block/overgrown_acacia_log",
+    "up": "minecraft:block/moss_block",
+    "down": "minecraft:block/acacia_log_top",
+    "particle": "blocksplantsandgadgets:block/overgrown_acacia_log"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:bamboo_block"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:bamboo_wall",
+    "count": 6
+  }
+}
