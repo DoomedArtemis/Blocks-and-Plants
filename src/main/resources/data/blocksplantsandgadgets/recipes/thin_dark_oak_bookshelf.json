@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:dark_oak_bookshelf"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:thin_dark_oak_bookshelf",
+    "count": 6
+  }
+}

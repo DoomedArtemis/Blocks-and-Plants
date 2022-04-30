@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:spruce_bookshelf"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:thin_spruce_bookshelf",
+    "count": 6
+  }
+}

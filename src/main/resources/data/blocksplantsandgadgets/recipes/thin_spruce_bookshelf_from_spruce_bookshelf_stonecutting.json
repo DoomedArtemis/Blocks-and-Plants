@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocksplantsandgadgets:spruce_bookshelf"
+  },
+  "result": "blocksplantsandgadgets:thin_spruce_bookshelf",
+  "count": 2
+}
