@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/bookshelf/thin_bookshelf/thin_spruce_bookshelf/thin_spruce_bookshelf_slab"
+    },
+    "type=double": {
+      "model": "blocksplantsandgadgets:block/bookshelf/spruce_bookshelf"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/bookshelf/thin_bookshelf/thin_spruce_bookshelf/thin_spruce_bookshelf_slab_top"
+    }
+  }
+}

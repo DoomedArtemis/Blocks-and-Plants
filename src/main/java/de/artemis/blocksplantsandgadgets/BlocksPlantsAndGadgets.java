@@ -90,7 +90,10 @@ public class BlocksPlantsAndGadgets {
                     ModBlocks.OXIDIZED_COPPER_SLAB.get().asItem(), ModBlocks.OXIDIZED_COPPER_POST.get().asItem(), ModBlocks.OXIDIZED_CUT_COPPER_POST.get().asItem(),
                     ModBlocks.STONE_WALL.get().asItem(), ModBlocks.OAK_WALL.get().asItem(), ModBlocks.SPRUCE_WALL.get().asItem(),
                     ModBlocks.BIRCH_WALL.get().asItem(), ModBlocks.DARK_OAK_WALL.get().asItem(), ModBlocks.ACACIA_WALL.get().asItem(),
-                    ModBlocks.JUNGLE_WALL.get().asItem());
+                    ModBlocks.JUNGLE_WALL.get().asItem(), ModBlocks.THIN_BOOKSHELF.get().asItem(), ModBlocks.SPRUCE_BOOKSHELF.get().asItem(),
+                    ModBlocks.THIN_SPRUCE_BOOKSHELF.get().asItem(), ModBlocks.BIRCH_BOOKSHELF.get().asItem(), ModBlocks.THIN_BIRCH_BOOKSHELF.get().asItem(),
+                    ModBlocks.DARK_OAK_BOOKSHELF.get().asItem(), ModBlocks.THIN_DARK_OAK_BOOKSHELF.get().asItem(), ModBlocks.ACACIA_BOOKSHELF.get().asItem(),
+                    ModBlocks.THIN_ACACIA_BOOKSHELF.get().asItem(), ModBlocks.JUNGLE_BOOKSHELF.get().asItem(), ModBlocks.THIN_JUNGLE_BOOKSHELF.get().asItem());
             for (Item x : blockList) {
 
                 items.add(run, new ItemStack(x));

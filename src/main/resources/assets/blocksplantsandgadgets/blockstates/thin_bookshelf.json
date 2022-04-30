@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/bookshelf/thin_bookshelf/thin_oak_bookshelf/thin_oak_bookshelf_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/bookshelf"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/bookshelf/thin_bookshelf/thin_oak_bookshelf/thin_oak_bookshelf_slab_top"
+    }
+  }
+}

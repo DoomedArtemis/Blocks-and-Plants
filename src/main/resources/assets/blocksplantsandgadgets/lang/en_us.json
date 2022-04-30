@@ -192,6 +192,19 @@
   "block.blocksplantsandgadgets.acacia_wall": "Acacia Wall",
   "block.blocksplantsandgadgets.jungle_wall": "Jungle Wall",
 
+  "block.blocksplantsandgadgets.spruce_bookshelf": "Spruce Bookshelf",
+  "block.blocksplantsandgadgets.birch_bookshelf": "Birch Bookshelf",
+  "block.blocksplantsandgadgets.dark_oak_bookshelf": "Dark Oak Bookshelf",
+  "block.blocksplantsandgadgets.acacia_bookshelf": "Acacia Bookshelf",
+  "block.blocksplantsandgadgets.jungle_bookshelf": "jungle Bookshelf",
+
+  "block.blocksplantsandgadgets.thin_bookshelf": "Thin Bookshelf",
+  "block.blocksplantsandgadgets.thin_spruce_bookshelf": "Thin Spruce Bookshelf",
+  "block.blocksplantsandgadgets.thin_birch_bookshelf": "Thin Birch Bookshelf",
+  "block.blocksplantsandgadgets.thin_dark_oak_bookshelf": "Thin Dark Oak Bookshelf",
+  "block.blocksplantsandgadgets.thin_acacia_bookshelf": "Thin Acacia Bookshelf",
+  "block.blocksplantsandgadgets.thin_jungle_bookshelf": "Thin Jungle Bookshelf",
+
   "itemGroup.blocksplantsandgadgets": "Majestic Moss",
   "keybind.blocksplantsandgadgets.category": "blocksplantsandgadgets",
 
