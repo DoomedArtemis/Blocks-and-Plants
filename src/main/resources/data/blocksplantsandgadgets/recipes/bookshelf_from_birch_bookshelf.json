@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "blocksplantsandgadgets:birch_bookshelf"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bookshelf"
+  }
+}

@@ -205,6 +205,14 @@
   "block.blocksplantsandgadgets.thin_acacia_bookshelf": "Thin Acacia Bookshelf",
   "block.blocksplantsandgadgets.thin_jungle_bookshelf": "Thin Jungle Bookshelf",
 
+  "block.blocksplantsandgadgets.tuff_stairs": "Tuff Stairs",
+  "block.blocksplantsandgadgets.tuff_slab": "Tuff Slab",
+  "block.blocksplantsandgadgets.tuff_wall": "Tuff Wall",
+
+  "block.blocksplantsandgadgets.calcite_stairs": "Calcite Stairs",
+  "block.blocksplantsandgadgets.calcite_slab": "Calcite Slab",
+  "block.blocksplantsandgadgets.calcite_wall": "Calcite Wall",
+
   "itemGroup.blocksplantsandgadgets": "Majestic Moss",
   "keybind.blocksplantsandgadgets.category": "blocksplantsandgadgets",
 

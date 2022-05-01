@@ -14,11 +14,11 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class TooltipBlockItem extends BlockItem {
+public class BPGBlockItem extends BlockItem {
 
     public final Tooltip tooltip;
 
-    public TooltipBlockItem(Block block, Tooltip tooltip) {
+    public BPGBlockItem(Block block, Tooltip tooltip) {
         super(block, new Properties().tab(BlocksPlantsAndGadgets.INVENTORY_TAB));
         this.tooltip = tooltip;
     }
@@ -48,4 +48,7 @@ public class TooltipBlockItem extends BlockItem {
             return component;
         }
     }
+
+
+
 }

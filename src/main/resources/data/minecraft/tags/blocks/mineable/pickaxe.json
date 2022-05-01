@@ -115,6 +115,14 @@
     "blocksplantsandgadgets:weathered_cut_copper_post",
     "blocksplantsandgadgets:oxidized_cut_copper_post",
 
-    "blocksplantsandgadgets:stone_wall"
+    "blocksplantsandgadgets:stone_wall",
+
+    "blocksplantsandgadgets:tuff_stairs",
+    "blocksplantsandgadgets:tuff_slab",
+    "blocksplantsandgadgets:tuff_wall",
+
+    "blocksplantsandgadgets:calcite_stairs",
+    "blocksplantsandgadgets:calcite_slab",
+    "blocksplantsandgadgets:calcite_wall"
   ]
 }

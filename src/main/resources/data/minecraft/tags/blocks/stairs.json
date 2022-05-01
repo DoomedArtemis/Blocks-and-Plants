@@ -17,6 +17,8 @@
     "blocksplantsandgadgets:copper_stairs",
     "blocksplantsandgadgets:exposed_copper_stairs",
     "blocksplantsandgadgets:weathered_copper_stairs",
-    "blocksplantsandgadgets:oxidized_copper_stairs"
+    "blocksplantsandgadgets:oxidized_copper_stairs",
+    "blocksplantsandgadgets:tuff_stairs",
+    "blocksplantsandgadgets:calcite_stairs"
   ]
 }

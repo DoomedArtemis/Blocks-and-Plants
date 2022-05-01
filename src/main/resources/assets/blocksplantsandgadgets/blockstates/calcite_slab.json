@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/calcite/calcite_slab/calcite_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/calcite"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/calcite/calcite_slab/calcite_slab_top"
+    }
+  }
+}

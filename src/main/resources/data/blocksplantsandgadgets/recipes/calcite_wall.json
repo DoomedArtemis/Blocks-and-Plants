@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:calcite"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:calcite_wall",
+    "count": 6
+  }
+}

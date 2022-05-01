@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:tuff"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:tuff_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "blocksplantsandgadgets:dark_oak_bookshelf"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bookshelf"
+  }
+}

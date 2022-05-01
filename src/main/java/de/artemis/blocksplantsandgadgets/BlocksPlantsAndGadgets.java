@@ -93,7 +93,9 @@ public class BlocksPlantsAndGadgets {
                     ModBlocks.JUNGLE_WALL.get().asItem(), ModBlocks.THIN_BOOKSHELF.get().asItem(), ModBlocks.SPRUCE_BOOKSHELF.get().asItem(),
                     ModBlocks.THIN_SPRUCE_BOOKSHELF.get().asItem(), ModBlocks.BIRCH_BOOKSHELF.get().asItem(), ModBlocks.THIN_BIRCH_BOOKSHELF.get().asItem(),
                     ModBlocks.DARK_OAK_BOOKSHELF.get().asItem(), ModBlocks.THIN_DARK_OAK_BOOKSHELF.get().asItem(), ModBlocks.ACACIA_BOOKSHELF.get().asItem(),
-                    ModBlocks.THIN_ACACIA_BOOKSHELF.get().asItem(), ModBlocks.JUNGLE_BOOKSHELF.get().asItem(), ModBlocks.THIN_JUNGLE_BOOKSHELF.get().asItem());
+                    ModBlocks.THIN_ACACIA_BOOKSHELF.get().asItem(), ModBlocks.JUNGLE_BOOKSHELF.get().asItem(), ModBlocks.THIN_JUNGLE_BOOKSHELF.get().asItem(),
+                    ModBlocks.TUFF_STAIRS.get().asItem(), ModBlocks.TUFF_SLAB.get().asItem(), ModBlocks.TUFF_WALL.get().asItem(),
+                    ModBlocks.CALCITE_STAIRS.get().asItem(), ModBlocks.CALCITE_SLAB.get().asItem(), ModBlocks.CALCITE_WALL.get().asItem());
             for (Item x : blockList) {
 
                 items.add(run, new ItemStack(x));

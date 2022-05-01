@@ -13,11 +13,11 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class TooltipItem extends Item {
+public class BPGItem extends Item {
 
     public final Tooltip tooltip;
 
-    public TooltipItem(TooltipItem.Tooltip tooltip) {
+    public BPGItem(BPGItem.Tooltip tooltip) {
         super(new Properties().tab(BlocksPlantsAndGadgets.INVENTORY_TAB));
         this.tooltip = tooltip;
     }
