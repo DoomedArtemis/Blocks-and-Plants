@@ -23,13 +23,13 @@ public class ClientEvents {
         event.getBlockColors().register((state, level, pos, tint) -> level != null && pos != null ? BiomeColors.getAverageFoliageColor(level, pos) : FoliageColor.getDefaultColor(),
                 ModBlocks.OAK_LEAF_CARPET.get(),ModBlocks.DARK_OAK_LEAF_CARPET.get(), ModBlocks.ACACIA_LEAF_CARPET.get(), ModBlocks.JUNGLE_LEAF_CARPET.get(),
                 ModBlocks.SMALL_OAK_LEAF_CARPET.get(), ModBlocks.SMALL_DARK_OAK_LEAF_CARPET.get(), ModBlocks.SMALL_ACACIA_LEAF_CARPET.get(), ModBlocks.SMALL_JUNGLE_LEAF_CARPET.get(),
-                ModBlocks.STACKABLE_OAK_LEAF_CARPET.get(), ModBlocks.STACKABLE_DARK_OAK_LEAF_CARPET.get(), ModBlocks.STACKABLE_ACACIA_LEAF_CARPET.get(), ModBlocks.STACKABLE_JUNGLE_LEAF_CARPET.get());
+                ModBlocks.STACKABLE_OAK_LEAF_CARPET.get(), ModBlocks.STACKABLE_DARK_OAK_LEAF_CARPET.get(), ModBlocks.STACKABLE_ACACIA_LEAF_CARPET.get(), ModBlocks.STACKABLE_JUNGLE_LEAF_CARPET.get(), ModBlocks.GRASS_BLOCK_PATCH.get());
 
         event.getBlockColors().register((state, level, pos, tint) -> FoliageColor.getEvergreenColor(),
                  ModBlocks.SPRUCE_LEAF_CARPET.get(), ModBlocks.SMALL_SPRUCE_LEAF_CARPET.get(), ModBlocks.STACKABLE_SPRUCE_LEAF_CARPET.get());
 
         event.getBlockColors().register((state, level, pos, tint) -> FoliageColor.getBirchColor(),
-                ModBlocks.BIRCH_LEAF_CARPET.get(), ModBlocks.SMALL_BIRCH_LEAF_CARPET.get(), ModBlocks.STACKABLE_BIRCH_LEAF_CARPET.get());
+                ModBlocks.BIRCH_LEAF_CARPET.get(), ModBlocks.SMALL_BIRCH_LEAF_CARPET.get(), ModBlocks.STACKABLE_BIRCH_LEAF_CARPET.get(), ModBlocks.GRASS_BLOCK_PATCH.get());
 
         event.getItemColors().register((p_92687_, p_92688_) -> {
             BlockState blockstate = ((BlockItem)p_92687_.getItem()).getBlock().defaultBlockState();
@@ -39,7 +39,8 @@ public class ClientEvents {
                 ModBlocks.SMALL_OAK_LEAF_CARPET.get(), ModBlocks.SMALL_BIRCH_LEAF_CARPET.get(), ModBlocks.SMALL_SPRUCE_LEAF_CARPET.get(),
                 ModBlocks.SMALL_DARK_OAK_LEAF_CARPET.get(), ModBlocks.SMALL_ACACIA_LEAF_CARPET.get(), ModBlocks.SMALL_JUNGLE_LEAF_CARPET.get(),
                 ModBlocks.STACKABLE_OAK_LEAF_CARPET.get(), ModBlocks.STACKABLE_BIRCH_LEAF_CARPET.get(), ModBlocks.STACKABLE_SPRUCE_LEAF_CARPET.get(),
-                ModBlocks.STACKABLE_DARK_OAK_LEAF_CARPET.get(), ModBlocks.STACKABLE_ACACIA_LEAF_CARPET.get(), ModBlocks.STACKABLE_JUNGLE_LEAF_CARPET.get());
+                ModBlocks.STACKABLE_DARK_OAK_LEAF_CARPET.get(), ModBlocks.STACKABLE_ACACIA_LEAF_CARPET.get(), ModBlocks.STACKABLE_JUNGLE_LEAF_CARPET.get(),
+                ModBlocks.GRASS_BLOCK_PATCH.get(), ModBlocks.GRASS_BLOCK_PATCH.get());
     }
 
     @SubscribeEvent
@@ -102,6 +103,17 @@ public class ClientEvents {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SMALL_TOPAZ_BUD.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.MEDIUM_TOPAZ_BUD.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.LARGE_TOPAZ_BUD.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BROKEN_IRON_BARS.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BROKEN_COPPER_BARS.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GRASS_BLOCK_PATCH.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PODZOL_PATCH.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MYCELIUM_PATCH.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GOLD_CHAIN.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GOLD_BARS.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BROKEN_GOLD_BARS.get(), RenderType.cutout());
 
         KeyBindings.register();
 

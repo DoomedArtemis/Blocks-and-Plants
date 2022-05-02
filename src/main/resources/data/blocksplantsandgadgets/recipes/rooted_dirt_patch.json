@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:rooted_dirt"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:rooted_dirt_patch",
+    "count": 16
+  }
+}

@@ -49,6 +49,75 @@ public class ModBlocks {
     public static void register() {
     }
 
+    // Patches
+
+    public static final RegistryObject<StackableBlock> GRASS_BLOCK_PATCH = register("grass_block_patch",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.GRASS).strength(0.6F).sound(SoundType.GRASS)));
+
+    public static final RegistryObject<StackableBlock> DIRT_PATCH = register("dirt_patch",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.DIRT).strength(0.5F).sound(SoundType.GRAVEL)));
+
+    public static final RegistryObject<StackableBlock> COARSE_DIRT_PATCH = register("coarse_dirt_patch",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.DIRT).strength(0.5F).sound(SoundType.GRAVEL)));
+
+    public static final RegistryObject<StackableBlock> PODZOL_PATCH = register("podzol_patch",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.DIRT).strength(0.5F).sound(SoundType.GRAVEL)));
+
+    public static final RegistryObject<StackableBlock> ROOTED_DIRT_PATCH = register("rooted_dirt_patch",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.DIRT).strength(0.5F).sound(SoundType.ROOTED_DIRT)));
+
+    public static final RegistryObject<StackableBlock> SAND_PATCH = register("sand_patch",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.SAND).strength(0.5F).sound(SoundType.SAND)));
+
+    public static final RegistryObject<StackableBlock> RED_SAND_PATCH = register("red_sand_patch",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.SAND).strength(0.5F).sound(SoundType.SAND)));
+
+    public static final RegistryObject<StackableBlock> GRAVEL_PATCH = register("gravel_patch",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.SAND).strength(0.6F).sound(SoundType.GRAVEL)));
+
+    public static final RegistryObject<StackableBlock> CLAY_PATCH = register("clay_patch",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.CLAY).strength(0.6F).sound(SoundType.GRAVEL)));
+
+    public static final RegistryObject<StackableBlock> MYCELIUM_PATCH = register("mycelium_patch",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.GRASS).strength(0.6F).sound(SoundType.GRASS)));
+
+    // Bars
+
+    public static final RegistryObject<IronBarsBlock> COPPER_BARS = register("copper_bars",
+            () -> new IronBarsBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.COPPER).noOcclusion()));
+
+    public static final RegistryObject<IronBarsBlock> BROKEN_COPPER_BARS = register("broken_copper_bars",
+            () -> new IronBarsBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.COPPER).noOcclusion()));
+
+    public static final RegistryObject<IronBarsBlock> BROKEN_IRON_BARS = register("broken_iron_bars",
+            () -> new IronBarsBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL).noOcclusion()));
+
+    public static final RegistryObject<IronBarsBlock> GOLD_BARS = register("gold_bars",
+            () -> new IronBarsBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL).noOcclusion()));
+
+    public static final RegistryObject<IronBarsBlock> BROKEN_GOLD_BARS = register("broken_gold_bars",
+            () -> new IronBarsBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL).noOcclusion()));
+
+    // Chain
+
+    public static final RegistryObject<ChainBlock> COPPER_CHAIN = register("copper_chain",
+            () -> new ChainBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.CHAIN).noOcclusion()));
+
+    public static final RegistryObject<ChainBlock> GOLD_CHAIN = register("gold_chain",
+            () -> new ChainBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.CHAIN).noOcclusion()));
+
+    // Smooth Basalt
+
+    public static final RegistryObject<StairBlock> SMOOTH_BASALT_STAIRS = register("smooth_basalt_stairs",
+            () -> new StairBlock(() -> Blocks.SMOOTH_BASALT.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.25F, 4.2F).sound(SoundType.BASALT)));
+
+    public static final RegistryObject<SlabBlock> SMOOTH_BASALT_SLAB = register("smooth_basalt_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.25F, 4.2F).sound(SoundType.BASALT)));
+
+    public static final RegistryObject<WallBlock> SMOOTH_BASALT_WALL = register("smooth_basalt_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.25F, 4.2F).sound(SoundType.BASALT)));
+
     // Tuff
 
     public static final RegistryObject<StairBlock> TUFF_STAIRS = register("tuff_stairs",
@@ -347,9 +416,6 @@ public class ModBlocks {
 
     // Misc
 
-    public static final RegistryObject<ChainBlock> COPPER_CHAIN = register("copper_chain",
-            () -> new ChainBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.CHAIN).noOcclusion()));
-
     public static final RegistryObject<ChainBlock> ROPE = register("rope",
             () -> new ChainBlock(BlockBehaviour.Properties.of(Material.WOOL).strength(0.5F).sound(SoundType.WOOL).noOcclusion()));
 
@@ -374,9 +440,6 @@ public class ModBlocks {
 
     public static final RegistryObject<LanternBlock> COPPER_SOUL_LANTERN = register("copper_soul_lantern",
             () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F).sound(SoundType.LANTERN).lightLevel((p_187433_) -> 10)));
-
-    public static final RegistryObject<IronBarsBlock> COPPER_BARS = register("copper_bars",
-            () -> new IronBarsBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL).noOcclusion()));
 
     // Copper Post
 

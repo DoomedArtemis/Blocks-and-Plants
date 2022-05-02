@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:grass_block"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:grass_block_patch",
+    "count": 16
+  }
+}

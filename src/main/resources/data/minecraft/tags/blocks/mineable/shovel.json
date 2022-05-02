@@ -1,5 +1,15 @@
 {
   "replace": false,
   "values": [
+    "blocksplantsandgadgets:grass_block_patch",
+    "blocksplantsandgadgets:dirt_patch",
+    "blocksplantsandgadgets:coarse_patch",
+    "blocksplantsandgadgets:podzol_patch",
+    "blocksplantsandgadgets:rooted_dirt_patch",
+    "blocksplantsandgadgets:sand_patch",
+    "blocksplantsandgadgets:red_sand_patch",
+    "blocksplantsandgadgets:gravel_patch",
+    "blocksplantsandgadgets:clay_patch",
+    "blocksplantsandgadgets:mycelium_patch"
   ]
 }

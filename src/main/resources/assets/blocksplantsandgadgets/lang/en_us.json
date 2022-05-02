@@ -78,7 +78,6 @@
   "item.blocksplantsandgadgets.copper_nugget": "Copper Nugget",
   "block.blocksplantsandgadgets.copper_lantern": "Copper Lantern",
   "block.blocksplantsandgadgets.copper_soul_lantern": "Copper Soul Lantern",
-  "block.blocksplantsandgadgets.copper_bars": "Copper Bars",
 
   "block.blocksplantsandgadgets.smooth_amethyst_block": "Smooth Amethyst Block",
 
@@ -212,6 +211,29 @@
   "block.blocksplantsandgadgets.calcite_stairs": "Calcite Stairs",
   "block.blocksplantsandgadgets.calcite_slab": "Calcite Slab",
   "block.blocksplantsandgadgets.calcite_wall": "Calcite Wall",
+
+  "block.blocksplantsandgadgets.smooth_basalt_stairs": "Smooth Basalt Stairs",
+  "block.blocksplantsandgadgets.smooth_basalt_slab": "Smooth Basalt Slab",
+  "block.blocksplantsandgadgets.smooth_basalt_wall": "Smooth Basalt Wall",
+
+  "block.blocksplantsandgadgets.broken_iron_bars": "Broken Iron Bars",
+  "block.blocksplantsandgadgets.copper_bars": "Copper Bars",
+  "block.blocksplantsandgadgets.broken_copper_bars": "Broken Copper Bars",
+
+  "block.blocksplantsandgadgets.grass_block_patch": "Grass Block Patch",
+  "block.blocksplantsandgadgets.dirt_patch": "Dirt Patch",
+  "block.blocksplantsandgadgets.coarse_dirt_patch": "Coarse Dirt Patch",
+  "block.blocksplantsandgadgets.podzol_patch": "Podzol Patch",
+  "block.blocksplantsandgadgets.rooted_dirt_patch": "Rooted Dirt Patch",
+  "block.blocksplantsandgadgets.sand_patch": "Sand Patch",
+  "block.blocksplantsandgadgets.red_sand_patch": "Red Sand Patch",
+  "block.blocksplantsandgadgets.gravel_patch": "Gravel Patch",
+  "block.blocksplantsandgadgets.clay_patch": "Clay Patch",
+  "block.blocksplantsandgadgets.mycelium_patch": "Mycelium Patch",
+
+  "block.blocksplantsandgadgets.gold_bars": "Gold Bars",
+  "block.blocksplantsandgadgets.broken_gold_bars": "Broken Gold Bars",
+  "block.blocksplantsandgadgets.gold_chain": "Gold Chain",
 
   "itemGroup.blocksplantsandgadgets": "Majestic Moss",
   "keybind.blocksplantsandgadgets.category": "blocksplantsandgadgets",

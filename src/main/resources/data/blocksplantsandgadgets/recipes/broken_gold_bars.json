@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "blocksplantsandgadgets:gold_bars"
+    }
+  ],
+  "result": {
+    "item": "blocksplantsandgadgets:broken_gold_bars"
+  }
+}

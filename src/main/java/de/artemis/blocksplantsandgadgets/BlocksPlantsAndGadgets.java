@@ -79,8 +79,9 @@ public class BlocksPlantsAndGadgets {
                     ModBlocks.MOSSY_END_STONE_BRICK_SLAB.get().asItem(), ModBlocks.MOSSY_END_STONE_BRICK_SLAB.get().asItem(), ModBlocks.OVERGROWN_END_STONE_BRICKS.get().asItem(), ModBlocks.OVERGROWN_END_STONE_BRICK_STAIRS.get().asItem(),
                     ModBlocks.OVERGROWN_END_STONE_BRICK_SLAB.get().asItem(), ModBlocks.MOSSY_PURPUR_BLOCK.get().asItem(), ModBlocks.MOSSY_PURPUR_STAIRS.get().asItem(),
                     ModBlocks.MOSSY_PURPUR_SLAB.get().asItem(), ModBlocks.MOSSY_PURPUR_WALL.get().asItem(), ModBlocks.PURPUR_WALL.get().asItem(),
-                    ModBlocks.MOSSY_PURPUR_PILLAR.get().asItem(), ModItems.COPPER_NUGGET.get(), ModBlocks.COPPER_BARS.get().asItem(),
-                    ModBlocks.COPPER_CHAIN.get().asItem(), ModBlocks.ROPE.get().asItem(), ModBlocks.COPPER_LANTERN.get().asItem(),
+                    ModBlocks.MOSSY_PURPUR_PILLAR.get().asItem(), ModItems.COPPER_NUGGET.get(),ModBlocks.BROKEN_IRON_BARS.get().asItem(), ModBlocks.COPPER_BARS.get().asItem(), ModBlocks.BROKEN_COPPER_BARS.get().asItem(),
+                    ModBlocks.COPPER_CHAIN.get().asItem(), ModBlocks.GOLD_BARS.get().asItem(), ModBlocks.BROKEN_GOLD_BARS.get().asItem(), ModBlocks.GOLD_CHAIN.get().asItem(),
+                    ModBlocks.ROPE.get().asItem(), ModBlocks.COPPER_LANTERN.get().asItem(),
                     ModBlocks.COPPER_LANTERN_ROPE.get().asItem(), ModBlocks.COPPER_SOUL_LANTERN.get().asItem(), ModBlocks.COPPER_SOUL_LANTERN_ROPE.get().asItem(),
                     ModBlocks.LANTERN_ROPE.get().asItem(), ModBlocks.SOUL_LANTERN_ROPE.get().asItem(), ModBlocks.COPPER_STAIRS.get().asItem(),
                     ModBlocks.COPPER_SLAB.get().asItem(), ModBlocks.COPPER_POST.get().asItem(), ModBlocks.CUT_COPPER_POST.get().asItem(),
@@ -95,7 +96,12 @@ public class BlocksPlantsAndGadgets {
                     ModBlocks.DARK_OAK_BOOKSHELF.get().asItem(), ModBlocks.THIN_DARK_OAK_BOOKSHELF.get().asItem(), ModBlocks.ACACIA_BOOKSHELF.get().asItem(),
                     ModBlocks.THIN_ACACIA_BOOKSHELF.get().asItem(), ModBlocks.JUNGLE_BOOKSHELF.get().asItem(), ModBlocks.THIN_JUNGLE_BOOKSHELF.get().asItem(),
                     ModBlocks.TUFF_STAIRS.get().asItem(), ModBlocks.TUFF_SLAB.get().asItem(), ModBlocks.TUFF_WALL.get().asItem(),
-                    ModBlocks.CALCITE_STAIRS.get().asItem(), ModBlocks.CALCITE_SLAB.get().asItem(), ModBlocks.CALCITE_WALL.get().asItem());
+                    ModBlocks.CALCITE_STAIRS.get().asItem(), ModBlocks.CALCITE_SLAB.get().asItem(), ModBlocks.CALCITE_WALL.get().asItem(),
+                    ModBlocks.SMOOTH_BASALT_STAIRS.get().asItem(), ModBlocks.SMOOTH_BASALT_SLAB.get().asItem(), ModBlocks.SMOOTH_BASALT_WALL.get().asItem(),
+                    ModBlocks.GRASS_BLOCK_PATCH.get().asItem(),ModBlocks.DIRT_PATCH.get().asItem(),ModBlocks.COARSE_DIRT_PATCH.get().asItem(),
+                    ModBlocks.PODZOL_PATCH.get().asItem(),ModBlocks.ROOTED_DIRT_PATCH.get().asItem(),ModBlocks.SAND_PATCH.get().asItem(),
+                    ModBlocks.RED_SAND_PATCH.get().asItem(),ModBlocks.GRAVEL_PATCH.get().asItem(),ModBlocks.CLAY_PATCH.get().asItem(),
+                    ModBlocks.MYCELIUM_PATCH.get().asItem());
             for (Item x : blockList) {
 
                 items.add(run, new ItemStack(x));

@@ -123,6 +123,17 @@
 
     "blocksplantsandgadgets:calcite_stairs",
     "blocksplantsandgadgets:calcite_slab",
-    "blocksplantsandgadgets:calcite_wall"
+    "blocksplantsandgadgets:calcite_wall",
+
+    "blocksplantsandgadgets:smooth_basalt_stairs",
+    "blocksplantsandgadgets:smooth_basalt_slab",
+    "blocksplantsandgadgets:smooth_basalt_wall",
+
+    "blocksplantsandgadgets:broken_iron_bars",
+    "blocksplantsandgadgets:broken_copper_bars",
+
+    "blocksplantsandgadgets:gold_chain",
+    "blocksplantsandgadgets:gold_bars",
+    "blocksplantsandgadgets:broken_gold_bars"
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "blocksplantsandgadgets:copper_bars"
+    }
+  ],
+  "result": {
+    "item": "blocksplantsandgadgets:broken_copper_bars"
+  }
+}

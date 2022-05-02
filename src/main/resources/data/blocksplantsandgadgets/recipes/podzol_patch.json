@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:podzol"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:podzol_patch",
+    "count": 16
+  }
+}
