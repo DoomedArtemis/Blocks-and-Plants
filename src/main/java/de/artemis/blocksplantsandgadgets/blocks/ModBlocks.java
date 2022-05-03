@@ -197,6 +197,12 @@ public class ModBlocks {
     public static final RegistryObject<WallBlock> JUNGLE_WALL = register("jungle_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
+    public static final RegistryObject<WallBlock> CRIMSON_WALL = register("crimson_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<WallBlock> WARPED_WALL = register("warped_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
     // Stone
 
     public static final RegistryObject<WallBlock> STONE_WALL = register("stone_wall",
@@ -427,6 +433,12 @@ public class ModBlocks {
     public static final RegistryObject<LanternBlock> COPPER_SOUL_LANTERN_ROPE = register("copper_soul_lantern_rope",
             () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F).sound(SoundType.LANTERN).lightLevel((p_187433_) -> 10)));
 
+    public static final RegistryObject<LanternBlock> GOLD_LANTERN_ROPE = register("gold_lantern_rope",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F).sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15)));
+
+    public static final RegistryObject<LanternBlock> GOLD_SOUL_LANTERN_ROPE = register("gold_soul_lantern_rope",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F).sound(SoundType.LANTERN).lightLevel((p_187433_) -> 10)));
+
     public static final RegistryObject<LanternBlock> LANTERN_ROPE = register("lantern_rope",
             () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F).sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15)));
 
@@ -439,6 +451,12 @@ public class ModBlocks {
             () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F).sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15)));
 
     public static final RegistryObject<LanternBlock> COPPER_SOUL_LANTERN = register("copper_soul_lantern",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F).sound(SoundType.LANTERN).lightLevel((p_187433_) -> 10)));
+
+    public static final RegistryObject<LanternBlock> GOLD_LANTERN = register("gold_lantern",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F).sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15)));
+
+    public static final RegistryObject<LanternBlock> GOLD_SOUL_LANTERN = register("gold_soul_lantern",
             () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F).sound(SoundType.LANTERN).lightLevel((p_187433_) -> 10)));
 
     // Copper Post

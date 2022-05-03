@@ -1,10 +1,10 @@
 {
   "variants": {
     "hanging=false": {
-      "model": "blocksplantsandgadgets:block/copper_lantern/lantern_rope"
+      "model": "blocksplantsandgadgets:block/lantern/lantern/lantern_rope"
     },
     "hanging=true": {
-      "model": "blocksplantsandgadgets:block/copper_lantern/lantern_hanging_rope"
+      "model": "blocksplantsandgadgets:block/lantern/lantern/lantern_hanging_rope"
     }
   }
 }

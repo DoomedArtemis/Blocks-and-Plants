@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XyX",
+    "XXX"
+  ],
+  "key": {
+    "y": {
+      "item": "minecraft:torch"
+    },
+    "X": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:gold_lantern"
+  }
+}

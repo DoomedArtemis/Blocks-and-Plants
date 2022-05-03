@@ -1,0 +1,6 @@
+{
+  "parent": "blocksplantsandgadgets:block/template/template_hanging_lantern_rope",
+  "textures": {
+    "lantern": "blocksplantsandgadgets:block/gold_soul_lantern_rope"
+  }
+}

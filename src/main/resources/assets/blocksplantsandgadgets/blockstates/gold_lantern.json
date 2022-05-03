@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "blocksplantsandgadgets:block/lantern/gold_lantern/gold_lantern"
+    },
+    "hanging=true": {
+      "model": "blocksplantsandgadgets:block/lantern/gold_lantern/gold_lantern_hanging"
+    }
+  }
+}

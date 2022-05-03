@@ -115,6 +115,12 @@ public class ClientEvents {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.GOLD_BARS.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.BROKEN_GOLD_BARS.get(), RenderType.cutout());
 
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GOLD_LANTERN.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GOLD_LANTERN_ROPE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GOLD_SOUL_LANTERN.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GOLD_SOUL_LANTERN_ROPE.get(), RenderType.cutout());
+
+
         KeyBindings.register();
 
     }

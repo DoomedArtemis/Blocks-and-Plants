@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "blocksplantsandgadgets:gold_soul_lantern"
+    },
+    {
+      "item": "blocksplantsandgadgets:rope"
+    }
+  ],
+  "result": {
+    "item": "blocksplantsandgadgets:gold_soul_lantern_rope",
+    "count": 1
+  }
+}

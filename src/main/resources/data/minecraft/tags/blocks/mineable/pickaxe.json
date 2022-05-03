@@ -134,6 +134,11 @@
 
     "blocksplantsandgadgets:gold_chain",
     "blocksplantsandgadgets:gold_bars",
-    "blocksplantsandgadgets:broken_gold_bars"
+    "blocksplantsandgadgets:broken_gold_bars",
+
+    "blocksplantsandgadgets:gold_lantern",
+    "blocksplantsandgadgets:gold_lantern_rope",
+    "blocksplantsandgadgets:gold_soul_lantern",
+    "blocksplantsandgadgets:gold_soul_lantern_rope"
   ]
 }

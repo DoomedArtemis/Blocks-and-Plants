@@ -190,6 +190,8 @@
   "block.blocksplantsandgadgets.dark_oak_wall": "Dark Oak Wall",
   "block.blocksplantsandgadgets.acacia_wall": "Acacia Wall",
   "block.blocksplantsandgadgets.jungle_wall": "Jungle Wall",
+  "block.blocksplantsandgadgets.crimson_wall": "Crimson Wall",
+  "block.blocksplantsandgadgets.warped_wall": "Warped Wall",
 
   "block.blocksplantsandgadgets.spruce_bookshelf": "Spruce Bookshelf",
   "block.blocksplantsandgadgets.birch_bookshelf": "Birch Bookshelf",
@@ -234,6 +236,12 @@
   "block.blocksplantsandgadgets.gold_bars": "Gold Bars",
   "block.blocksplantsandgadgets.broken_gold_bars": "Broken Gold Bars",
   "block.blocksplantsandgadgets.gold_chain": "Gold Chain",
+  "block.blocksplantsandgadgets.gold_lantern": "Gold Lantern",
+  "block.blocksplantsandgadgets.gold_soul_lantern": "Gold Soul Lantern",
+  "block.blocksplantsandgadgets.gold_lantern_rope": "Gold Lantern (Rope)",
+  "block.blocksplantsandgadgets.gold_soul_lantern_rope": "Gold Soul Lantern (Rope)",
+
+
 
   "itemGroup.blocksplantsandgadgets": "Majestic Moss",
   "keybind.blocksplantsandgadgets.category": "blocksplantsandgadgets",
