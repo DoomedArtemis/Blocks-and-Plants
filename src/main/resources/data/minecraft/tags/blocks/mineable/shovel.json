@@ -10,6 +10,9 @@
     "blocksplantsandgadgets:red_sand_patch",
     "blocksplantsandgadgets:gravel_patch",
     "blocksplantsandgadgets:clay_patch",
-    "blocksplantsandgadgets:mycelium_patch"
+    "blocksplantsandgadgets:mycelium_patch",
+    "blocksplantsandgadgets:soul_sand_patch",
+    "blocksplantsandgadgets:soul_soil_patch",
+    "blocksplantsandgadgets:dirt_path_patch"
   ]
 }

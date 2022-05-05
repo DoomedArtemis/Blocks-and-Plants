@@ -103,7 +103,8 @@ public class BlocksPlantsAndGadgets {
                     ModBlocks.GRASS_BLOCK_PATCH.get().asItem(),ModBlocks.DIRT_PATCH.get().asItem(),ModBlocks.COARSE_DIRT_PATCH.get().asItem(),
                     ModBlocks.PODZOL_PATCH.get().asItem(),ModBlocks.ROOTED_DIRT_PATCH.get().asItem(),ModBlocks.SAND_PATCH.get().asItem(),
                     ModBlocks.RED_SAND_PATCH.get().asItem(),ModBlocks.GRAVEL_PATCH.get().asItem(),ModBlocks.CLAY_PATCH.get().asItem(),
-                    ModBlocks.MYCELIUM_PATCH.get().asItem());
+                    ModBlocks.MYCELIUM_PATCH.get().asItem(), ModBlocks.SOUL_SAND_PATCH.get().asItem(), ModBlocks.SOUL_SOIL_PATCH.get().asItem(),
+                    ModBlocks.DIRT_PATH_PATCH.get().asItem());
             for (Item x : blockList) {
 
                 items.add(run, new ItemStack(x));

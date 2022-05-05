@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:soul_soil"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:soul_soil_patch",
+    "count": 16
+  }
+}

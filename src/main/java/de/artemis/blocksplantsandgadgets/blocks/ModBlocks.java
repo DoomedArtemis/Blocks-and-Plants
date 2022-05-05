@@ -81,6 +81,15 @@ public class ModBlocks {
     public static final RegistryObject<StackableBlock> MYCELIUM_PATCH = register("mycelium_patch",
             () -> new StackableBlock(BlockBehaviour.Properties.of(Material.GRASS).strength(0.6F).sound(SoundType.GRASS)));
 
+    public static final RegistryObject<StackableBlock> SOUL_SAND_PATCH = register("soul_sand_patch",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.SAND).strength(0.5F).speedFactor(0.4F).sound(SoundType.SOUL_SAND)));
+
+    public static final RegistryObject<StackableBlock> SOUL_SOIL_PATCH = register("soul_soil_patch",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.DIRT).strength(0.5F).sound(SoundType.SOUL_SOIL)));
+
+    public static final RegistryObject<StackablePathBlock> DIRT_PATH_PATCH = register("dirt_path_patch",
+            () -> new StackablePathBlock(BlockBehaviour.Properties.of(Material.DIRT).strength(0.65F).sound(SoundType.GRASS)));
+
     // Bars
 
     public static final RegistryObject<IronBarsBlock> COPPER_BARS = register("copper_bars",

@@ -232,6 +232,9 @@
   "block.blocksplantsandgadgets.gravel_patch": "Gravel Patch",
   "block.blocksplantsandgadgets.clay_patch": "Clay Patch",
   "block.blocksplantsandgadgets.mycelium_patch": "Mycelium Patch",
+  "block.blocksplantsandgadgets.soul_sand_patch": "Soul Sand Patch",
+  "block.blocksplantsandgadgets.soul_soil_patch": "Soul Soil Patch",
+  "block.blocksplantsandgadgets.dirt_path_patch": "Dirt Path Patch",
 
   "block.blocksplantsandgadgets.gold_bars": "Gold Bars",
   "block.blocksplantsandgadgets.broken_gold_bars": "Broken Gold Bars",
@@ -240,8 +243,6 @@
   "block.blocksplantsandgadgets.gold_soul_lantern": "Gold Soul Lantern",
   "block.blocksplantsandgadgets.gold_lantern_rope": "Gold Lantern (Rope)",
   "block.blocksplantsandgadgets.gold_soul_lantern_rope": "Gold Soul Lantern (Rope)",
-
-
 
   "itemGroup.blocksplantsandgadgets": "Majestic Moss",
   "keybind.blocksplantsandgadgets.category": "blocksplantsandgadgets",

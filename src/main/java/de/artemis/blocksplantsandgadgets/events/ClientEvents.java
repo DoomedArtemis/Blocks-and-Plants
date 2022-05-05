@@ -110,6 +110,7 @@ public class ClientEvents {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.GRASS_BLOCK_PATCH.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PODZOL_PATCH.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.MYCELIUM_PATCH.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DIRT_PATH_PATCH.get(), RenderType.cutout());
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.GOLD_CHAIN.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.GOLD_BARS.get(), RenderType.cutout());
