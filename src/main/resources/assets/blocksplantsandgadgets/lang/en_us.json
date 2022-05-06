@@ -176,6 +176,8 @@
   "block.blocksplantsandgadgets.overgrown_dark_oak_log": "Overgrown Dark Oak Log",
   "block.blocksplantsandgadgets.overgrown_acacia_log": "Overgrown Acacia Log",
   "block.blocksplantsandgadgets.overgrown_jungle_log": "Overgrown Jungle Log",
+  "block.blocksplantsandgadgets.overgrown_crimson_stem": "Overgrown Crimson Stem",
+  "block.blocksplantsandgadgets.overgrown_warped_stem": "Overgrown Warped Stem",
 
   "block.blocksplantsandgadgets.bamboo_block": "Bamboo Block",
   "block.blocksplantsandgadgets.bamboo_wall": "Bamboo Wall",
@@ -198,6 +200,8 @@
   "block.blocksplantsandgadgets.dark_oak_bookshelf": "Dark Oak Bookshelf",
   "block.blocksplantsandgadgets.acacia_bookshelf": "Acacia Bookshelf",
   "block.blocksplantsandgadgets.jungle_bookshelf": "Jungle Bookshelf",
+  "block.blocksplantsandgadgets.crimson_bookshelf": "Crimson Bookshelf",
+  "block.blocksplantsandgadgets.warped_bookshelf": "Warped Bookshelf",
 
   "block.blocksplantsandgadgets.thin_bookshelf": "Thin Bookshelf",
   "block.blocksplantsandgadgets.thin_spruce_bookshelf": "Thin Spruce Bookshelf",
@@ -205,6 +209,8 @@
   "block.blocksplantsandgadgets.thin_dark_oak_bookshelf": "Thin Dark Oak Bookshelf",
   "block.blocksplantsandgadgets.thin_acacia_bookshelf": "Thin Acacia Bookshelf",
   "block.blocksplantsandgadgets.thin_jungle_bookshelf": "Thin Jungle Bookshelf",
+  "block.blocksplantsandgadgets.thin_crimson_bookshelf": "Thin Crimson Bookshelf",
+  "block.blocksplantsandgadgets.thin_warped_bookshelf": "Thin Warped Bookshelf",
 
   "block.blocksplantsandgadgets.tuff_stairs": "Tuff Stairs",
   "block.blocksplantsandgadgets.tuff_slab": "Tuff Slab",
@@ -243,6 +249,11 @@
   "block.blocksplantsandgadgets.gold_soul_lantern": "Gold Soul Lantern",
   "block.blocksplantsandgadgets.gold_lantern_rope": "Gold Lantern (Rope)",
   "block.blocksplantsandgadgets.gold_soul_lantern_rope": "Gold Soul Lantern (Rope)",
+
+  "block.blocksplantsandgadgets.crimson_nylium_carpet": "Crimson Nylium Carpet",
+  "block.blocksplantsandgadgets.stackable_crimson_nylium_carpet": "Stackable Crimson Nylium Carpet",
+  "block.blocksplantsandgadgets.warped_nylium_carpet": "Warped Nylium Carpet",
+  "block.blocksplantsandgadgets.stackable_warped_nylium_carpet": "Stackable Warped Nylium Carpet",
 
   "itemGroup.blocksplantsandgadgets": "Majestic Moss",
   "keybind.blocksplantsandgadgets.category": "blocksplantsandgadgets",

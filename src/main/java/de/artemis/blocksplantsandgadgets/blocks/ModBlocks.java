@@ -14,6 +14,7 @@ import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.Stack;
 import java.util.function.Supplier;
 
 import static net.minecraft.world.level.block.Blocks.*;
@@ -49,6 +50,20 @@ public class ModBlocks {
     public static void register() {
     }
 
+    // Nylium
+
+    public static final RegistryObject<CarpetBlock> CRIMSON_NYLIUM_CARPET = register("crimson_nylium_carpet",
+            () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.PLANT).strength(0.1F).sound(SoundType.NYLIUM)));
+
+    public static final RegistryObject<StackableBlock> STACKABLE_CRIMSON_NYLIUM_CARPET = register("stackable_crimson_nylium_carpet",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.PLANT).strength(0.1F).sound(SoundType.NYLIUM)));
+
+    public static final RegistryObject<CarpetBlock> WARPED_NYLIUM_CARPET = register("warped_nylium_carpet",
+            () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.PLANT).strength(0.1F).sound(SoundType.NYLIUM)));
+
+    public static final RegistryObject<StackableBlock> STACKABLE_WARPED_NYLIUM_CARPET = register("stackable_warped_nylium_carpet",
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.PLANT).strength(0.1F).sound(SoundType.NYLIUM)));
+
     // Patches
 
     public static final RegistryObject<StackableBlock> GRASS_BLOCK_PATCH = register("grass_block_patch",
@@ -81,8 +96,8 @@ public class ModBlocks {
     public static final RegistryObject<StackableBlock> MYCELIUM_PATCH = register("mycelium_patch",
             () -> new StackableBlock(BlockBehaviour.Properties.of(Material.GRASS).strength(0.6F).sound(SoundType.GRASS)));
 
-    public static final RegistryObject<StackableBlock> SOUL_SAND_PATCH = register("soul_sand_patch",
-            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.SAND).strength(0.5F).speedFactor(0.4F).sound(SoundType.SOUL_SAND)));
+    public static final RegistryObject<StackableSoulSandBlock> SOUL_SAND_PATCH = register("soul_sand_patch",
+            () -> new StackableSoulSandBlock(BlockBehaviour.Properties.of(Material.SAND).strength(0.5F).speedFactor(0.4F).sound(SoundType.SOUL_SAND)));
 
     public static final RegistryObject<StackableBlock> SOUL_SOIL_PATCH = register("soul_soil_patch",
             () -> new StackableBlock(BlockBehaviour.Properties.of(Material.DIRT).strength(0.5F).sound(SoundType.SOUL_SOIL)));
@@ -168,6 +183,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> JUNGLE_BOOKSHELF = register("jungle_bookshelf",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
+    public static final RegistryObject<Block> CRIMSON_BOOKSHELF = register("crimson_bookshelf",
+            () -> new Block(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> WARPED_BOOKSHELF = register("warped_bookshelf",
+            () -> new Block(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Thin Bookshelf
+
     public static final RegistryObject<SlabBlock> THIN_BOOKSHELF = register("thin_bookshelf",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
@@ -185,6 +208,12 @@ public class ModBlocks {
 
     public static final RegistryObject<SlabBlock> THIN_JUNGLE_BOOKSHELF = register("thin_jungle_bookshelf",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<SlabBlock> THIN_CRIMSON_BOOKSHELF = register("thin_crimson_bookshelf",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<SlabBlock> THIN_WARPED_BOOKSHELF = register("thin_warped_bookshelf",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
     // Wood Wall
 
@@ -724,7 +753,7 @@ public class ModBlocks {
     public static final RegistryObject<SlabBlock> OVERGROWN_QUARTZ_SLAB = register("overgrown_quartz_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(0.8F).sound(SoundType.STONE)));
 
-    // Overgrown Oak Log
+    // Overgrown Log
 
     public static final RegistryObject<OvergrownLogBlock> OVERGROWN_OAK_LOG = register("overgrown_oak_log",
             () -> new OvergrownLogBlock(BlockBehaviour.Properties.copy(OAK_LOG)));
@@ -743,6 +772,12 @@ public class ModBlocks {
 
     public static final RegistryObject<OvergrownLogBlock> OVERGROWN_JUNGLE_LOG = register("overgrown_jungle_log",
             () -> new OvergrownLogBlock(BlockBehaviour.Properties.copy(JUNGLE_LOG)));
+
+    public static final RegistryObject<OvergrownLogBlock> OVERGROWN_CRIMSON_STEM = register("overgrown_crimson_stem",
+            () -> new OvergrownLogBlock(BlockBehaviour.Properties.copy(CRIMSON_STEM)));
+
+    public static final RegistryObject<OvergrownLogBlock> OVERGROWN_WARPED_STEM= register("overgrown_warped_stem",
+            () -> new OvergrownLogBlock(BlockBehaviour.Properties.copy(WARPED_STEM)));
 
     // Bamboo
 

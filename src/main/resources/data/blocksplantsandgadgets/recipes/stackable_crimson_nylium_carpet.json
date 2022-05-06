@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:crimson_nylium_carpet"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:stackable_crimson_nylium_carpet",
+    "count": 2
+  }
+}

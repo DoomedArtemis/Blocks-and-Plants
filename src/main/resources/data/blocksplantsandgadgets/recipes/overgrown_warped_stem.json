@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "minecraft:warped_stem"
+    },
+    {
+      "item": "blocksplantsandgadgets:warped_nylium_carpet"
+    }
+  ],
+  "result": {
+    "item": "blocksplantsandgadgets:overgrown_warped_stem"
+  }
+}

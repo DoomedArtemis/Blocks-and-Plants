@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "blocksplantsandgadgets:block/overgrown_log/overgrown_warped_stem/overgrown_warped_stem_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "blocksplantsandgadgets:block/overgrown_log/overgrown_warped_stem/overgrown_warped_stem"
+    },
+    "axis=z": {
+      "model": "blocksplantsandgadgets:block/overgrown_log/overgrown_warped_stem/overgrown_warped_stem_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "north": "blocksplantsandgadgets:block/overgrown_crimson_stem",
+    "east": "blocksplantsandgadgets:block/overgrown_crimson_stem",
+    "south": "blocksplantsandgadgets:block/overgrown_crimson_stem",
+    "west": "blocksplantsandgadgets:block/overgrown_crimson_stem",
+    "up": "minecraft:block/crimson_nylium",
+    "down": "minecraft:block/crimson_stem_top",
+    "particle": "blocksplantsandgadgets:block/overgrown_crimson_stem"
+  }
+}

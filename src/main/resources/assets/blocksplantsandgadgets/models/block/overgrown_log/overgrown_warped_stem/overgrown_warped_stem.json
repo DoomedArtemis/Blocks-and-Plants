@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "north": "blocksplantsandgadgets:block/overgrown_warped_stem",
+    "east": "blocksplantsandgadgets:block/overgrown_warped_stem",
+    "south": "blocksplantsandgadgets:block/overgrown_warped_stem",
+    "west": "blocksplantsandgadgets:block/overgrown_warped_stem",
+    "up": "minecraft:block/warped_nylium",
+    "down": "minecraft:block/warped_stem_top",
+    "particle": "blocksplantsandgadgets:block/overgrown_warped_stem"
+  }
+}

@@ -18,7 +18,10 @@
     "blocksplantsandgadgets:stackable_acacia_leaf_carpet",
     "blocksplantsandgadgets:stackable_jungle_leaf_carpet",
     "blocksplantsandgadgets:stackable_azalea_leaf_carpet",
-    "blocksplantsandgadgets:stackable_flowering_azalea_leaf_carpet"
-
+    "blocksplantsandgadgets:stackable_flowering_azalea_leaf_carpet",
+    "blocksplantsandgadgets:crimson_nylium_carpet",
+    "blocksplantsandgadgets:warped_nylium_carpet",
+    "blocksplantsandgadgets:stackable_crimson_nylium_carpet",
+    "blocksplantsandgadgets:stackable_warped_nylium_carpet"
   ]
 }

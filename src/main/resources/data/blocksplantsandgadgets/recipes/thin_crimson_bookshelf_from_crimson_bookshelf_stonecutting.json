@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocksplantsandgadgets:crimson_bookshelf"
+  },
+  "result": "blocksplantsandgadgets:thin_crimson_bookshelf",
+  "count": 2
+}

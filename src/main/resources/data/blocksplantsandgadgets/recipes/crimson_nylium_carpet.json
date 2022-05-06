@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_nylium"
+    }
+  ],
+  "result": {
+    "item": "blocksplantsandgadgets:crimson_nylium_carpet",
+    "count": 2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:warped_nylium_carpet"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:stackable_warped_nylium_carpet",
+    "count": 2
+  }
+}

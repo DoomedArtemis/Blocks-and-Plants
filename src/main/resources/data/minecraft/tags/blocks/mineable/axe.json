@@ -7,6 +7,8 @@
     "blocksplantsandgadgets:overgrown_dark_oak_log",
     "blocksplantsandgadgets:overgrown_acacia_log",
     "blocksplantsandgadgets:overgrown_jungle_log",
+    "blocksplantsandgadgets:overgrown_crimson_stem",
+    "blocksplantsandgadgets:overgrown_warped_stem",
     "blocksplantsandgadgets:ender_bush",
     "blocksplantsandgadgets:flowering_ender_bush",
     "blocksplantsandgadgets:bamboo_block",
@@ -26,11 +28,15 @@
     "blocksplantsandgadgets:dark_oak_bookshelf",
     "blocksplantsandgadgets:acacia_bookshelf",
     "blocksplantsandgadgets:jungle_bookshelf",
+    "blocksplantsandgadgets:crimson_bookshelf",
+    "blocksplantsandgadgets:warped_bookshelf",
     "blocksplantsandgadgets:thin_bookshelf",
     "blocksplantsandgadgets:thin_spruce_bookshelf",
     "blocksplantsandgadgets:thin_birch_bookshelf",
     "blocksplantsandgadgets:thin_dark_oak_bookshelf",
     "blocksplantsandgadgets:thin_acacia_bookshelf",
-    "blocksplantsandgadgets:thin_jungle_bookshelf"
+    "blocksplantsandgadgets:thin_jungle_bookshelf",
+    "blocksplantsandgadgets:thin_crimson_bookshelf",
+    "blocksplantsandgadgets:thin_warped_bookshelf"
   ]
 }
