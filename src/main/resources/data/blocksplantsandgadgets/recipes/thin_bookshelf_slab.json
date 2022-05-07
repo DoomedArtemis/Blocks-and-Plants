@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:bookshelf"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:bookshelf_slab",
+    "count": 6
+  }
+}

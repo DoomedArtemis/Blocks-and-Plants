@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/bookshelf/bookshelf_slab/bookshelf_slab/bookshelf_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/bookshelf"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/bookshelf/bookshelf_slab/bookshelf_slab/bookshelf_slab_top"
+    }
+  }
+}

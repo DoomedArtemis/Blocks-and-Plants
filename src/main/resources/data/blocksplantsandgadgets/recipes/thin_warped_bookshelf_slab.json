@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:warped_bookshelf"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:warped_bookshelf_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/bookshelf/bookshelf_slab/crimson_bookshelf_slab/crimson_bookshelf_slab"
+    },
+    "type=double": {
+      "model": "blocksplantsandgadgets:block/bookshelf/crimson_bookshelf"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/bookshelf/bookshelf_slab/crimson_bookshelf_slab/crimson_bookshelf_slab_top"
+    }
+  }
+}

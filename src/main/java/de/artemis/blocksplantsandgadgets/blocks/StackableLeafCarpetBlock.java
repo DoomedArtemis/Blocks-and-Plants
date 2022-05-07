@@ -1,6 +1,8 @@
 package de.artemis.blocksplantsandgadgets.blocks;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.RenderShape;
@@ -41,4 +43,16 @@ public class StackableLeafCarpetBlock extends SnowLayerBlock {
     public boolean useShapeForLightOcclusion(@NotNull BlockState state) {
         return false;
     }
+
+    public boolean canBeReplaced(BlockState blockState, BlockPlaceContext blockPlaceContext) {
+        int i = blockState.getValue(LAYERS);
+        if (blockPlaceContext.getItemInHand().is(this.asItem()) && i < 8) {
+            if (blockPlaceContext.replacingClickedOnBlock()) {
+                return blockPlaceContext.getClickedFace() == Direction.UP;
+            }
+            return true;
+        }
+        return false;
+    }
+
 }

@@ -14,7 +14,6 @@ import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.util.Stack;
 import java.util.function.Supplier;
 
 import static net.minecraft.world.level.block.Blocks.*;
@@ -53,16 +52,16 @@ public class ModBlocks {
     // Nylium
 
     public static final RegistryObject<CarpetBlock> CRIMSON_NYLIUM_CARPET = register("crimson_nylium_carpet",
-            () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.PLANT).strength(0.1F).sound(SoundType.NYLIUM)));
+            () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.MOSS).strength(0.1F).sound(SoundType.NYLIUM)));
 
     public static final RegistryObject<StackableBlock> STACKABLE_CRIMSON_NYLIUM_CARPET = register("stackable_crimson_nylium_carpet",
-            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.PLANT).strength(0.1F).sound(SoundType.NYLIUM)));
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.MOSS).strength(0.1F).sound(SoundType.NYLIUM)));
 
     public static final RegistryObject<CarpetBlock> WARPED_NYLIUM_CARPET = register("warped_nylium_carpet",
-            () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.PLANT).strength(0.1F).sound(SoundType.NYLIUM)));
+            () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.MOSS).strength(0.1F).sound(SoundType.NYLIUM)));
 
     public static final RegistryObject<StackableBlock> STACKABLE_WARPED_NYLIUM_CARPET = register("stackable_warped_nylium_carpet",
-            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.PLANT).strength(0.1F).sound(SoundType.NYLIUM)));
+            () -> new StackableBlock(BlockBehaviour.Properties.of(Material.MOSS).strength(0.1F).sound(SoundType.NYLIUM)));
 
     // Patches
 
@@ -168,52 +167,53 @@ public class ModBlocks {
 
     // Bookshelf
 
-    public static final RegistryObject<Block> SPRUCE_BOOKSHELF = register("spruce_bookshelf",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfBlock> SPRUCE_BOOKSHELF = register("spruce_bookshelf",
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
-    public static final RegistryObject<Block> BIRCH_BOOKSHELF = register("birch_bookshelf",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfBlock> BIRCH_BOOKSHELF = register("birch_bookshelf",
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
-    public static final RegistryObject<Block> DARK_OAK_BOOKSHELF = register("dark_oak_bookshelf",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfBlock> DARK_OAK_BOOKSHELF = register("dark_oak_bookshelf",
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
-    public static final RegistryObject<Block> ACACIA_BOOKSHELF = register("acacia_bookshelf",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfBlock> ACACIA_BOOKSHELF = register("acacia_bookshelf",
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
-    public static final RegistryObject<Block> JUNGLE_BOOKSHELF = register("jungle_bookshelf",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfBlock> JUNGLE_BOOKSHELF = register("jungle_bookshelf",
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
-    public static final RegistryObject<Block> CRIMSON_BOOKSHELF = register("crimson_bookshelf",
-            () -> new Block(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfBlock> CRIMSON_BOOKSHELF = register("crimson_bookshelf",
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
-    public static final RegistryObject<Block> WARPED_BOOKSHELF = register("warped_bookshelf",
-            () -> new Block(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfBlock> WARPED_BOOKSHELF = register("warped_bookshelf",
 
-    // Thin Bookshelf
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
-    public static final RegistryObject<SlabBlock> THIN_BOOKSHELF = register("thin_bookshelf",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+    // Bookshelf Slab
 
-    public static final RegistryObject<SlabBlock> THIN_SPRUCE_BOOKSHELF = register("thin_spruce_bookshelf",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfSlabBlock> BOOKSHELF_SLAB = register("bookshelf_slab",
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
-    public static final RegistryObject<SlabBlock> THIN_BIRCH_BOOKSHELF = register("thin_birch_bookshelf",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfSlabBlock> SPRUCE_BOOKSHELF_SLAB = register("spruce_bookshelf_slab",
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
-    public static final RegistryObject<SlabBlock> THIN_DARK_OAK_BOOKSHELF = register("thin_dark_oak_bookshelf",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfSlabBlock> BIRCH_BOOKSHELF_SLAB = register("birch_bookshelf_slab",
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
-    public static final RegistryObject<SlabBlock> THIN_ACACIA_BOOKSHELF = register("thin_acacia_bookshelf",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfSlabBlock> DARK_OAK_BOOKSHELF_SLAB = register("dark_oak_bookshelf_slab",
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
-    public static final RegistryObject<SlabBlock> THIN_JUNGLE_BOOKSHELF = register("thin_jungle_bookshelf",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfSlabBlock> ACACIA_BOOKSHELF_SLAB = register("acacia_bookshelf_slab",
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
-    public static final RegistryObject<SlabBlock> THIN_CRIMSON_BOOKSHELF = register("thin_crimson_bookshelf",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfSlabBlock> JUNGLE_BOOKSHELF_SLAB = register("jungle_bookshelf_slab",
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
-    public static final RegistryObject<SlabBlock> THIN_WARPED_BOOKSHELF = register("thin_warped_bookshelf",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<BookshelfSlabBlock> CRIMSON_BOOKSHELF_SLAB = register("crimson_bookshelf_slab",
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<BookshelfSlabBlock> WARPED_BOOKSHELF_SLAB = register("warped_bookshelf_slab",
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
 
     // Wood Wall
 

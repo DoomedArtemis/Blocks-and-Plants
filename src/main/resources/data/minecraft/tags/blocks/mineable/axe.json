@@ -30,13 +30,13 @@
     "blocksplantsandgadgets:jungle_bookshelf",
     "blocksplantsandgadgets:crimson_bookshelf",
     "blocksplantsandgadgets:warped_bookshelf",
-    "blocksplantsandgadgets:thin_bookshelf",
-    "blocksplantsandgadgets:thin_spruce_bookshelf",
-    "blocksplantsandgadgets:thin_birch_bookshelf",
-    "blocksplantsandgadgets:thin_dark_oak_bookshelf",
-    "blocksplantsandgadgets:thin_acacia_bookshelf",
-    "blocksplantsandgadgets:thin_jungle_bookshelf",
-    "blocksplantsandgadgets:thin_crimson_bookshelf",
-    "blocksplantsandgadgets:thin_warped_bookshelf"
+    "blocksplantsandgadgets:bookshelf_slab",
+    "blocksplantsandgadgets:spruce_bookshelf_slab",
+    "blocksplantsandgadgets:birch_bookshelf_slab",
+    "blocksplantsandgadgets:dark_oak_bookshelf_slab",
+    "blocksplantsandgadgets:acacia_bookshelf_slab",
+    "blocksplantsandgadgets:jungle_bookshelf_slab",
+    "blocksplantsandgadgets:crimson_bookshelf_slab",
+    "blocksplantsandgadgets:warped_bookshelf_slab"
   ]
 }

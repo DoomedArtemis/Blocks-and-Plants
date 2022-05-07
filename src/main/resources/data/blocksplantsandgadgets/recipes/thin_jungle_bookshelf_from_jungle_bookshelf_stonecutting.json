@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocksplantsandgadgets:jungle_bookshelf"
-  },
-  "result": "blocksplantsandgadgets:thin_jungle_bookshelf",
-  "count": 2
-}

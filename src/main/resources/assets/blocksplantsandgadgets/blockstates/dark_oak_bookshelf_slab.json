@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/bookshelf/bookshelf_slab/dark_oak_bookshelf_slab/dark_oak_bookshelf_slab"
+    },
+    "type=double": {
+      "model": "blocksplantsandgadgets:block/bookshelf/dark_oak_bookshelf"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/bookshelf/bookshelf_slab/dark_oak_bookshelf_slab/dark_oak_bookshelf_slab_top"
+    }
+  }
+}

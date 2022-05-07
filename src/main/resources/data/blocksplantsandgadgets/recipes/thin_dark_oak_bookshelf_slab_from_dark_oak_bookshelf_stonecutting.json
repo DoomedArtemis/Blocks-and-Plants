@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocksplantsandgadgets:dark_oak_bookshelf"
+  },
+  "result": "blocksplantsandgadgets:dark_oak_bookshelf_slab",
+  "count": 2
+}

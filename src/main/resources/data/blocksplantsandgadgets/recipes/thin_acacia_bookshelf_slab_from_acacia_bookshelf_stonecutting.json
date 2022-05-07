@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocksplantsandgadgets:acacia_bookshelf"
+  },
+  "result": "blocksplantsandgadgets:acacia_bookshelf_slab",
+  "count": 2
+}

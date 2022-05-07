@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocksplantsandgadgets:birch_bookshelf"
-  },
-  "result": "blocksplantsandgadgets:thin_birch_bookshelf",
-  "count": 2
-}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocksplantsandgadgets:warped_bookshelf"
+  },
+  "result": "blocksplantsandgadgets:warped_bookshelf_slab",
+  "count": 2
+}

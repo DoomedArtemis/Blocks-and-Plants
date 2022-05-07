@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:crimson_bookshelf"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:crimson_bookshelf_slab",
+    "count": 6
+  }
+}
