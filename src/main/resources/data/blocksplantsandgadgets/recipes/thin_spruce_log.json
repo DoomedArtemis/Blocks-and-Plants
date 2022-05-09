@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:spruce_log"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:thin_spruce_log",
+    "count": 12
+  }
+}

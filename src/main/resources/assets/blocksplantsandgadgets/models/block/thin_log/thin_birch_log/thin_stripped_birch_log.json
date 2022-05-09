@@ -1,0 +1,9 @@
+{
+  "parent": "blocksplantsandgadgets:block/template/template_post",
+  "textures": {
+    "wall": "minecraft:block/stripped_birch_log",
+    "up": "minecraft:block/stripped_birch_log_top",
+    "down": "minecraft:block/stripped_birch_log_top"
+  }
+}
+

@@ -1,0 +1,9 @@
+{
+  "parent": "blocksplantsandgadgets:block/template/template_post",
+  "textures": {
+    "wall": "minecraft:block/warped_stem",
+    "up": "minecraft:block/warped_stem_top",
+    "down": "minecraft:block/warped_stem_top"
+  }
+}
+

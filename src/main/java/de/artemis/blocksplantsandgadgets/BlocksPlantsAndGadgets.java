@@ -108,7 +108,12 @@ public class BlocksPlantsAndGadgets {
                     ModBlocks.PODZOL_PATCH.get().asItem(),ModBlocks.ROOTED_DIRT_PATCH.get().asItem(),ModBlocks.SAND_PATCH.get().asItem(),
                     ModBlocks.RED_SAND_PATCH.get().asItem(),ModBlocks.GRAVEL_PATCH.get().asItem(),ModBlocks.CLAY_PATCH.get().asItem(),
                     ModBlocks.MYCELIUM_PATCH.get().asItem(), ModBlocks.SOUL_SAND_PATCH.get().asItem(), ModBlocks.SOUL_SOIL_PATCH.get().asItem(),
-                    ModBlocks.DIRT_PATH_PATCH.get().asItem());
+                    ModBlocks.DIRT_PATH_PATCH.get().asItem(), ModBlocks.THIN_MUSHROOM_STEM.get().asItem(), ModBlocks.THIN_OAK_LOG.get().asItem(),
+                    ModBlocks.THIN_STRIPPED_OAK_LOG.get().asItem(), ModBlocks.THIN_SPRUCE_LOG.get().asItem(), ModBlocks.THIN_STRIPPED_SPRUCE_LOG.get().asItem(),
+                    ModBlocks.THIN_BIRCH_LOG.get().asItem(), ModBlocks.THIN_STRIPPED_BIRCH_LOG.get().asItem(), ModBlocks.THIN_DARK_OAK_LOG.get().asItem(),
+                    ModBlocks.THIN_STRIPPED_DARK_OAK_LOG.get().asItem(), ModBlocks.THIN_ACACIA_LOG.get().asItem(), ModBlocks.THIN_STRIPPED_ACACIA_LOG.get().asItem(),
+                    ModBlocks.THIN_JUNGLE_LOG.get().asItem(), ModBlocks.THIN_STRIPPED_JUNGLE_LOG.get().asItem(),ModBlocks.THIN_CRIMSON_STEM.get().asItem(),
+                    ModBlocks.THIN_STRIPPED_CRIMSON_STEM.get().asItem(), ModBlocks.THIN_WARPED_STEM.get().asItem(), ModBlocks.THIN_STRIPPED_WARPED_STEM.get().asItem());
             for (Item x : blockList) {
 
                 items.add(run, new ItemStack(x));

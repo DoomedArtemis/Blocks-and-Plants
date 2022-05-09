@@ -255,6 +255,25 @@
   "block.blocksplantsandgadgets.warped_nylium_carpet": "Warped Nylium Carpet",
   "block.blocksplantsandgadgets.stackable_warped_nylium_carpet": "Stackable Warped Nylium Carpet",
 
+  "block.blocksplantsandgadgets.thin_mushroom_stem": "Thin Mushroom Stem",
+
+  "block.blocksplantsandgadgets.thin_oak_log": "Thin Oak Log",
+  "block.blocksplantsandgadgets.thin_stripped_oak_log": "Thin Stripped Oak Log",
+  "block.blocksplantsandgadgets.thin_spruce_log": "Thin Spruce Log",
+  "block.blocksplantsandgadgets.thin_stripped_spruce_log": "Thin Stripped Spruce Log",
+  "block.blocksplantsandgadgets.thin_birch_log": "Thin Birch Log",
+  "block.blocksplantsandgadgets.thin_stripped_birch_log": "Thin Stripped Birch Log",
+  "block.blocksplantsandgadgets.thin_dark_oak_log": "Thin Dark Oak Log",
+  "block.blocksplantsandgadgets.thin_stripped_dark_oak_log": "Thin Stripped Dark Oak Log",
+  "block.blocksplantsandgadgets.thin_acacia_log": "Thin Acacia Log",
+  "block.blocksplantsandgadgets.thin_stripped_acacia_log": "Thin Stripped Acacia Log",
+  "block.blocksplantsandgadgets.thin_jungle_log": "Thin Jungle Log",
+  "block.blocksplantsandgadgets.thin_stripped_jungle_log": "Thin Stripped Jungle Log",
+  "block.blocksplantsandgadgets.thin_crimson_stem": "Thin Crimson Stem",
+  "block.blocksplantsandgadgets.thin_stripped_crimson_stem": "Thin Stripped Crimson Stem",
+  "block.blocksplantsandgadgets.thin_warped_stem": "Thin Warped Stem",
+  "block.blocksplantsandgadgets.thin_stripped_warped_stem": "Thin Stripped Warped Stem",
+
   "itemGroup.blocksplantsandgadgets": "Majestic Moss",
   "keybind.blocksplantsandgadgets.category": "blocksplantsandgadgets",
 

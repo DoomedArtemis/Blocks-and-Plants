@@ -1,0 +1,9 @@
+{
+  "parent": "blocksplantsandgadgets:block/template/template_post",
+  "textures": {
+    "wall": "minecraft:block/mushroom_stem",
+    "up": "minecraft:block/mushroom_block_inside",
+    "down": "minecraft:block/mushroom_block_inside"
+  }
+}
+

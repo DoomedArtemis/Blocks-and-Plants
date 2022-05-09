@@ -4,6 +4,8 @@ import de.artemis.blocksplantsandgadgets.BlocksPlantsAndGadgets;
 import de.artemis.blocksplantsandgadgets.items.BPGBlockItem;
 import de.artemis.blocksplantsandgadgets.util.Registration;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.core.Registry;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.BlockGetter;
@@ -48,6 +50,61 @@ public class ModBlocks {
 
     public static void register() {
     }
+
+    // Thin Log
+
+    public static final RegistryObject<PostBlock> THIN_OAK_LOG = register("thin_oak_log",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<PostBlock> THIN_STRIPPED_OAK_LOG = register("thin_stripped_oak_log",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<PostBlock> THIN_SPRUCE_LOG = register("thin_spruce_log",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<PostBlock> THIN_STRIPPED_SPRUCE_LOG = register("thin_stripped_spruce_log",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<PostBlock> THIN_BIRCH_LOG = register("thin_birch_log",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<PostBlock> THIN_STRIPPED_BIRCH_LOG = register("thin_stripped_birch_log",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<PostBlock> THIN_DARK_OAK_LOG = register("thin_dark_oak_log",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<PostBlock> THIN_STRIPPED_DARK_OAK_LOG = register("thin_stripped_dark_oak_log",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<PostBlock> THIN_ACACIA_LOG = register("thin_acacia_log",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<PostBlock> THIN_STRIPPED_ACACIA_LOG = register("thin_stripped_acacia_log",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<PostBlock> THIN_JUNGLE_LOG = register("thin_jungle_log",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<PostBlock> THIN_STRIPPED_JUNGLE_LOG = register("thin_stripped_jungle_log",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<PostBlock> THIN_CRIMSON_STEM = register("thin_crimson_stem",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F).sound(SoundType.STEM)));
+
+    public static final RegistryObject<PostBlock> THIN_STRIPPED_CRIMSON_STEM = register("thin_stripped_crimson_stem",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F).sound(SoundType.STEM)));
+
+    public static final RegistryObject<PostBlock> THIN_WARPED_STEM = register("thin_warped_stem",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F).sound(SoundType.STEM)));
+
+    public static final RegistryObject<PostBlock> THIN_STRIPPED_WARPED_STEM = register("thin_stripped_warped_stem",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F).sound(SoundType.STEM)));
+
+    // Mushroom
+
+    public static final RegistryObject<PostBlock> THIN_MUSHROOM_STEM = register("thin_mushroom_stem",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(0.2F).sound(SoundType.WOOD)));
 
     // Nylium
 

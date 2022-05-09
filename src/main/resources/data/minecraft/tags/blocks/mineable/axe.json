@@ -37,6 +37,23 @@
     "blocksplantsandgadgets:acacia_bookshelf_slab",
     "blocksplantsandgadgets:jungle_bookshelf_slab",
     "blocksplantsandgadgets:crimson_bookshelf_slab",
-    "blocksplantsandgadgets:warped_bookshelf_slab"
+    "blocksplantsandgadgets:warped_bookshelf_slab",
+    "blocksplantsandgadgets:thin_mushroom_stem",
+    "blocksplantsandgadgets:thin_oak_log",
+    "blocksplantsandgadgets:thin_stripped_oak_log",
+    "blocksplantsandgadgets:thin_spruce_log",
+    "blocksplantsandgadgets:thin_stripped_spruce_log",
+    "blocksplantsandgadgets:thin_birch_log",
+    "blocksplantsandgadgets:thin_stripped_birch_log",
+    "blocksplantsandgadgets:thin_dark_oak_log",
+    "blocksplantsandgadgets:thin_stripped_dark_oak_log",
+    "blocksplantsandgadgets:thin_acacia_log",
+    "blocksplantsandgadgets:thin_stripped_acacia_log",
+    "blocksplantsandgadgets:thin_jungle_log",
+    "blocksplantsandgadgets:thin_stripped_jungle_log",
+    "blocksplantsandgadgets:thin_crimson_stem",
+    "blocksplantsandgadgets:thin_stripped_crimson_stem",
+    "blocksplantsandgadgets:thin_warped_stem",
+    "blocksplantsandgadgets:thin_stripped_warped_stem"
   ]
 }
