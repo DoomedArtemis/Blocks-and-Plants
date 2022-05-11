@@ -113,7 +113,9 @@ public class BlocksPlantsAndGadgets {
                     ModBlocks.THIN_BIRCH_LOG.get().asItem(), ModBlocks.THIN_STRIPPED_BIRCH_LOG.get().asItem(), ModBlocks.THIN_DARK_OAK_LOG.get().asItem(),
                     ModBlocks.THIN_STRIPPED_DARK_OAK_LOG.get().asItem(), ModBlocks.THIN_ACACIA_LOG.get().asItem(), ModBlocks.THIN_STRIPPED_ACACIA_LOG.get().asItem(),
                     ModBlocks.THIN_JUNGLE_LOG.get().asItem(), ModBlocks.THIN_STRIPPED_JUNGLE_LOG.get().asItem(),ModBlocks.THIN_CRIMSON_STEM.get().asItem(),
-                    ModBlocks.THIN_STRIPPED_CRIMSON_STEM.get().asItem(), ModBlocks.THIN_WARPED_STEM.get().asItem(), ModBlocks.THIN_STRIPPED_WARPED_STEM.get().asItem());
+                    ModBlocks.THIN_STRIPPED_CRIMSON_STEM.get().asItem(), ModBlocks.THIN_WARPED_STEM.get().asItem(), ModBlocks.THIN_STRIPPED_WARPED_STEM.get().asItem(),
+                    ModBlocks.CUT_IRON.get().asItem(), ModBlocks.CUT_IRON_STAIRS.get().asItem(), ModBlocks.CUT_IRON_SLAB.get().asItem(),
+                    ModBlocks.CUT_IRON_POST.get().asItem());
             for (Item x : blockList) {
 
                 items.add(run, new ItemStack(x));

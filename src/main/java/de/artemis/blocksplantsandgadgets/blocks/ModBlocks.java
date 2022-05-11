@@ -51,6 +51,21 @@ public class ModBlocks {
     public static void register() {
     }
 
+    // Iron
+
+    public static final RegistryObject<Block> CUT_IRON = register("cut_iron",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<StairBlock> CUT_IRON_STAIRS = register("cut_iron_stairs",
+            () -> new StairBlock(() -> ModBlocks.CUT_IRON.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<SlabBlock> CUT_IRON_SLAB = register("cut_iron_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<PostBlock> CUT_IRON_POST = register("cut_iron_post",
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+
     // Thin Log
 
     public static final RegistryObject<PostBlock> THIN_OAK_LOG = register("thin_oak_log",

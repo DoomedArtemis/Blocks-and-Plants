@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocksplantsandgadgets:cut_iron"
+  },
+  "result": "blocksplantsandgadgets:cut_iron_stairs",
+  "count": 1
+}

@@ -139,6 +139,12 @@
     "blocksplantsandgadgets:gold_lantern",
     "blocksplantsandgadgets:gold_lantern_rope",
     "blocksplantsandgadgets:gold_soul_lantern",
-    "blocksplantsandgadgets:gold_soul_lantern_rope"
+    "blocksplantsandgadgets:gold_soul_lantern_rope",
+
+    "blocksplantsandgadgets:cut_iron",
+    "blocksplantsandgadgets:cut_iron_stairs",
+    "blocksplantsandgadgets:cut_iron_slab",
+    "blocksplantsandgadgets:cut_iron_post"
+
   ]
 }

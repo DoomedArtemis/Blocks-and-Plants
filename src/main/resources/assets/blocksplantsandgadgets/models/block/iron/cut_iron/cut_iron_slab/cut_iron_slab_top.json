@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "blocksplantsandgadgets:block/cut_iron",
+    "top": "blocksplantsandgadgets:block/cut_iron",
+    "side": "blocksplantsandgadgets:block/cut_iron"
+  }
+}

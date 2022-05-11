@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "xxx"
+  ],
+  "key": {
+    "#": {
+      "item": "blocksplantsandgadgets:cut_iron"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:cut_iron_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/iron/cut_iron/cut_iron_slab/cut_iron_slab"
+    },
+    "type=double": {
+      "model": "blocksplantsandgadgets:block/iron/cut_iron/cut_iron"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/iron/cut_iron/cut_iron_slab/cut_iron_slab_top"
+    }
+  }
+}
