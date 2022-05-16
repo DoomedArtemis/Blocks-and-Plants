@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "blocksplantsandgadgets:block_of_gray_dye"
+    },
+    {
+      "item": "blocksplantsandgadgets:block_of_white_dye"
+    }
+  ],
+  "result": {
+    "item": "blocksplantsandgadgets:block_of_light_gray_dye",
+    "count": 2
+  }
+}

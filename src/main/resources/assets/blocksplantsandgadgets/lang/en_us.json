@@ -183,6 +183,7 @@
   "block.blocksplantsandgadgets.bamboo_wall": "Bamboo Wall",
   "block.blocksplantsandgadgets.bamboo_slab": "Bamboo Slab",
   "block.blocksplantsandgadgets.bamboo_stairs": "Bamboo Stairs",
+  "block.blocksplantsandgadgets.bamboo_post": "Bamboo Post",
 
   "block.blocksplantsandgadgets.stone_wall": "Stone Wall",
 
@@ -277,14 +278,39 @@
   "block.blocksplantsandgadgets.cut_iron": "Cut Iron",
   "block.blocksplantsandgadgets.cut_iron_stairs": "Cut Iron Stairs",
   "block.blocksplantsandgadgets.cut_iron_slab": "Cut Iron Slab",
-  "block.blocksplantsandgadgets.cut_iron_post": "Cut Iron Postw3",
+  "block.blocksplantsandgadgets.cut_iron_post": "Cut Iron Post",
 
+  "block.blocksplantsandgadgets.block_of_white_dye": "Block of White Dye",
+  "block.blocksplantsandgadgets.block_of_orange_dye": "Block of Orange Dye",
+  "block.blocksplantsandgadgets.block_of_magenta_dye": "Block of Magenta Dye",
+  "block.blocksplantsandgadgets.block_of_light_blue_dye": "Block of Light Blue Dye",
+  "block.blocksplantsandgadgets.block_of_yellow_dye": "Block of Yellow Dye",
+  "block.blocksplantsandgadgets.block_of_lime_dye": "Block of Lime Dye",
+  "block.blocksplantsandgadgets.block_of_pink_dye": "Block of Pink Dye",
+  "block.blocksplantsandgadgets.block_of_gray_dye": "Block of Gray Dye",
+  "block.blocksplantsandgadgets.block_of_light_gray_dye": "Block of Light Gray Dye",
+  "block.blocksplantsandgadgets.block_of_cyan_dye": "Block of Cyan Dye",
+  "block.blocksplantsandgadgets.block_of_purple_dye": "Block of Purple Dye",
+  "block.blocksplantsandgadgets.block_of_blue_dye": "Block of Blue Dye",
+  "block.blocksplantsandgadgets.block_of_brown_dye": "Block of Brown Dye",
+  "block.blocksplantsandgadgets.block_of_green_dye": "Block of Green Dye",
+  "block.blocksplantsandgadgets.block_of_red_dye": "Block of Red Dye",
+  "block.blocksplantsandgadgets.block_of_black_dye": "Block of Black Dye",
 
-  "itemGroup.blocksplantsandgadgets": "Majestic Moss",
-  "keybind.blocksplantsandgadgets.category": "blocksplantsandgadgets",
+  "block.blocksplantsandgadgets.thin_purpur_pillar": "Thin Purpur Pillar",
+  "block.blocksplantsandgadgets.thin_quartz_pillar": "Thin Quartz Pillar",
+  "block.blocksplantsandgadgets.thin_polished_basalt": "Thin Polished Basalt",
+  "block.blocksplantsandgadgets.thin_bone_block": "Thin Bone Block",
 
-  "keybind.blocksplantsandgadgets.description": "Show Description Tooltip",
+  "block.blocksplantsandgadgets.wild_brown_mushroom": "Wild Brown Mushroom",
+  "block.blocksplantsandgadgets.wild_red_mushroom": "Wild Red Mushroom",
 
-  "tooltip.blocksplantsandgadgets.copper": "\u00a76[ \u00a77This block is still a \u00a7cWORK IN PROGRESS\u00a77. Oxidation and waxing does not function yet. This will be changed in future updates. \u00a76]",
-  "tooltip.blocksplantsandgadgets.amethyst": "\u00a76[ \u00a77This block is still a \u00a7cWORK IN PROGRESS\u00a77. Geodes do not generate and this block can only be obtained by crafting it. This will be changed in future updates. \u00a76]"
+  "itemGroup.blocksplantsandgadgets": "Blocks, Plants and Gadgets",
+  "keybind.blocksplantsandgadgets.category": "Blocks, Plants and Gadgets",
+
+  "keybind.blocksplantsandgadgets.description": "Show Description",
+
+  "tooltip.blocksplantsandgadgets.workinprogressblock": "\u00a77This block is still \u00a7cWIP",
+  "tooltip.blocksplantsandgadgets.workinprogressitem": "\u00a77This item is still \u00a7cWIP"
+
 }

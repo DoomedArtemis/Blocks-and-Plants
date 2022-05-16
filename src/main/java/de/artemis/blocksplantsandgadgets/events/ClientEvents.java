@@ -121,6 +121,8 @@ public class ClientEvents {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.GOLD_SOUL_LANTERN.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.GOLD_SOUL_LANTERN_ROPE.get(), RenderType.cutout());
 
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.WILD_BROWN_MUSHROOM.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.WILD_RED_MUSHROOM.get(), RenderType.cutout());
 
         KeyBindings.register();
 

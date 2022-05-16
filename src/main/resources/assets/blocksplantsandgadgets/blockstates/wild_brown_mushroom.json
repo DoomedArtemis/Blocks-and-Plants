@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "blocksplantsandgadgets:block/mushroom/wild_brown_mushroom"
+    },
+    "facing=east": {
+      "model": "blocksplantsandgadgets:block/mushroom/wild_brown_mushroom",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "blocksplantsandgadgets:block/mushroom/wild_brown_mushroom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "blocksplantsandgadgets:block/mushroom/wild_brown_mushroom",
+      "y": 270
+    }
+  }
+}

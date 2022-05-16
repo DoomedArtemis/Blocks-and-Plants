@@ -2,8 +2,8 @@
   "parent": "blocksplantsandgadgets:block/template/template_post",
   "textures": {
     "wall": "minecraft:block/dark_oak_log",
-    "up": "minecraft:block/dark_oak_log_top",
-    "down": "minecraft:block/dark_oak_log_top"
+    "up": "blocksplantsandgadgets:block/thin_dark_oak_log_top",
+    "down": "blocksplantsandgadgets:block/thin_dark_oak_log_top"
   }
 }
 

@@ -2,7 +2,7 @@
   "parent": "blocksplantsandgadgets:block/template/template_post_inventory",
   "textures": {
     "wall": "minecraft:block/warped_stem",
-    "up": "minecraft:block/warped_stem_top",
-    "down": "minecraft:block/warped_stem_top"
+    "up": "blocksplantsandgadgets:block/thin_warped_stem_top",
+    "down": "blocksplantsandgadgets:block/thin_warped_stem_top"
   }
 }

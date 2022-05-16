@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "blocksplantsandgadgets:block_of_blue_dye"
+    },
+    {
+      "item": "blocksplantsandgadgets:block_of_green_dye"
+    }
+  ],
+  "result": {
+    "item": "blocksplantsandgadgets:block_of_cyan_dye",
+    "count": 2
+  }
+}

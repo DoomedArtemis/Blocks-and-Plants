@@ -22,6 +22,23 @@
     "blocksplantsandgadgets:crimson_nylium_carpet",
     "blocksplantsandgadgets:warped_nylium_carpet",
     "blocksplantsandgadgets:stackable_crimson_nylium_carpet",
-    "blocksplantsandgadgets:stackable_warped_nylium_carpet"
+    "blocksplantsandgadgets:stackable_warped_nylium_carpet",
+
+    "blocksplantsandgadgets:block_of_white_dye",
+    "blocksplantsandgadgets:block_of_orange_dye",
+    "blocksplantsandgadgets:block_of_magenta_dye",
+    "blocksplantsandgadgets:block_of_light_blue_dye",
+    "blocksplantsandgadgets:block_of_yellow_dye",
+    "blocksplantsandgadgets:block_of_lime_dye",
+    "blocksplantsandgadgets:block_of_pink_dye",
+    "blocksplantsandgadgets:block_of_gray_dye",
+    "blocksplantsandgadgets:block_of_light_gray_dye",
+    "blocksplantsandgadgets:block_of_cyan_dye",
+    "blocksplantsandgadgets:block_of_purple_dye",
+    "blocksplantsandgadgets:block_of_blue_dye",
+    "blocksplantsandgadgets:block_of_brown_dye",
+    "blocksplantsandgadgets:block_of_green_dye",
+    "blocksplantsandgadgets:block_of_red_dye",
+    "blocksplantsandgadgets:block_of_black_dye"
   ]
 }

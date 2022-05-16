@@ -29,13 +29,12 @@ public class BPGItem extends Item {
         if (KeyBindings.TOGGLE_DESCRIPTION_KEYBIND.isDown()) {
             tooltip.add(new TranslatableComponent(this.tooltip.getComponent()));
         } else {
-            tooltip.add(new TranslatableComponent("\u00a76[ \u00a77" +  KeyBindings.TOGGLE_DESCRIPTION_KEYBIND.getKey().getDisplayName().getString() + " \u00a76]"));
+            tooltip.add(new TranslatableComponent("\u00a77Press \u00a7b" +  KeyBindings.TOGGLE_DESCRIPTION_KEYBIND.getKey().getDisplayName().getString() + " \u00a77for more information"));
         }
     }
 
     public enum Tooltip {
-        COPPER("tooltip.blocksplantsandgadgets.copper"),
-        AMETHYST("tooltip.blocksplantsandgadgets.amethyst");
+        WIP("tooltip.blocksplantsandgadgets.workinprogressitem");
 
         private String component;
 

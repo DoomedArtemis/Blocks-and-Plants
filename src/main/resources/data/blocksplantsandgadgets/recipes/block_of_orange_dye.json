@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:block_of_orange_dye",
+    "count": 1
+  }
+}

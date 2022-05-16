@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:purpur_pillar"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:thin_purpur_pillar",
+    "count": 8
+  }
+}

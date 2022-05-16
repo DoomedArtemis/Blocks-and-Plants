@@ -1,8 +1,16 @@
 {
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:iron_block"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "blocksplantsandgadgets:cut_iron"
+    }
   },
-  "result": "blocksplantsandgadgets:cut_iron_post",
-  "count": 16
+  "result": {
+    "item": "blocksplantsandgadgets:cut_iron_post",
+    "count": 8
+  }
 }

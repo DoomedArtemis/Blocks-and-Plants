@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:polished_basalt"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:thin_polished_basalt",
+    "count": 8
+  }
+}

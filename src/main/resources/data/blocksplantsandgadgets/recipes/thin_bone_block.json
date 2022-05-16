@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:bone_block"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:thin_bone_block",
+    "count": 8
+  }
+}

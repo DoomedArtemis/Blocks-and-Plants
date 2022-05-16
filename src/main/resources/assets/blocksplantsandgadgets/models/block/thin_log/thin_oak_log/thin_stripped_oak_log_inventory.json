@@ -2,7 +2,7 @@
   "parent": "blocksplantsandgadgets:block/template/template_post_inventory",
   "textures": {
     "wall": "minecraft:block/stripped_oak_log",
-    "up": "minecraft:block/stripped_oak_log_top",
-    "down": "minecraft:block/stripped_oak_log_top"
+    "up": "blocksplantsandgadgets:block/thin_stripped_oak_log_top",
+    "down": "blocksplantsandgadgets:block/thin_stripped_oak_log_top"
   }
 }

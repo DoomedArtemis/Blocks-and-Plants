@@ -2,7 +2,7 @@
   "parent": "blocksplantsandgadgets:block/template/template_post_inventory",
   "textures": {
     "wall": "minecraft:block/stripped_crimson_stem",
-    "up": "minecraft:block/stripped_crimson_stem_top",
-    "down": "minecraft:block/stripped_crimson_stem_top"
+    "up": "blocksplantsandgadgets:block/thin_stripped_crimson_stem_top",
+    "down": "blocksplantsandgadgets:block/thin_stripped_crimson_stem_top"
   }
 }

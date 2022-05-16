@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:quartz_pillar"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:thin_quartz_pillar",
+    "count": 8
+  }
+}

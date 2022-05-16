@@ -144,7 +144,11 @@
     "blocksplantsandgadgets:cut_iron",
     "blocksplantsandgadgets:cut_iron_stairs",
     "blocksplantsandgadgets:cut_iron_slab",
-    "blocksplantsandgadgets:cut_iron_post"
+    "blocksplantsandgadgets:cut_iron_post",
 
+    "blocksplantsandgadgets:thin_quartz_pillar",
+    "blocksplantsandgadgets:thin_purpur_pillar",
+    "blocksplantsandgadgets:thin_polished_basalt",
+    "blocksplantsandgadgets:thin_bone_block"
   ]
 }

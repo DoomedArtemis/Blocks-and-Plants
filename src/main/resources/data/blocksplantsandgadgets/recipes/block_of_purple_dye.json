@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:block_of_purple_dye",
+    "count": 1
+  }
+}

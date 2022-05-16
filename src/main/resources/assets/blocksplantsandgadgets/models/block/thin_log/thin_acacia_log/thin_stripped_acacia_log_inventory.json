@@ -2,7 +2,7 @@
   "parent": "blocksplantsandgadgets:block/template/template_post_inventory",
   "textures": {
     "wall": "minecraft:block/stripped_acacia_log",
-    "up": "minecraft:block/stripped_acacia_log_top",
-    "down": "minecraft:block/stripped_acacia_log_top"
+    "up": "blocksplantsandgadgets:block/thin_stripped_acacia_log_top",
+    "down": "blocksplantsandgadgets:block/thin_stripped_acacia_log_top"
   }
 }

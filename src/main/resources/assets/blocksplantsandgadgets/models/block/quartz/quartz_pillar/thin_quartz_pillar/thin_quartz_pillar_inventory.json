@@ -1,0 +1,8 @@
+{
+  "parent": "blocksplantsandgadgets:block/template/template_post_inventory",
+  "textures": {
+    "wall": "minecraft:block/quartz_pillar",
+    "up": "blocksplantsandgadgets:block/thin_quartz_pillar_top",
+    "down": "blocksplantsandgadgets:block/thin_quartz_pillar_top"
+  }
+}

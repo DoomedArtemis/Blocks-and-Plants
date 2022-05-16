@@ -30,7 +30,7 @@ public class BlocksPlantsAndGadgets {
         @Override
         public @NotNull ItemStack makeIcon() {
 
-            return new ItemStack(ModBlocks.ENDER_MOSS_BLOCK.get());
+            return new ItemStack(ModBlocks.OVERGROWN_OAK_LOG.get());
         }
 
         @Override
@@ -45,7 +45,7 @@ public class BlocksPlantsAndGadgets {
                     ModBlocks.ENDER_BUSH.get().asItem(), ModBlocks.FLOWERING_ENDER_BUSH.get().asItem(), ModBlocks.ENDER_SPROUTS.get().asItem(),
                     ModBlocks.TALL_ENDER_SPROUTS.get().asItem(), ModBlocks.MOSS_STAIRS.get().asItem(), ModBlocks.MOSS_SLAB.get().asItem(),
                     ModBlocks.MOSS_WALL.get().asItem(), ModBlocks.STACKABLE_MOSS_CARPET.get().asItem(), ModBlocks.BAMBOO_BLOCK.get().asItem(),
-                    ModBlocks.BAMBOO_STAIRS.get().asItem(), ModBlocks.BAMBOO_SLAB.get().asItem(), ModBlocks.BAMBOO_WALL.get().asItem(),
+                    ModBlocks.BAMBOO_STAIRS.get().asItem(), ModBlocks.BAMBOO_SLAB.get().asItem(), ModBlocks.BAMBOO_WALL.get().asItem(), ModBlocks.BAMBOO_POST.get().asItem(),
                     ModBlocks.OVERGROWN_OAK_LOG.get().asItem(), ModBlocks.OVERGROWN_BIRCH_LOG.get().asItem(), ModBlocks.OVERGROWN_SPRUCE_LOG.get().asItem(),
                     ModBlocks.OVERGROWN_DARK_OAK_LOG.get().asItem(), ModBlocks.OVERGROWN_ACACIA_LOG.get().asItem(), ModBlocks.OVERGROWN_JUNGLE_LOG.get().asItem(),
                     ModBlocks.OVERGROWN_CRIMSON_STEM.get().asItem(), ModBlocks.OVERGROWN_WARPED_STEM.get().asItem(), ModBlocks.CRIMSON_NYLIUM_CARPET.get().asItem(),
@@ -108,14 +108,21 @@ public class BlocksPlantsAndGadgets {
                     ModBlocks.PODZOL_PATCH.get().asItem(),ModBlocks.ROOTED_DIRT_PATCH.get().asItem(),ModBlocks.SAND_PATCH.get().asItem(),
                     ModBlocks.RED_SAND_PATCH.get().asItem(),ModBlocks.GRAVEL_PATCH.get().asItem(),ModBlocks.CLAY_PATCH.get().asItem(),
                     ModBlocks.MYCELIUM_PATCH.get().asItem(), ModBlocks.SOUL_SAND_PATCH.get().asItem(), ModBlocks.SOUL_SOIL_PATCH.get().asItem(),
-                    ModBlocks.DIRT_PATH_PATCH.get().asItem(), ModBlocks.THIN_MUSHROOM_STEM.get().asItem(), ModBlocks.THIN_OAK_LOG.get().asItem(),
+                    ModBlocks.DIRT_PATH_PATCH.get().asItem(), ModBlocks.THIN_MUSHROOM_STEM.get().asItem(), ModBlocks.THIN_POLISHED_BASALT.get().asItem(),
+                    ModBlocks.THIN_BONE_BLOCK.get().asItem(), ModBlocks.THIN_QUARTZ_PILLAR.get().asItem(), ModBlocks.THIN_PURPUR_PILLAR.get().asItem(), ModBlocks.THIN_OAK_LOG.get().asItem(),
                     ModBlocks.THIN_STRIPPED_OAK_LOG.get().asItem(), ModBlocks.THIN_SPRUCE_LOG.get().asItem(), ModBlocks.THIN_STRIPPED_SPRUCE_LOG.get().asItem(),
                     ModBlocks.THIN_BIRCH_LOG.get().asItem(), ModBlocks.THIN_STRIPPED_BIRCH_LOG.get().asItem(), ModBlocks.THIN_DARK_OAK_LOG.get().asItem(),
                     ModBlocks.THIN_STRIPPED_DARK_OAK_LOG.get().asItem(), ModBlocks.THIN_ACACIA_LOG.get().asItem(), ModBlocks.THIN_STRIPPED_ACACIA_LOG.get().asItem(),
                     ModBlocks.THIN_JUNGLE_LOG.get().asItem(), ModBlocks.THIN_STRIPPED_JUNGLE_LOG.get().asItem(),ModBlocks.THIN_CRIMSON_STEM.get().asItem(),
                     ModBlocks.THIN_STRIPPED_CRIMSON_STEM.get().asItem(), ModBlocks.THIN_WARPED_STEM.get().asItem(), ModBlocks.THIN_STRIPPED_WARPED_STEM.get().asItem(),
                     ModBlocks.CUT_IRON.get().asItem(), ModBlocks.CUT_IRON_STAIRS.get().asItem(), ModBlocks.CUT_IRON_SLAB.get().asItem(),
-                    ModBlocks.CUT_IRON_POST.get().asItem());
+                    ModBlocks.CUT_IRON_POST.get().asItem(), ModBlocks.BLOCK_OF_WHITE_DYE.get().asItem(), ModBlocks.BLOCK_OF_ORANGE_DYE.get().asItem(),
+                    ModBlocks.BLOCK_OF_MAGENTA_DYE.get().asItem(), ModBlocks.BLOCK_OF_LIGHT_BLUE_DYE.get().asItem(), ModBlocks.BLOCK_OF_YELLOW_DYE.get().asItem(),
+                    ModBlocks.BLOCK_OF_LIME_DYE.get().asItem(), ModBlocks.BLOCK_OF_PINK_DYE.get().asItem(), ModBlocks.BLOCK_OF_GRAY_DYE.get().asItem(),
+                    ModBlocks.BLOCK_OF_LIGHT_GRAY_DYE.get().asItem(), ModBlocks.BLOCK_OF_CYAN_DYE.get().asItem(), ModBlocks.BLOCK_OF_PURPLE_DYE.get().asItem(),
+                    ModBlocks.BLOCK_OF_BLUE_DYE.get().asItem(), ModBlocks.BLOCK_OF_BROWN_DYE.get().asItem(), ModBlocks.BLOCK_OF_GREEN_DYE.get().asItem(),
+                    ModBlocks.BLOCK_OF_RED_DYE.get().asItem(), ModBlocks.BLOCK_OF_BLACK_DYE.get().asItem(), ModBlocks.WILD_BROWN_MUSHROOM.get().asItem(),
+                    ModBlocks.WILD_RED_MUSHROOM.get().asItem());
             for (Item x : blockList) {
 
                 items.add(run, new ItemStack(x));

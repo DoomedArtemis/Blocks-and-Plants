@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " xx",
+    " xx"
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:wild_brown_mushroom"
+    }
+  },
+  "result": {
+    "item": "minecraft:brown_mushroom_block"
+  }
+}

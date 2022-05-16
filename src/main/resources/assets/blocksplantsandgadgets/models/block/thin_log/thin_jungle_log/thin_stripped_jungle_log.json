@@ -2,8 +2,8 @@
   "parent": "blocksplantsandgadgets:block/template/template_post",
   "textures": {
     "wall": "minecraft:block/stripped_jungle_log",
-    "up": "minecraft:block/stripped_jungle_log_top",
-    "down": "minecraft:block/stripped_jungle_log_top"
+    "up": "blocksplantsandgadgets:block/thin_stripped_jungle_log_top",
+    "down": "blocksplantsandgadgets:block/thin_stripped_jungle_log_top"
   }
 }
 
