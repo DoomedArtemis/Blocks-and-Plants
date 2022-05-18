@@ -23,6 +23,22 @@
     "blocksplantsandgadgets:tuff_slab",
     "blocksplantsandgadgets:calcite_slab",
     "blocksplantsandgadgets:smooth_basalt",
-    "blocksplantsandgadgets:cut_iron_slab"
+    "blocksplantsandgadgets:cut_iron_slab",
+    "blocksplantsandgadgets:white_concrete_slab",
+    "blocksplantsandgadgets:orange_concrete_slab",
+    "blocksplantsandgadgets:magenta_concrete_slab",
+    "blocksplantsandgadgets:light_blue_concrete_slab",
+    "blocksplantsandgadgets:yellow_concrete_slab",
+    "blocksplantsandgadgets:lime_concrete_slab",
+    "blocksplantsandgadgets:pink_concrete_slab",
+    "blocksplantsandgadgets:gray_concrete_slab",
+    "blocksplantsandgadgets:light_gray_concrete_slab",
+    "blocksplantsandgadgets:cyan_concrete_slab",
+    "blocksplantsandgadgets:purple_concrete_slab",
+    "blocksplantsandgadgets:blue_concrete_slab",
+    "blocksplantsandgadgets:brown_concrete_slab",
+    "blocksplantsandgadgets:green_concrete_slab",
+    "blocksplantsandgadgets:red_concrete_slab",
+    "blocksplantsandgadgets:black_concrete_slab"
   ]
 }

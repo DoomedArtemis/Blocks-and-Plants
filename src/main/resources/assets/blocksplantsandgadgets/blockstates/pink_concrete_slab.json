@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/concrete/pink_concrete/pink_concrete_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/pink_concrete"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/concrete/pink_concrete/pink_concrete_slab_top"
+    }
+  }
+}

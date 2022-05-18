@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:lime_concrete"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:lime_concrete_slab",
+    "count": 6
+  }
+}

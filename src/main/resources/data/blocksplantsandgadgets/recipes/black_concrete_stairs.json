@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x  ",
+    "xx ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:black_concrete_stairs",
+    "count": 4
+  }
+}

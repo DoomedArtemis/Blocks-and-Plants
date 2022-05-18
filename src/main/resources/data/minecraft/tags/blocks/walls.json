@@ -23,6 +23,22 @@
     "blocksplantsandgadgets:warped_wall",
     "blocksplantsandgadgets:tuff_wall",
     "blocksplantsandgadgets:calcite_wall",
-    "blocksplantsandgadgets:smooth_basalt_wall"
+    "blocksplantsandgadgets:smooth_basalt_wall",
+    "blocksplantsandgadgets:white_concrete_wall",
+    "blocksplantsandgadgets:orange_concrete_wall",
+    "blocksplantsandgadgets:magenta_concrete_wall",
+    "blocksplantsandgadgets:light_blue_concrete_wall",
+    "blocksplantsandgadgets:yellow_concrete_wall",
+    "blocksplantsandgadgets:lime_concrete_wall",
+    "blocksplantsandgadgets:pink_concrete_wall",
+    "blocksplantsandgadgets:gray_concrete_wall",
+    "blocksplantsandgadgets:light_gray_concrete_wall",
+    "blocksplantsandgadgets:cyan_concrete_wall",
+    "blocksplantsandgadgets:purple_concrete_wall",
+    "blocksplantsandgadgets:blue_concrete_wall",
+    "blocksplantsandgadgets:brown_concrete_wall",
+    "blocksplantsandgadgets:green_concrete_wall",
+    "blocksplantsandgadgets:red_concrete_wall",
+    "blocksplantsandgadgets:black_concrete_wall"
   ]
 }

@@ -49,6 +49,168 @@ public class ModBlocks {
     public static void register() {
     }
 
+    // Concrete
+
+    public static final RegistryObject<StairBlock> WHITE_CONCRETE_STAIRS = register("white_concrete_stairs",
+            () -> new StairBlock(() -> WHITE_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> WHITE_CONCRETE_SLAB = register("white_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> WHITE_CONCRETE_WALL = register("white_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> ORANGE_CONCRETE_STAIRS = register("orange_concrete_stairs",
+            () -> new StairBlock(() -> ORANGE_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> ORANGE_CONCRETE_SLAB = register("orange_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> ORANGE_CONCRETE_WALL = register("orange_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> MAGENTA_CONCRETE_STAIRS = register("magenta_concrete_stairs",
+            () -> new StairBlock(() -> MAGENTA_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> MAGENTA_CONCRETE_SLAB = register("magenta_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> MAGENTA_CONCRETE_WALL = register("magenta_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> LIGHT_BLUE_CONCRETE_STAIRS = register("light_blue_concrete_stairs",
+            () -> new StairBlock(() -> LIGHT_BLUE_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> LIGHT_BLUE_CONCRETE_SLAB = register("light_blue_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> LIGHT_BLUE_CONCRETE_WALL = register("light_blue_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> YELLOW_CONCRETE_STAIRS = register("yellow_concrete_stairs",
+            () -> new StairBlock(() -> YELLOW_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> YELLOW_CONCRETE_SLAB = register("yellow_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> YELLOW_CONCRETE_WALL = register("yellow_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> LIME_CONCRETE_STAIRS = register("lime_concrete_stairs",
+            () -> new StairBlock(() -> LIME_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> LIME_CONCRETE_SLAB = register("lime_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> LIME_CONCRETE_WALL = register("lime_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> PINK_CONCRETE_STAIRS = register("pink_concrete_stairs",
+            () -> new StairBlock(() -> PINK_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> PINK_CONCRETE_SLAB = register("pink_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> PINK_CONCRETE_WALL = register("pink_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> GRAY_CONCRETE_STAIRS = register("gray_concrete_stairs",
+            () -> new StairBlock(() -> GRAY_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> GRAY_CONCRETE_SLAB = register("gray_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> GRAY_CONCRETE_WALL = register("gray_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> LIGHT_GRAY_CONCRETE_STAIRS = register("light_gray_concrete_stairs",
+            () -> new StairBlock(() -> LIGHT_GRAY_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> LIGHT_GRAY_CONCRETE_SLAB = register("light_gray_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> LIGHT_GRAY_CONCRETE_WALL = register("light_gray_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> CYAN_CONCRETE_STAIRS = register("cyan_concrete_stairs",
+            () -> new StairBlock(() -> CYAN_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> CYAN_CONCRETE_SLAB = register("cyan_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> CYAN_CONCRETE_WALL = register("cyan_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> PURPLE_CONCRETE_STAIRS = register("purple_concrete_stairs",
+            () -> new StairBlock(() -> PURPLE_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> PURPLE_CONCRETE_SLAB = register("purple_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> PURPLE_CONCRETE_WALL = register("purple_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> BLUE_CONCRETE_STAIRS = register("blue_concrete_stairs",
+            () -> new StairBlock(() -> BLUE_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> BLUE_CONCRETE_SLAB = register("blue_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> BLUE_CONCRETE_WALL = register("blue_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> BROWN_CONCRETE_STAIRS = register("brown_concrete_stairs",
+            () -> new StairBlock(() -> BROWN_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> BROWN_CONCRETE_SLAB = register("brown_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> BROWN_CONCRETE_WALL = register("brown_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> GREEN_CONCRETE_STAIRS = register("green_concrete_stairs",
+            () -> new StairBlock(() -> GREEN_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> GREEN_CONCRETE_SLAB = register("green_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> GREEN_CONCRETE_WALL = register("green_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> RED_CONCRETE_STAIRS = register("red_concrete_stairs",
+            () -> new StairBlock(() -> RED_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> RED_CONCRETE_SLAB = register("red_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> RED_CONCRETE_WALL = register("red_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<StairBlock> BLACK_CONCRETE_STAIRS = register("black_concrete_stairs",
+            () -> new StairBlock(() -> BLACK_CONCRETE.defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<SlabBlock> BLACK_CONCRETE_SLAB = register("black_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
+    public static final RegistryObject<WallBlock> BLACK_CONCRETE_WALL = register("black_concrete_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.8F)));
+
     // Misc Thin Block
 
     public static final RegistryObject<PostBlock> THIN_PURPUR_PILLAR = register("thin_purpur_pillar",
