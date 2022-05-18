@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksplantsandgadgets:block/concrete/yellow_concrete/yellow_concrete_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/yellow_concrete"
+    },
+    "type=top": {
+      "model": "blocksplantsandgadgets:block/concrete/yellow_concrete/yellow_concrete_slab_top"
+    }
+  }
+}

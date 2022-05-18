@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:orange_concrete"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:orange_concrete_wall",
+    "count": 6
+  }
+}

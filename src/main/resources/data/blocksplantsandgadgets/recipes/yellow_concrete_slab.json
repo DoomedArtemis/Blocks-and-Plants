@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:yellow_concrete"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:yellow_concrete_slab",
+    "count": 6
+  }
+}

@@ -122,7 +122,23 @@ public class BlocksPlantsAndGadgets {
                     ModBlocks.BLOCK_OF_LIGHT_GRAY_DYE.get().asItem(), ModBlocks.BLOCK_OF_CYAN_DYE.get().asItem(), ModBlocks.BLOCK_OF_PURPLE_DYE.get().asItem(),
                     ModBlocks.BLOCK_OF_BLUE_DYE.get().asItem(), ModBlocks.BLOCK_OF_BROWN_DYE.get().asItem(), ModBlocks.BLOCK_OF_GREEN_DYE.get().asItem(),
                     ModBlocks.BLOCK_OF_RED_DYE.get().asItem(), ModBlocks.BLOCK_OF_BLACK_DYE.get().asItem(), ModBlocks.WILD_BROWN_MUSHROOM.get().asItem(),
-                    ModBlocks.WILD_RED_MUSHROOM.get().asItem());
+                    ModBlocks.WILD_RED_MUSHROOM.get().asItem(),
+                    ModBlocks.WHITE_CONCRETE_STAIRS.get().asItem(), ModBlocks.WHITE_CONCRETE_SLAB.get().asItem(), ModBlocks.WHITE_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.ORANGE_CONCRETE_STAIRS.get().asItem(), ModBlocks.ORANGE_CONCRETE_SLAB.get().asItem(), ModBlocks.ORANGE_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.MAGENTA_CONCRETE_STAIRS.get().asItem(), ModBlocks.MAGENTA_CONCRETE_SLAB.get().asItem(), ModBlocks.MAGENTA_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS.get().asItem(), ModBlocks.LIGHT_BLUE_CONCRETE_SLAB.get().asItem(), ModBlocks.LIGHT_BLUE_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.YELLOW_CONCRETE_STAIRS.get().asItem(), ModBlocks.YELLOW_CONCRETE_SLAB.get().asItem(), ModBlocks.YELLOW_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.LIME_CONCRETE_STAIRS.get().asItem(), ModBlocks.LIME_CONCRETE_SLAB.get().asItem(), ModBlocks.LIME_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.PINK_CONCRETE_STAIRS.get().asItem(), ModBlocks.PINK_CONCRETE_SLAB.get().asItem(), ModBlocks.PINK_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.GRAY_CONCRETE_STAIRS.get().asItem(), ModBlocks.GRAY_CONCRETE_SLAB.get().asItem(), ModBlocks.GRAY_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS.get().asItem(), ModBlocks.LIGHT_GRAY_CONCRETE_SLAB.get().asItem(), ModBlocks.LIGHT_GRAY_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.CYAN_CONCRETE_STAIRS.get().asItem(), ModBlocks.CYAN_CONCRETE_SLAB.get().asItem(), ModBlocks.CYAN_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.PURPLE_CONCRETE_STAIRS.get().asItem(), ModBlocks.PURPLE_CONCRETE_SLAB.get().asItem(), ModBlocks.PURPLE_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.BLUE_CONCRETE_STAIRS.get().asItem(), ModBlocks.BLUE_CONCRETE_SLAB.get().asItem(), ModBlocks.BLUE_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.BROWN_CONCRETE_STAIRS.get().asItem(), ModBlocks.BROWN_CONCRETE_SLAB.get().asItem(), ModBlocks.BROWN_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.GREEN_CONCRETE_STAIRS.get().asItem(), ModBlocks.GREEN_CONCRETE_SLAB.get().asItem(), ModBlocks.GREEN_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.RED_CONCRETE_STAIRS.get().asItem(), ModBlocks.RED_CONCRETE_SLAB.get().asItem(), ModBlocks.RED_CONCRETE_WALL.get().asItem(),
+                    ModBlocks.BLACK_CONCRETE_STAIRS.get().asItem(), ModBlocks.BLACK_CONCRETE_SLAB.get().asItem(), ModBlocks.BLACK_CONCRETE_WALL.get().asItem());
             for (Item x : blockList) {
 
                 items.add(run, new ItemStack(x));

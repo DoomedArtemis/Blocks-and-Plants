@@ -21,6 +21,22 @@
     "blocksplantsandgadgets:tuff_stairs",
     "blocksplantsandgadgets:calcite_stairs",
     "blocksplantsandgadgets:smooth_basalt_stairs",
-    "blocksplantsandgadgets:cut_iron_stairs"
+    "blocksplantsandgadgets:cut_iron_stairs",
+    "blocksplantsandgadgets:white_concrete_stairs",
+    "blocksplantsandgadgets:orange_concrete_stairs",
+    "blocksplantsandgadgets:magenta_concrete_stairs",
+    "blocksplantsandgadgets:light_blue_concrete_stairs",
+    "blocksplantsandgadgets:yellow_concrete_stairs",
+    "blocksplantsandgadgets:lime_concrete_stairs",
+    "blocksplantsandgadgets:pink_concrete_stairs",
+    "blocksplantsandgadgets:gray_concrete_stairs",
+    "blocksplantsandgadgets:light_gray_concrete_stairs",
+    "blocksplantsandgadgets:cyan_concrete_stairs",
+    "blocksplantsandgadgets:purple_concrete_stairs",
+    "blocksplantsandgadgets:blue_concrete_stairs",
+    "blocksplantsandgadgets:brown_concrete_stairs",
+    "blocksplantsandgadgets:green_concrete_stairs",
+    "blocksplantsandgadgets:red_concrete_stairs",
+    "blocksplantsandgadgets:black_concrete_stairs"
   ]
 }
