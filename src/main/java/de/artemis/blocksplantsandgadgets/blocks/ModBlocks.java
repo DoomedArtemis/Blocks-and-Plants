@@ -293,52 +293,52 @@ public class ModBlocks {
     // Thin Log
 
     public static final RegistryObject<PostBlock> THIN_OAK_LOG = register("thin_oak_log",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.THIN_OAK_LOG.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_STRIPPED_OAK_LOG = register("thin_stripped_oak_log",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.THIN_STRIPPED_OAK_LOG.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_SPRUCE_LOG = register("thin_spruce_log",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.THIN_SPRUCE_LOG.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_STRIPPED_SPRUCE_LOG = register("thin_stripped_spruce_log",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.THIN_STRIPPED_SPRUCE_LOG.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_BIRCH_LOG = register("thin_birch_log",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.THIN_BIRCH_LOG.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_STRIPPED_BIRCH_LOG = register("thin_stripped_birch_log",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.THIN_STRIPPED_BIRCH_LOG.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_DARK_OAK_LOG = register("thin_dark_oak_log",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.THIN_DARK_OAK_LOG.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_STRIPPED_DARK_OAK_LOG = register("thin_stripped_dark_oak_log",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.THIN_STRIPPED_DARK_OAK_LOG.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_ACACIA_LOG = register("thin_acacia_log",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.THIN_ACACIA_LOG.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_STRIPPED_ACACIA_LOG = register("thin_stripped_acacia_log",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.THIN_STRIPPED_ACACIA_LOG.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_JUNGLE_LOG = register("thin_jungle_log",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.THIN_JUNGLE_LOG.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_STRIPPED_JUNGLE_LOG = register("thin_stripped_jungle_log",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.THIN_STRIPPED_JUNGLE_LOG.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_CRIMSON_STEM = register("thin_crimson_stem",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F).sound(SoundType.STEM)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F).sound(SoundType.STEM)), () -> new BPGBlockItem(ModBlocks.THIN_CRIMSON_STEM.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_STRIPPED_CRIMSON_STEM = register("thin_stripped_crimson_stem",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F).sound(SoundType.STEM)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F).sound(SoundType.STEM)), () -> new BPGBlockItem(ModBlocks.THIN_STRIPPED_CRIMSON_STEM.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_WARPED_STEM = register("thin_warped_stem",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F).sound(SoundType.STEM)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F).sound(SoundType.STEM)), () -> new BPGBlockItem(ModBlocks.THIN_WARPED_STEM.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     public static final RegistryObject<PostBlock> THIN_STRIPPED_WARPED_STEM = register("thin_stripped_warped_stem",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F).sound(SoundType.STEM)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F).sound(SoundType.STEM)), () -> new BPGBlockItem(ModBlocks.THIN_STRIPPED_WARPED_STEM.get(), BPGBlockItem.Tooltip.NONE, 75));
 
     // Mushroom
 
@@ -470,78 +470,77 @@ public class ModBlocks {
     // Bookshelf
 
     public static final RegistryObject<BookshelfBlock> SPRUCE_BOOKSHELF = register("spruce_bookshelf",
-            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.SPRUCE_BOOKSHELF.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     public static final RegistryObject<BookshelfBlock> BIRCH_BOOKSHELF = register("birch_bookshelf",
-            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.BIRCH_BOOKSHELF.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     public static final RegistryObject<BookshelfBlock> DARK_OAK_BOOKSHELF = register("dark_oak_bookshelf",
-            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.DARK_OAK_BOOKSHELF.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     public static final RegistryObject<BookshelfBlock> ACACIA_BOOKSHELF = register("acacia_bookshelf",
-            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.ACACIA_BOOKSHELF.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     public static final RegistryObject<BookshelfBlock> JUNGLE_BOOKSHELF = register("jungle_bookshelf",
-            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.JUNGLE_BOOKSHELF.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     public static final RegistryObject<BookshelfBlock> CRIMSON_BOOKSHELF = register("crimson_bookshelf",
-            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.CRIMSON_BOOKSHELF.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     public static final RegistryObject<BookshelfBlock> WARPED_BOOKSHELF = register("warped_bookshelf",
-
-            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.WARPED_BOOKSHELF.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     // Bookshelf Slab
 
     public static final RegistryObject<BookshelfSlabBlock> BOOKSHELF_SLAB = register("bookshelf_slab",
-            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.BOOKSHELF_SLAB.get(), BPGBlockItem.Tooltip.NONE, 150));
 
     public static final RegistryObject<BookshelfSlabBlock> SPRUCE_BOOKSHELF_SLAB = register("spruce_bookshelf_slab",
-            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.SPRUCE_BOOKSHELF_SLAB.get(), BPGBlockItem.Tooltip.NONE, 150));
 
     public static final RegistryObject<BookshelfSlabBlock> BIRCH_BOOKSHELF_SLAB = register("birch_bookshelf_slab",
-            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.BIRCH_BOOKSHELF_SLAB.get(), BPGBlockItem.Tooltip.NONE, 150));
 
     public static final RegistryObject<BookshelfSlabBlock> DARK_OAK_BOOKSHELF_SLAB = register("dark_oak_bookshelf_slab",
-            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.DARK_OAK_BOOKSHELF_SLAB.get(), BPGBlockItem.Tooltip.NONE, 150));
 
     public static final RegistryObject<BookshelfSlabBlock> ACACIA_BOOKSHELF_SLAB = register("acacia_bookshelf_slab",
-            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.ACACIA_BOOKSHELF_SLAB.get(), BPGBlockItem.Tooltip.NONE, 150));
 
     public static final RegistryObject<BookshelfSlabBlock> JUNGLE_BOOKSHELF_SLAB = register("jungle_bookshelf_slab",
-            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.JUNGLE_BOOKSHELF_SLAB.get(), BPGBlockItem.Tooltip.NONE, 150));
 
     public static final RegistryObject<BookshelfSlabBlock> CRIMSON_BOOKSHELF_SLAB = register("crimson_bookshelf_slab",
-            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.CRIMSON_BOOKSHELF_SLAB.get(), BPGBlockItem.Tooltip.NONE, 150));
 
     public static final RegistryObject<BookshelfSlabBlock> WARPED_BOOKSHELF_SLAB = register("warped_bookshelf_slab",
-            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)));
+            () -> new BookshelfSlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.5F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.WARPED_BOOKSHELF_SLAB.get(), BPGBlockItem.Tooltip.NONE, 150));
 
     // Wood Wall
 
     public static final RegistryObject<WallBlock> OAK_WALL = register("oak_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.OAK_WALL.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     public static final RegistryObject<WallBlock> SPRUCE_WALL = register("spruce_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.SPRUCE_WALL.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     public static final RegistryObject<WallBlock> BIRCH_WALL = register("birch_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.BIRCH_WALL.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     public static final RegistryObject<WallBlock> DARK_OAK_WALL = register("dark_oak_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.DARK_OAK_WALL.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     public static final RegistryObject<WallBlock> ACACIA_WALL = register("acacia_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.ACACIA_WALL.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     public static final RegistryObject<WallBlock> JUNGLE_WALL = register("jungle_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.JUNGLE_WALL.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     public static final RegistryObject<WallBlock> CRIMSON_WALL = register("crimson_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.CRIMSON_WALL.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     public static final RegistryObject<WallBlock> WARPED_WALL = register("warped_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.NETHER_WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)), () -> new BPGBlockItem(ModBlocks.WARPED_WALL.get(), BPGBlockItem.Tooltip.NONE, 300));
 
     // Stone
 
@@ -749,13 +748,13 @@ public class ModBlocks {
             EnderSproutsBlock::new);
 
     public static final RegistryObject<EnderBushBlock> ENDER_BUSH = register("ender_bush",
-            EnderBushBlock::new);
+            () -> new EnderBushBlock(), () -> new BPGBlockItem(ModBlocks.ENDER_BUSH.get(), BPGBlockItem.Tooltip.NONE, 100));
 
     public static final RegistryObject<FlowerPotBlock> POTTED_ENDER_BUSH = registerNoItem("potted_ender_bush",
             () -> new FlowerPotBlock(ENDER_BUSH.get(), BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
     public static final RegistryObject<EnderBushBlock> FLOWERING_ENDER_BUSH = register("flowering_ender_bush",
-            EnderBushBlock::new);
+            () -> new EnderBushBlock(), () -> new BPGBlockItem(ModBlocks.FLOWERING_ENDER_BUSH.get(), BPGBlockItem.Tooltip.NONE, 100));
 
     public static final RegistryObject<FlowerPotBlock> POTTED_FLOWERING_ENDER_BUSH = registerNoItem("potted_flowering_ender_bush",
             () -> new FlowerPotBlock(FLOWERING_ENDER_BUSH.get(), BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
@@ -802,66 +801,66 @@ public class ModBlocks {
     // Copper Post
 
     public static final RegistryObject<PostBlock> COPPER_POST = register("copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.COPPER_POST.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.COPPER_POST.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<PostBlock> EXPOSED_COPPER_POST = register("exposed_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.EXPOSED_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.EXPOSED_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<PostBlock> WEATHERED_COPPER_POST = register("weathered_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.WEATHERED_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.WEATHERED_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<PostBlock> OXIDIZED_COPPER_POST = register("oxidized_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.OXIDIZED_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.OXIDIZED_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     // Cut Copper Post
 
     public static final RegistryObject<PostBlock> CUT_COPPER_POST = register("cut_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.CUT_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.CUT_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<PostBlock> EXPOSED_CUT_COPPER_POST = register("exposed_cut_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.EXPOSED_CUT_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.EXPOSED_CUT_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<PostBlock> WEATHERED_CUT_COPPER_POST = register("weathered_cut_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.WEATHERED_CUT_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.WEATHERED_CUT_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<PostBlock> OXIDIZED_CUT_COPPER_POST = register("oxidized_cut_copper_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.OXIDIZED_CUT_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.OXIDIZED_CUT_COPPER_POST.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     // Copper Stairs
 
     public static final RegistryObject<WeatheringCopperStairBlock> COPPER_STAIRS = register("copper_stairs",
             () -> new WeatheringCopperStairBlock(WeatheringCopperStairBlock.WeatherState.UNAFFECTED, COPPER_BLOCK.defaultBlockState(),
-                    (BlockBehaviour.Properties.copy(COPPER_BLOCK))), () -> new BPGBlockItem(ModBlocks.COPPER_STAIRS.get(), BPGBlockItem.Tooltip.WIP));
+                    (BlockBehaviour.Properties.copy(COPPER_BLOCK))), () -> new BPGBlockItem(ModBlocks.COPPER_STAIRS.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<WeatheringCopperStairBlock> EXPOSED_COPPER_STAIRS = register("exposed_copper_stairs",
             () -> new WeatheringCopperStairBlock(WeatheringCopperStairBlock.WeatherState.EXPOSED, EXPOSED_COPPER.defaultBlockState(),
-                    (BlockBehaviour.Properties.copy(EXPOSED_COPPER))), () -> new BPGBlockItem(ModBlocks.EXPOSED_COPPER_STAIRS.get(), BPGBlockItem.Tooltip.WIP));
+                    (BlockBehaviour.Properties.copy(EXPOSED_COPPER))), () -> new BPGBlockItem(ModBlocks.EXPOSED_COPPER_STAIRS.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<WeatheringCopperStairBlock> WEATHERED_COPPER_STAIRS = register("weathered_copper_stairs",
             () -> new WeatheringCopperStairBlock(WeatheringCopperStairBlock.WeatherState.WEATHERED, WEATHERED_COPPER.defaultBlockState(),
-                    (BlockBehaviour.Properties.copy(WEATHERED_COPPER))), () -> new BPGBlockItem(ModBlocks.WEATHERED_COPPER_STAIRS.get(), BPGBlockItem.Tooltip.WIP));
+                    (BlockBehaviour.Properties.copy(WEATHERED_COPPER))), () -> new BPGBlockItem(ModBlocks.WEATHERED_COPPER_STAIRS.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<WeatheringCopperStairBlock> OXIDIZED_COPPER_STAIRS = register("oxidized_copper_stairs",
             () -> new WeatheringCopperStairBlock(WeatheringCopperStairBlock.WeatherState.OXIDIZED, OXIDIZED_COPPER.defaultBlockState(),
-                    (BlockBehaviour.Properties.copy(OXIDIZED_COPPER))), () -> new BPGBlockItem(ModBlocks.OXIDIZED_COPPER_STAIRS.get(), BPGBlockItem.Tooltip.WIP));
+                    (BlockBehaviour.Properties.copy(OXIDIZED_COPPER))), () -> new BPGBlockItem(ModBlocks.OXIDIZED_COPPER_STAIRS.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     // Copper Slab
 
     public static final RegistryObject<WeatheringCopperSlabBlock> COPPER_SLAB = register("copper_slab",
             () -> new WeatheringCopperSlabBlock(WeatheringCopper.WeatherState.UNAFFECTED,
-                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.COPPER_SLAB.get(), BPGBlockItem.Tooltip.WIP));
+                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.COPPER_SLAB.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<WeatheringCopperSlabBlock> EXPOSED_COPPER_SLAB = register("exposed_copper_slab",
             () -> new WeatheringCopperSlabBlock(WeatheringCopper.WeatherState.EXPOSED,
-                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.EXPOSED_COPPER_SLAB.get(), BPGBlockItem.Tooltip.WIP));
+                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.EXPOSED_COPPER_SLAB.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<WeatheringCopperSlabBlock> WEATHERED_COPPER_SLAB = register("weathered_copper_slab",
             () -> new WeatheringCopperSlabBlock(WeatheringCopper.WeatherState.WEATHERED,
-                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.WEATHERED_COPPER_SLAB.get(), BPGBlockItem.Tooltip.WIP));
+                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.WEATHERED_COPPER_SLAB.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<WeatheringCopperSlabBlock> OXIDIZED_COPPER_SLAB = register("oxidized_copper_slab",
             () -> new WeatheringCopperSlabBlock(WeatheringCopper.WeatherState.OXIDIZED,
-                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.OXIDIZED_COPPER_SLAB.get(), BPGBlockItem.Tooltip.WIP));
+                    BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.COPPER)), () -> new BPGBlockItem(ModBlocks.OXIDIZED_COPPER_SLAB.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     // Amethyst
 
@@ -871,22 +870,22 @@ public class ModBlocks {
     // Peridot
 
     public static final RegistryObject<AmethystBlock> PERIDOT_BLOCK = register("peridot_block",
-            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new BPGBlockItem(ModBlocks.PERIDOT_BLOCK.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new BPGBlockItem(ModBlocks.PERIDOT_BLOCK.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<BuddingPeridotBlock> BUDDING_PERIDOT = register("budding_peridot",
             BuddingPeridotBlock::new);
 
     public static final RegistryObject<AmethystClusterBlock> PERIDOT_CLUSTER = register("peridot_cluster",
-            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new BPGBlockItem(ModBlocks.PERIDOT_CLUSTER.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new BPGBlockItem(ModBlocks.PERIDOT_CLUSTER.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<AmethystClusterBlock> LARGE_PERIDOT_BUD = register("large_peridot_bud",
-            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new BPGBlockItem(ModBlocks.LARGE_PERIDOT_BUD.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new BPGBlockItem(ModBlocks.LARGE_PERIDOT_BUD.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<AmethystClusterBlock> MEDIUM_PERIDOT_BUD = register("medium_peridot_bud",
-            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new BPGBlockItem(ModBlocks.MEDIUM_PERIDOT_BUD.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new BPGBlockItem(ModBlocks.MEDIUM_PERIDOT_BUD.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<AmethystClusterBlock> SMALL_PERIDOT_BUD = register("small_peridot_bud",
-            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new BPGBlockItem(ModBlocks.SMALL_PERIDOT_BUD.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new BPGBlockItem(ModBlocks.SMALL_PERIDOT_BUD.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<Block> SMOOTH_PERIDOT_BLOCK = register("smooth_peridot_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
@@ -894,22 +893,22 @@ public class ModBlocks {
     // Ruby
 
     public static final RegistryObject<AmethystBlock> RUBY_BLOCK = register("ruby_block",
-            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new BPGBlockItem(ModBlocks.RUBY_BLOCK.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new BPGBlockItem(ModBlocks.RUBY_BLOCK.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<BuddingRubyBlock> BUDDING_RUBY = register("budding_ruby",
             BuddingRubyBlock::new);
 
     public static final RegistryObject<AmethystClusterBlock> RUBY_CLUSTER = register("ruby_cluster",
-            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new BPGBlockItem(ModBlocks.RUBY_CLUSTER.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new BPGBlockItem(ModBlocks.RUBY_CLUSTER.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<AmethystClusterBlock> LARGE_RUBY_BUD = register("large_ruby_bud",
-            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new BPGBlockItem(ModBlocks.LARGE_RUBY_BUD.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new BPGBlockItem(ModBlocks.LARGE_RUBY_BUD.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<AmethystClusterBlock> MEDIUM_RUBY_BUD = register("medium_ruby_bud",
-            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new BPGBlockItem(ModBlocks.MEDIUM_RUBY_BUD.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new BPGBlockItem(ModBlocks.MEDIUM_RUBY_BUD.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<AmethystClusterBlock> SMALL_RUBY_BUD = register("small_ruby_bud",
-            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new BPGBlockItem(ModBlocks.SMALL_RUBY_BUD.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new BPGBlockItem(ModBlocks.SMALL_RUBY_BUD.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<Block> SMOOTH_RUBY_BLOCK = register("smooth_ruby_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
@@ -917,22 +916,22 @@ public class ModBlocks {
     //Sapphire
 
     public static final RegistryObject<AmethystBlock> SAPPHIRE_BLOCK = register("sapphire_block",
-            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new BPGBlockItem(ModBlocks.SAPPHIRE_BLOCK.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new BPGBlockItem(ModBlocks.SAPPHIRE_BLOCK.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<BuddingSapphireBlock> BUDDING_SAPPHIRE = register("budding_sapphire",
             BuddingSapphireBlock::new);
 
     public static final RegistryObject<AmethystClusterBlock> SAPPHIRE_CLUSTER = register("sapphire_cluster",
-            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new BPGBlockItem(ModBlocks.SAPPHIRE_CLUSTER.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new BPGBlockItem(ModBlocks.SAPPHIRE_CLUSTER.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<AmethystClusterBlock> LARGE_SAPPHIRE_BUD = register("large_sapphire_bud",
-            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new BPGBlockItem(ModBlocks.LARGE_SAPPHIRE_BUD.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new BPGBlockItem(ModBlocks.LARGE_SAPPHIRE_BUD.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<AmethystClusterBlock> MEDIUM_SAPPHIRE_BUD = register("medium_sapphire_bud",
-            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new BPGBlockItem(ModBlocks.MEDIUM_SAPPHIRE_BUD.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new BPGBlockItem(ModBlocks.MEDIUM_SAPPHIRE_BUD.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<AmethystClusterBlock> SMALL_SAPPHIRE_BUD = register("small_sapphire_bud",
-            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new BPGBlockItem(ModBlocks.SMALL_SAPPHIRE_BUD.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new BPGBlockItem(ModBlocks.SMALL_SAPPHIRE_BUD.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<Block> SMOOTH_SAPPHIRE_BLOCK = register("smooth_sapphire_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
@@ -940,22 +939,22 @@ public class ModBlocks {
     //Topaz
 
     public static final RegistryObject<AmethystBlock> TOPAZ_BLOCK = register("topaz_block",
-            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new BPGBlockItem(ModBlocks.TOPAZ_BLOCK.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), () -> new BPGBlockItem(ModBlocks.TOPAZ_BLOCK.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<BuddingTopazBlock> BUDDING_TOPAZ = register("budding_topaz",
             BuddingTopazBlock::new);
 
     public static final RegistryObject<AmethystClusterBlock> TOPAZ_CLUSTER = register("topaz_cluster",
-            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new BPGBlockItem(ModBlocks.TOPAZ_CLUSTER.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> 5)), () -> new BPGBlockItem(ModBlocks.TOPAZ_CLUSTER.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<AmethystClusterBlock> LARGE_TOPAZ_BUD = register("large_topaz_bud",
-            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new BPGBlockItem(ModBlocks.LARGE_TOPAZ_BUD.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.MEDIUM_AMETHYST_BUD).strength(1.5F).lightLevel((p_152632_) -> 4)), () -> new BPGBlockItem(ModBlocks.LARGE_TOPAZ_BUD.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<AmethystClusterBlock> MEDIUM_TOPAZ_BUD = register("medium_topaz_bud",
-            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new BPGBlockItem(ModBlocks.MEDIUM_TOPAZ_BUD.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.LARGE_AMETHYST_BUD).strength(1.5F).lightLevel((p_152617_) -> 2)), () -> new BPGBlockItem(ModBlocks.MEDIUM_TOPAZ_BUD.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<AmethystClusterBlock> SMALL_TOPAZ_BUD = register("small_topaz_bud",
-            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new BPGBlockItem(ModBlocks.SMALL_TOPAZ_BUD.get(), BPGBlockItem.Tooltip.WIP));
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.SMALL_AMETHYST_BUD).strength(1.5F).lightLevel((p_187409_) -> 1)), () -> new BPGBlockItem(ModBlocks.SMALL_TOPAZ_BUD.get(), BPGBlockItem.Tooltip.WIP, 0));
 
     public static final RegistryObject<Block> SMOOTH_TOPAZ_BLOCK = register("smooth_topaz_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
@@ -1084,20 +1083,20 @@ public class ModBlocks {
     // Bamboo
 
     public static final RegistryObject<RotatedPillarBlock> BAMBOO_BLOCK = register("bamboo_block",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.BAMBOO).strength(1.0F).sound(SoundType.BAMBOO)));
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.BAMBOO).strength(1.0F).sound(SoundType.BAMBOO)), () -> new BPGBlockItem(ModBlocks.BAMBOO_BLOCK.get(), BPGBlockItem.Tooltip.NONE, 450));
 
     public static final RegistryObject<WallBlock> BAMBOO_WALL = register("bamboo_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.BAMBOO).strength(1.0F).sound(SoundType.BAMBOO)));
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.BAMBOO).strength(1.0F).sound(SoundType.BAMBOO)), () -> new BPGBlockItem(ModBlocks.BAMBOO_WALL.get(), BPGBlockItem.Tooltip.NONE, 450));
 
     public static final RegistryObject<SlabBlock> BAMBOO_SLAB = register("bamboo_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.BAMBOO).strength(1.0F).sound(SoundType.BAMBOO)));
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.BAMBOO).strength(1.0F).sound(SoundType.BAMBOO)), () -> new BPGBlockItem(ModBlocks.BAMBOO_SLAB.get(), BPGBlockItem.Tooltip.NONE, 225));
 
     public static final RegistryObject<StairBlock> BAMBOO_STAIRS = register("bamboo_stairs",
             () -> new StairBlock(() -> ModBlocks.BAMBOO_BLOCK.get().defaultBlockState(),
-                    BlockBehaviour.Properties.of(Material.BAMBOO).strength(1.0F).sound(SoundType.BAMBOO)));
+                    BlockBehaviour.Properties.of(Material.BAMBOO).strength(1.0F).sound(SoundType.BAMBOO)), () -> new BPGBlockItem(ModBlocks.BAMBOO_STAIRS.get(), BPGBlockItem.Tooltip.NONE, 450));
 
     public static final RegistryObject<PostBlock> BAMBOO_POST = register("bamboo_post",
-            () -> new PostBlock(BlockBehaviour.Properties.of(Material.BAMBOO).strength(1.0F).sound(SoundType.BAMBOO)));
+            () -> new PostBlock(BlockBehaviour.Properties.of(Material.BAMBOO).strength(1.0F).sound(SoundType.BAMBOO)), () -> new BPGBlockItem(ModBlocks.BAMBOO_POST.get(), BPGBlockItem.Tooltip.NONE, 112));
 
 }
 
