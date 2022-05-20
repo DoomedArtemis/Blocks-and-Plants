@@ -49,6 +49,15 @@ public class ModBlocks {
     public static void register() {
     }
 
+    // Prismarine
+
+    public static final RegistryObject<WallBlock> PRISMARINE_BRICK_WALL = register("prismarine_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)));
+
+
+    public static final RegistryObject<WallBlock> DARK_PRISMARINE_WALL = register("dark_prismarine_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)));
+
     // Concrete
 
     public static final RegistryObject<StairBlock> WHITE_CONCRETE_STAIRS = register("white_concrete_stairs",

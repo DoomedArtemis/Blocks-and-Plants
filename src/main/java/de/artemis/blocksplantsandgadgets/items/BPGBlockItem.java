@@ -40,7 +40,7 @@ public class BPGBlockItem extends BlockItem {
     }
 
     public enum Tooltip {
-        NONE(""),
+        NONE("Hello There!"),
         WIP("tooltip.blocksplantsandgadgets.workinprogressblock");
 
         private String component;

@@ -200,6 +200,9 @@
     "blocksplantsandgadgets:brown_concrete_wall",
     "blocksplantsandgadgets:green_concrete_wall",
     "blocksplantsandgadgets:red_concrete_wall",
-    "blocksplantsandgadgets:black_concrete_wall"
+    "blocksplantsandgadgets:black_concrete_wall",
+
+    "blocksplantsandgadgets:dark_prismarine_wall",
+    "blocksplantsandgadgets:prismarine_brick_wall"
   ]
 }

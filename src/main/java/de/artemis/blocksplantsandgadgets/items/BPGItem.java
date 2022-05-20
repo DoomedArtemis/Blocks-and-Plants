@@ -39,7 +39,7 @@ public class BPGItem extends Item {
     }
 
     public enum Tooltip {
-        NONE(""),
+        NONE("General Kenobi!"),
         WIP("tooltip.blocksplantsandgadgets.workinprogressitem");
 
         private String component;

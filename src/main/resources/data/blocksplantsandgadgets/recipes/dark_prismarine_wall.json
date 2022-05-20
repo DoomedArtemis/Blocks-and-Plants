@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:dark_prismarine"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:dark_prismarine_wall",
+    "count": 6
+  }
+}
