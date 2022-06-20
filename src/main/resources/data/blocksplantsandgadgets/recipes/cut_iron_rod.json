@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x",
+    "x",
+    "x"
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:cut_iron"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:cut_iron_rod",
+    "count": 48
+  }
+}

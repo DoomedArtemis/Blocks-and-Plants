@@ -2,7 +2,7 @@ package de.artemis.blocksplantsandgadgets.blocks;
 
 import de.artemis.blocksplantsandgadgets.BlocksPlantsAndGadgets;
 import de.artemis.blocksplantsandgadgets.items.BPGBlockItem;
-import de.artemis.blocksplantsandgadgets.util.Registration;
+import de.artemis.blocksplantsandgadgets.Registration;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -298,6 +298,9 @@ public class ModBlocks {
 
     public static final RegistryObject<PostBlock> CUT_IRON_POST = register("cut_iron_post",
             () -> new PostBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<RodBlock> CUT_IRON_ROD = register("cut_iron_rod",
+            () -> new RodBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
 
     // Thin Log
 
@@ -1106,6 +1109,9 @@ public class ModBlocks {
 
     public static final RegistryObject<PostBlock> BAMBOO_POST = register("bamboo_post",
             () -> new PostBlock(BlockBehaviour.Properties.of(Material.BAMBOO).strength(1.0F).sound(SoundType.BAMBOO)), () -> new BPGBlockItem(ModBlocks.BAMBOO_POST.get(), BPGBlockItem.Tooltip.NONE, 112));
+
+    public static final RegistryObject<RodBlock> BAMBOO_ROD = register("bamboo_rod",
+            () -> new RodBlock(BlockBehaviour.Properties.of(Material.BAMBOO).strength(1.0F).sound(SoundType.BAMBOO)), () -> new BPGBlockItem(ModBlocks.BAMBOO_ROD.get(), BPGBlockItem.Tooltip.NONE, 28));
 
 }
 

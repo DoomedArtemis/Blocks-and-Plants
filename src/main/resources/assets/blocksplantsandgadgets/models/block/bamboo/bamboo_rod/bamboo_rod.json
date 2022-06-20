@@ -1,0 +1,9 @@
+{
+  "parent": "blocksplantsandgadgets:block/template/template_rod",
+  "textures": {
+    "wall": "blocksplantsandgadgets:block/bamboo_block_side",
+    "up": "blocksplantsandgadgets:block/bamboo_rod_top",
+    "down": "blocksplantsandgadgets:block/bamboo_rod_top"
+  }
+}
+

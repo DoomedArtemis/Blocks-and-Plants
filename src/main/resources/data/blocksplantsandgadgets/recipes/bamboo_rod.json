@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "blocksplantsandgadgets:bamboo_block"
+    }
+  },
+  "result": {
+    "item": "blocksplantsandgadgets:bamboo_rod",
+    "count": 48
+  }
+}

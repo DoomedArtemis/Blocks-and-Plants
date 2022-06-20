@@ -1,4 +1,4 @@
-package de.artemis.blocksplantsandgadgets.util;
+package de.artemis.blocksplantsandgadgets;
 
 import de.artemis.blocksplantsandgadgets.BlocksPlantsAndGadgets;
 import de.artemis.blocksplantsandgadgets.blocks.ModBlocks;

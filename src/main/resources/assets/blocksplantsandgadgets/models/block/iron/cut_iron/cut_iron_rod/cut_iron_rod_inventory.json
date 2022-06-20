@@ -1,0 +1,8 @@
+{
+  "parent": "blocksplantsandgadgets:block/template/template_rod_inventory",
+  "textures": {
+    "wall": "blocksplantsandgadgets:block/cut_iron_rod",
+    "up": "blocksplantsandgadgets:block/cut_iron_rod_top",
+    "down": "blocksplantsandgadgets:block/cut_iron_rod_top"
+  }
+}

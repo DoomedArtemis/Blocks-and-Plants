@@ -2,7 +2,6 @@ package de.artemis.blocksplantsandgadgets;
 
 import de.artemis.blocksplantsandgadgets.blocks.ModBlocks;
 import de.artemis.blocksplantsandgadgets.items.ModItems;
-import de.artemis.blocksplantsandgadgets.util.Registration;
 import de.artemis.blocksplantsandgadgets.worldgen.ModCavePlacements;
 import net.minecraft.core.NonNullList;
 import net.minecraft.world.item.CreativeModeTab;
@@ -45,7 +44,8 @@ public class BlocksPlantsAndGadgets {
                     ModBlocks.ENDER_BUSH.get().asItem(), ModBlocks.FLOWERING_ENDER_BUSH.get().asItem(), ModBlocks.ENDER_SPROUTS.get().asItem(),
                     ModBlocks.TALL_ENDER_SPROUTS.get().asItem(), ModBlocks.MOSS_STAIRS.get().asItem(), ModBlocks.MOSS_SLAB.get().asItem(),
                     ModBlocks.MOSS_WALL.get().asItem(), ModBlocks.STACKABLE_MOSS_CARPET.get().asItem(), ModBlocks.BAMBOO_BLOCK.get().asItem(),
-                    ModBlocks.BAMBOO_STAIRS.get().asItem(), ModBlocks.BAMBOO_SLAB.get().asItem(), ModBlocks.BAMBOO_WALL.get().asItem(), ModBlocks.BAMBOO_POST.get().asItem(),
+                    ModBlocks.BAMBOO_STAIRS.get().asItem(), ModBlocks.BAMBOO_SLAB.get().asItem(), ModBlocks.BAMBOO_WALL.get().asItem(),
+                    ModBlocks.BAMBOO_POST.get().asItem(), ModBlocks.BAMBOO_ROD.get().asItem(),
                     ModBlocks.OVERGROWN_OAK_LOG.get().asItem(), ModBlocks.OVERGROWN_BIRCH_LOG.get().asItem(), ModBlocks.OVERGROWN_SPRUCE_LOG.get().asItem(),
                     ModBlocks.OVERGROWN_DARK_OAK_LOG.get().asItem(), ModBlocks.OVERGROWN_ACACIA_LOG.get().asItem(), ModBlocks.OVERGROWN_JUNGLE_LOG.get().asItem(),
                     ModBlocks.OVERGROWN_CRIMSON_STEM.get().asItem(), ModBlocks.OVERGROWN_WARPED_STEM.get().asItem(), ModBlocks.CRIMSON_NYLIUM_CARPET.get().asItem(),
@@ -117,7 +117,7 @@ public class BlocksPlantsAndGadgets {
                     ModBlocks.THIN_JUNGLE_LOG.get().asItem(), ModBlocks.THIN_STRIPPED_JUNGLE_LOG.get().asItem(),ModBlocks.THIN_CRIMSON_STEM.get().asItem(),
                     ModBlocks.THIN_STRIPPED_CRIMSON_STEM.get().asItem(), ModBlocks.THIN_WARPED_STEM.get().asItem(), ModBlocks.THIN_STRIPPED_WARPED_STEM.get().asItem(),
                     ModBlocks.CUT_IRON.get().asItem(), ModBlocks.CUT_IRON_STAIRS.get().asItem(), ModBlocks.CUT_IRON_SLAB.get().asItem(),
-                    ModBlocks.CUT_IRON_POST.get().asItem(), ModBlocks.BLOCK_OF_WHITE_DYE.get().asItem(), ModBlocks.BLOCK_OF_ORANGE_DYE.get().asItem(),
+                    ModBlocks.CUT_IRON_POST.get().asItem(), ModBlocks.CUT_IRON_ROD.get().asItem(), ModBlocks.BLOCK_OF_WHITE_DYE.get().asItem(), ModBlocks.BLOCK_OF_ORANGE_DYE.get().asItem(),
                     ModBlocks.BLOCK_OF_MAGENTA_DYE.get().asItem(), ModBlocks.BLOCK_OF_LIGHT_BLUE_DYE.get().asItem(), ModBlocks.BLOCK_OF_YELLOW_DYE.get().asItem(),
                     ModBlocks.BLOCK_OF_LIME_DYE.get().asItem(), ModBlocks.BLOCK_OF_PINK_DYE.get().asItem(), ModBlocks.BLOCK_OF_GRAY_DYE.get().asItem(),
                     ModBlocks.BLOCK_OF_LIGHT_GRAY_DYE.get().asItem(), ModBlocks.BLOCK_OF_CYAN_DYE.get().asItem(), ModBlocks.BLOCK_OF_PURPLE_DYE.get().asItem(),

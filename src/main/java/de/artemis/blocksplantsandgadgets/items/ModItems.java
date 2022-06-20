@@ -1,7 +1,7 @@
 package de.artemis.blocksplantsandgadgets.items;
 
 import de.artemis.blocksplantsandgadgets.BlocksPlantsAndGadgets;
-import de.artemis.blocksplantsandgadgets.util.Registration;;
+import de.artemis.blocksplantsandgadgets.Registration;;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.RegistryObject;
 
